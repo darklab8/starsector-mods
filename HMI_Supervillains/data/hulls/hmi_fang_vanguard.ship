@@ -1,0 +1,149 @@
+{
+  "hullName": "Vanguard (Fang)",
+  "hullId": "hmi_fang_vanguard",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/fang/vanguard_fang.png",
+  "style": "LOW_TECH",
+  "height": 104,
+  "width": 104,
+  "center": [52, 51],
+  "collisionRadius": 71,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "distributed_fire_control"
+  ],
+  "builtInWeapons": {
+    "WS0002": "hmi_pusherplate_lt_tiny"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, 40]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, -40]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 100,
+      "locations": [2, 37]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 260,
+      "locations": [2, -37]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 25,
+      "locations": [28, 21]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -25,
+      "locations": [28, -21]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [23, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-50, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-33.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 30],
+      "length": 13.101746,
+      "width": 6.194923,
+      "angle": 171.5,
+      "contrailSize": 6.194923,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -30],
+      "length": 13.101746,
+      "width": 6.194923,
+      "angle": -171.5,
+      "contrailSize": 6.194923,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    48, 17,
+    27, 34,
+    26, 45,
+    -21, 45,
+    -29, 38,
+    -44, 41,
+    -36, 28,
+    -46, 24,
+    -46, -23,
+    -35, -29,
+    -45, -39,
+    -20, -40,
+    -18, -46,
+    26, -44,
+    27, -34,
+    48, -16
+  ]
+}

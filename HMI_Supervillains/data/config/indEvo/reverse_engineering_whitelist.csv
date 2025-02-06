@@ -1,0 +1,47 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+hmi_fang_kite
+hmi_fang_cerberus
+hmi_fang_shepherd
+hmi_fang_lasher
+hmi_fang_mule
+hmi_fang_condor
+hmi_fang_drover
+hmi_fang_enforcer
+hmi_fang_dominator
+hmi_fang_mora
+hmi_fang_finch
+hmi_fang_currawong
+hmi_fang_wayfarer
+hmi_buffalo2_fang
+hmi_fang_nebula
+hmi_fang_caballoloco
+hmi_fang_burro
+hmi_fang_gemini
+hmi_fang_venture
+hmi_fang_colossus
+hmi_fang_starliner
+hmi_fang_atlas
+hmi_draco_remora
+hmi_draco_appeasement
+hmi_draco_pardon
+penanggalan_draco
+hmi_draco_hippocampus
+hmi_draco_falcon
+hmi_draco_eagle
+hmi_draco_gryphon
+hmi_draco_champion
+heron_draco
+hmi_draco_ionos
+hmi_draco_forgiveness
+hmi_draco_wolf
+hmi_draco_tempest
+hmi_draco_brawler
+hmi_draco_vigilance
+hmi_draco_sunder
+hmi_draco_medusa
+hmi_draco_shrike
+hmi_draco_aurora
+hmi_draco_fury

@@ -1,0 +1,54 @@
+{
+  "id": "FOB_sinerepeater_l",
+  "specClass": "projectile",
+  "projectileSpecId": "FOB_sinerepeater_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/FOB_sinerepeater_l_turret.png",
+  "turretGlowSprite": "graphics/weapons/FOB_sinerepeater_l_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FOB_sinerepeater_l_hp.png",
+  "hardpointGlowSprite": "graphics/weapons/FOB_sinerepeater_l_hp_glow.png",
+  "glowColor": [
+    180,
+    255,
+    255,
+    155
+  ],
+  "turretOffsets": [
+    12,
+    5.5,
+    12,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    5.5,
+    8,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "particleDuration": 0.5,
+    "particleCount": 4,
+    "particleColor": [
+      100,
+      255,
+      200,
+      60
+    ]
+  },
+  "fireSoundTwo": "FOB_sinerepeator_shot"
+}

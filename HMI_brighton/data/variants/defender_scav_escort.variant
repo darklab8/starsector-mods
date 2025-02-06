@@ -1,0 +1,35 @@
+{
+  "variantId": "defender_scav_escort",
+  "hullId": "defender_scav",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0011": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

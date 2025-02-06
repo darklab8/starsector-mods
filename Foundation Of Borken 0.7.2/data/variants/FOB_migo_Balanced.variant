@@ -1,0 +1,42 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FOB_migo",
+    "hullMods": [
+        "FOB_afogomornkeel",
+        "fluxbreakers",
+        "FOB_starhunter",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_migo_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_roaringbolt_m",
+                "WS0002": "FOB_roaringbolt_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "FOB_fixg_m",
+                "WS0004": "FOB_fixg_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FOB_sinerepeater_s",
+                "WS0006": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

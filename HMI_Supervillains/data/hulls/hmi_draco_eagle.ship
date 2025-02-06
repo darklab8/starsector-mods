@@ -1,0 +1,223 @@
+{
+  "hullName": "Eagle (Draco)",
+  "hullId": "hmi_draco_eagle",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/draco/eagle_draco.png",
+  "style": "HIGH_TECH",
+  "height": 218,
+  "width": 148,
+  "center": [74, 109],
+  "collisionRadius": 154,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 148.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_sv_aegis"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 34.5,
+      "locations": [-9, 42]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": -34.5,
+      "locations": [-9, -42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 87,
+      "angle": 18.5,
+      "locations": [30, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 87,
+      "angle": -18.5,
+      "locations": [30, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": 115,
+      "locations": [-49, 56]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": -115,
+      "locations": [-49, -56]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 180,
+      "locations": [-85.5, 30.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -180,
+      "locations": [-85.5, -30.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-67.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": 0,
+      "locations": [58, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [100, 27]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [100, -27]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-52.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-105, 41.5],
+      "length": 13,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-105, -41.5],
+      "length": 13,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106, 30],
+      "length": 21.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106, -30],
+      "length": 21.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, 20],
+      "length": 45,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, -20],
+      "length": 45,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -72.5, -11,
+    -107, -14,
+    -101.5, -55,
+    -79, -55,
+    -69, -48,
+    -60, -73,
+    -37, -66.5,
+    -9, -73,
+    86.5, -39,
+    108.5, -40,
+    108, -14.5,
+    92, -11,
+    100, -5.5,
+    100, 5.5,
+    92, 11,
+    108, 14.5,
+    108.5, 40,
+    86.5, 39,
+    -9, 73,
+    -37, 66.5,
+    -60, 73,
+    -69, 48,
+    -79, 55,
+    -101.5, 55,
+    -107, 14,
+    -72.5, 11
+  ]
+}

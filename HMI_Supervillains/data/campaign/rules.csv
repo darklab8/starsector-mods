@@ -1,0 +1,108 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+#Fang,,,,,,
+flavorTextMarketFang,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fang","AddText""A Fang colony is a truly dangerous and terrifying place to be, even in sections set aside for Meat Merchants. Here and there animalistic enforcers brawl and yell and piss and shit and do all sorts of abominable things between casual conversations and insidious insults against Merchants. Butchered body parts are argued over and sold, and doe-eyed slaves fit for butchering look out at you from cages, begging and pleading for purchase or already consigned to their terrifying fate. You resolve to complete your business here quickly.""",,,
+,,,,,,
+greetingFangFriendly,OpenCommLink,"$faction.id == fang
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Ah yes, a meat merchant,"" barks the $personRank's translator as they sneers, ""You better bring the most succulent of meats, fool, lest you lose the protection of the Pack!""
+OR
+""How interesting!"" chirps the $personRank's voice modulator as they tear a finger of a hand off with their teeth, ""meat that thinks it can think! How bizarre.""
+OR
+The $personRank glares at you dispassionately, before rolling their eyes and cutting the comms dead.
+OR
+On opening the comms link, you see the $personRank, leaning back in a plush chair, reading an engineering manual in a well furnished room while the sound of classical strings play in the background. They look at you over the top of their reading glasses, and regard you with mild surprise. They blink, confused, before they suddenly throw the pipe they were smoking off screen, toss the engineering manual behind the chair, and quickly scurry off screen. The line goes dead for a moment or two, before the comms reopen, the $personRank glaring at you from the bloodied bridge. ""You saw NOTHING!"" they yell angrily and clearly, without requiring a voice box.",cutCommLink:Cut the comm link,
+greetingFangNeutral,OpenCommLink,"$faction.id == fang
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Ah yes, a meat merchant,"" barks the $personRank's translator as they sneer, ""You better bring the most succulent of meats, fool, lest you lose the protection of the Pack!""
+OR
+""How interesting!"" chirps the $personRank's voice modulator as they tear a finger of a hand off with their teeth, ""meat that thinks it can think! How bizarre.""
+OR
+The $personRank glares at you dispassionately, before rolling their eyes and cutting the comms dead.",cutCommLink:Cut the comm link,
+greetingFangHostileWeaker,OpenCommLink,"$faction.id == fang
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"You have a brief glimpse of the $personRank snarling at you, before they throw a severed arm at the viewscreen, causing the line to go dead.
+OR
+""I don't care if we're outgunned,"" screams $personName's voice modulator as they roar at someone off screen, ""I will have their HEARTs, even if I have to BURN to get THEM!""
+OR
+The $personRank smashes their console furiously with their fists several times, before howling at you through the viewscreen.",cutCommLink:Cut the comm link,
+greetingFangHostileWeakerDefiant,OpenCommLink,"$faction.id == fang
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The $personRank grins maniacally from the darkness and makes a slitting motion with their throat. Your view screen is suddenly bombarded with images of naked prisoners being brutally executed and torn apart by both claw and machine. ""It doesn't matter what happens to us,"" you hear over the screaming and begging, ""We've already won!"" Your Communications Officer takes pity on the bridge crew and shuts of the comms, blocking out the horrific images.
+OR
+The $personRank calws at their face, leaving deep gouges as they laugh maniacally. ""THIS IS THE HIGHEST HIGH!"" screeches a box on their throat, ""TO ARMS, MY PACKMATES! LEAVE NO MEAT UNEATEN! BUTCHER THEM ALL!"" A chorus of gutteral and bestial cries swamp the comms, along with the sound of tearing flesh.
+OR
+The $personRank laughs. ""You're too late fleshling! They're all dead! All of them! And they were DELICIOUS!"" smugly chirps an electronic translation of their glutteral taunts. They grin toothily, bloodied fangs occupying your entire viewscreen as they huff and wheeze into the screen. Eventually the lines cuts out awkwardly.",cutCommLink:Cut the comm link,
+greetingFangHostileStronger,OpenCommLink,"$faction.id == fang
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"When the viewscreen turns on, the Fang $personRank grins toothily at you. ""Meak's back onk da menku, boysss!"" they crow awkwardly, before the line is sudddenly bombarded by the sounds of bestial howling and screeching mixed in with the recorded screams and pleading for mercy of previous victims. Your comms officer tries to cut the line, but it remains open, a horrifying chorus that echoes across the ship. Eventually power to the system is cut, silencing the racket.
+OR
+""No, don't run,"" pleads a buzzing voice as $personRank looks at you pitifully, ""We just want your guts. And meat. And blood. And to butcher you're worthless bodies."" The $personRank looks at you, suddenly confused, ""Why on Earth wouldn't you want to be torn apart and eaten when you're so delicious?""
+OR
+The comms is silent and viewscreen empty for a moment, before the sound of screaming, wailing and begging along with the sound of ripping muscle and flesh and your veiwscreen is suddenly occupied by a horrifying cacophany of disturbing images. ""Truly a work of art,"" simpers a voice recording amongst the noise, cut and mixed awkwardly from advertisement holos, ""And even better, you'll become apart of the work soon, too!""",cutCommLink:Cut the comm link,
+,,,,,,
+aiCores_turnInResponsefang,AICoresTurnedIn,$faction.id == fang,FireAll PopulateOptions,"$personName grins, covetously fingering his bounty ""A good trade, a good trade"".",,
+aiCores_turnInOptionSellfang,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == fang",FireAll PopulateCoresTurnInOptions,"""Those are very shiny little baubles talking fleshbag. If you hand it over we MIGHT be willing to trade with you in the future.""",,
+,,,,,,
+#Draco,,,,,,
+flavorTextMarketDraco,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == draco","AddText""Draco style is minimalistic and oppressive, with walls blank and clean and sterile, the ground squeaking with every step. Not that the ground is easily visible, shadowed as you are by the giant sun-shades that the Society take everywhere with them. Black-suited snipers watch you as you move from speculator to speculator, all of them inhumanly pale, all of them smiling with sharp-toothed grins, and all of them cold and condescending. You know all too well the tales of such places, the cleanliness a sick facade for whatever horrors and bloodsports are being performed behind closed doors.""",,,
+,,,,,,
+greetingDracoFriendly,OpenCommLink,"$faction.id == draco
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Why do you bother trying to be friends with us bloodbag?"" asks $personName, ""Your Blood will never be pure enough.""
+OR
+""Ah yes, a sanctioned Mudblood,"" the $personRank says, rolling the words in their mouth distastefully, ""Shame. Damn shame.""
+OR
+The $personRank doesn't bother answering your comms.
+OR
+On opening the comms link,you see the $personRank, leaning back in their chair. They sigh, kicking their feet rather childishly, before swinging 360 degrees around on their chair. They are clearly bored. They tap their armrest, making pup pup pup noises, before their eyes look at your through the viewscreen. You look at them. They look at you. However, before both of you fall into each other's eyes and true love can spontaneously occur, andthere is a sudden outbreak of an adventure wherein you and $personName go through several trials wherein you discover that you both truly love each other despite being from two different worlds, and you both defeat the evil Pirate Warlord and elope to an estate on Eventide, your Communications Officer leans in between you and the viewscreen, shaking their head. Rolling your eyes, you order the comms line cut.",cutCommLink:Cut the comm link,
+greetingDracoNeutral,OpenCommLink,"$faction.id == draco
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Why do you bother trying to be friends with us bloodbag?"" asks $personName, ""Your Blood will never be pure enough.""
+OR
+""Ah yes, a sanctioned Mudblood,"" the $personRank says, rolling the words in their mouth distastefully, ""Shame. Damn shame.""
+OR
+The $personRank doesn't bother answering your comms.",cutCommLink:Cut the comm link,
+greetingDracoHostileWeaker,OpenCommLink,"$faction.id == draco
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"The angry, snarling face of $personName appears on the viewscreen. ""You may have won THIS round, Mudblood,"" they hiss, carelessly spilling a glass of blood everywhere, ""But I WILL have my REVENGE!""
+OR
+The stoic face of the $personRank looks at you defiantly, ""The Blood Will Out, Mudblood.""
+OR
+""We who are about to die Salute you!"" greets the $personRank, angrily, ""But know our Blood will ALWAYS be Pure!""",cutCommLink:Cut the comm link,
+greetingDracoHostileWeakerDefiant,OpenCommLink,"$faction.id == draco
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The grim visage of $personRank glares down at you from the elevated captain's chair. 'We may die,"" they harshly utter, ""But the Blood will live!""
+
+The comms are suddenly alight with the sound of cheering 'The Blood! The Blood! The Blood!', until the comms line is cut.
+OR
+""The loss of my Blood will be mourned,"" says $personName angrily, ""But yours will not!""
+OR
+The $personRank holds a wide-eyed person by the neck in one hand. With the other, they claw out their throat. As the poor individual collapses to the floor in a gurgling mess, the $personRank licks his fingers, and sneers at you, before the line goes dead.",cutCommLink:Cut the comm link,
+greetingDracoHostileStronger,OpenCommLink,"$faction.id == draco
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"The $personRank sneers venomously at you. ""Your ship and cargo are all to be acquired by the Draco Group for the Purification of the Unworthy from the Sector, and your crew used as bloodbags. Resist or not, it doesn't matter,"" here they lean forward menacingly, grinning happily, ""But if you fight back, it DOES make it more fun!""
+OR
+""The Blood Wills Out!"" chants the $personRank, ""The Blood Wills Out! The Blood Wills OUT!""
+
+A sudden chorus of ""The Blood Wills Out!"" echoes around your ship, although you don't know from where.
+OR
+""Our Blood is Pure,"" says $personName, sipping from a tube dangling from the hung body of an emaciated individual, ""And by the Will of that Blood, you must die.""
+
+They lean forward and state seriously, ""Make your peace Bloodbags.""",cutCommLink:Cut the comm link,
+,,,,,,
+aiCores_turnInResponsedraco,AICoresTurnedIn,$faction.id == draco,FireAll PopulateOptions,"$personName graciously, if condescendingly thanks you for your contribution to the Society.",,
+aiCores_turnInOptionSelldraco,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == draco",FireAll PopulateCoresTurnInOptions,"""Oh now that IS a treasure! While this wouldn't be normally condoned, I would be willing to take that off you - for a consideration, of course.""",,
+,,,,,,
+#Infinity Check,,,,,,
+HMI_SV_Infinity_Block,OpenInteractionDialog,"$tag:hmi_sv_blocktag
+!$hmi_sv_villiancheckinfinity","ShowDefaultVisual
+SetShortcut defaultLeave ESCAPE","The surface of Infinity beckons like an ethereal jewel, with tantalizing blue oceans and seas, lush green lands and pristine white mountains and polar caps. A perfectly terraformed location, a high prize for the major factions, a possible Luddic Church pilgramage site - and entirely inaccessible. Even now, being this close risks being entrapped in a cockatrice stare of hidden defensive batteries, stealth mines and hyperspace triggers - and that's not even taking into account whatever hostile fleets are hidden nearby awaiting any attempt to go into low orbit.
+
+To get any nearer would be incredibly dangerous. However, if the local Fang and Draco presences are both removed, and suitable time has passed, then disassembly of the defenses would receive a lot less of an intense reaction.",,

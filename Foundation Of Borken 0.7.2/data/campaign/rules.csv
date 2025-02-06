@@ -1,0 +1,560 @@
+id,trigger,conditions,script,text,options,notes
+greetingFOBTOffNormal,OpenCommLink,"$faction.id == fob
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""Your body cannot hide your intent. Stay calm.""","turnOnTransponder:Turn on transponder
+cutCommLink:Cut comm link",
+greetingFOBTOffNormal_borkenPlayer,OpenCommLink,"$faction.id == fob
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0
+$player.isBorken",,"""What are you thinking? We can all watch you.""","turnOnTransponder:Turn on transponder
+cutCommLink:Cut comm link",
+greetingFOBTOffWeaker,OpenCommLink,"$faction.id == fob
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""Before It sees you, give us your name.""","turnOnTransponder:Turn on transponder
+cutCommLink:Cut comm link",
+greetingFOBTOffWeaker_borkenPlayer,OpenCommLink,"$faction.id == fob
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0
+$player.isBorken",,"""Kin, I suggest you not act rashly. State your identity.""","turnOnTransponder:Turn on transponder
+cutCommLink:Cut comm link",
+greetingFOBFriendly,OpenCommLink,"$faction.id == fob
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","**""Friend, the Ancestral God's light will shine upon you forever. May we gather more knowledge and truth in this material world.""**",,
+greetingFOBFriendly_borkenPlayer,OpenCommLink,"$faction.id == fob
+$faction.friendlyToPlayer
+$player.isBorken","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Kin, may the Ancestral God return and the watchers rejoice.""
+OR
+""Kin, are you enjoying the gaze of the 33rd victim? Recently, I’ve been feeling strange, as if the world doesn’t look the same as before.""",,
+greetingFOBHostileWeaker,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""The Abyss gazes into you…""",cutCommLink:Cut comm link,
+greetingFOBHostileWeaker_borkenPlayer,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength < 0
+$player.isBorken",$entity.ignorePlayerCommRequests = true 1,"""Traitors are unforgivable.""
+OR
+""Never bow to traitors!""",cutCommLink:Cut comm link,
+greetingFOBHostileWeakerDefiant,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""Did you know? That is not dead which can eternal lie, and with strange aeons even death may die.""",cutCommLink:Cut comm link,
+greetingFOBHostileWeakerDefiant_borkenPlayer,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+$player.isBorken",$entity.ignorePlayerCommRequests = true 1,"""Motahimos has made you spineless, hasn't he? Fool.""",cutCommLink:Cut comm link,
+greetingFOBHostileStronger,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Human, cry and despair, you have only yourself to blame for venturing too deep into this dark and vast ocean...""",cutCommLink:Cut comm link,
+greetingFOBHostileStronger_borkenPlayer,OpenCommLink,"$faction.id == fob
+$entity.isHostile
+$entity.relativeStrength >= 0
+$player.isBorken",$entity.ignorePlayerCommRequests = true 1,"""The Ancestral God save your soul, you traitor! Go and repent to the Lord of the All-Tentacles!""",cutCommLink:Cut comm link,
+greetingFOBNeutral,OpenCommLink,"$faction.id == fob
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Never lose your sense of awe, human.""",,
+greetingFOBNeutral_borkenPlayer,OpenCommLink,"$faction.id == fob
+$faction.neutralToPlayer
+$player.isBorken","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Kin, watch yourself.""",,
+flavorTextMarketFOB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fob","AddText ""An alien atmosphere permeates the market, strange and mysterious. Everyone seems to be in high spirits, but their tentacles lack enthusiasm. Among the symbols and sculptures filled with religious meaning, you feel as if you can hear an ancient call, accompanied by a fear reminiscent of the deep sea."" textGrayColor",,,
+flavorTextMarketFOB_borkenPlayer,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fob
+$player.isBorken","AddText ""The noise in the marketplace puts your mind at ease, like a memory taking you back to some childhood, but you can't recall what form you were in then. The bustling crowd emits a chaotic smell, making it almost impossible to distinguish between humans and the Borken. This sense of chaos makes you feel as though you've lost something, but you know you've gained more."" textGrayColor
+",,,
+relLevelNeutralFob,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == fob",,The Borken advocate peace and sees all living beings as equals.,,
+relLevelNeutralFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == fob
+$player.isBorken",,Why are we strangers?,,
+relLevelFavorableFob,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == fob",,The Borken look past the strange glances you still give them.,,
+relLevelFavorableFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == fob
+$player.isBorken",,"Kin, Ascension should not daunt you.",,
+relLevelWelcomingFob,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == fob",,"The Borken sometimes take you to visit statues of their Ancestral God, though you remember nothing after returning home.
+",,
+relLevelWelcomingFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == fob
+$player.isBorken",,"In one body, we roam the starry sea together.",,
+relLevelFriendlyFob,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == fob",,"The Borken traders treat you as an honored guest; perhaps this will help you build ties with other factions.
+",,
+relLevelFriendlyFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == fob
+$player.isBorken",,"""The Ancestral God has reshaped you and me, and has remade Cthulasus.""",,
+relLevelCooperativeFob,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == fob",,"They will aid you in your long interstellar journey, convincing you that eternal sleep does not mean death.",,
+relLevelCooperativeFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == fob
+$player.isBorken",,"Loyal Cthulasus Borken, with me here, you will never feel alone again.
+",,
+relLevelSuspiciousFob,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == fob",,"You live in harmony with the Borken, but there always seems to be something lurking in the corner of your eyes.",,
+relLevelSuspiciousFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == fob
+$player.isBorken",,"""You reject me. You fear me.""",,
+relLevelInhospitableFob,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == fob",,"The Borken people ignore you, but sometimes you hear wails from deep space.
+",,
+relLevelInhospitableFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == fob
+$player.isBorken",,"""Why are you doing this, why? Are you still my kin?""",,
+relLevelHostileFob,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == fob",,Disembodied voices haunt you in your head. It is as if the Borken are staring at you from every direction.,,
+relLevelHostileFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == fob
+$player.isBorken",,"""Traitor! The grace of the Ancestral God will leave you forever!""",,
+relLevelVengefulFob,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == fob",,"They are everywhere, fear always at your side. The whispers of the Borken echo in your ears, cold with hatred. Dusk approaches, and the Abyss watches.",,
+relLevelVengefulFob_borkenPlayer,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == fob
+$player.isBorken",,"""The Star of Eternal Life will condemn you for eternity, and I will become your nightmare.""",,
+marketPostOpenFobUntrustworthy,MarketPostOpen,"$hasMarket
+$faction.id == fob score:1000
+RepIsAtBest $faction.id SUSPICIOUS
+RepIsAtWorst $faction.id INHOSPITABLE","$marketLeaveTooltip = ""$TheFaction does not trust you."" 0
+$menuState = main 0
+$tradeMode = NONE 0
+FireAll PopulateOptions",You are $relAdjective with $theFaction and denied access to the markets of $market. You are sternly advised to leave this system as soon as possible.,,
+marketPostOpenFobHostile,MarketPostOpen,"$hasMarket
+$faction.id == fob score:1000
+RepIsAtBest $faction.id INHOSPITABLE","$marketLeaveTooltip = "" $TheFaction does not trade with outsiders."" 0
+$menuState = main 0
+$tradeMode = NONE 0
+FireAll PopulateOptions","Your scanner detects powerful energy fluctuations of unknown origin at $entityName and a strange voice is ringing in your ear: ""You defile the land of the old gods, leave now, before Motta Sheamus crushes your spine.""",,
+#First Contact,,,,,,
+FOB_firstContact_marketDock,MarketPostDock,"$faction.id == fob
+!$faction.FOB_firstContactByPlayer score:1000",,"This is your first time entering Borken territory, and until now, you've never directly interacted with the Borken people. While others in the Persean Sector seem to consider the diverse forms of the Borken as common knowledge, you find it utterly perplexing that your adjutant could simultaneously recognize a being with an eyeball for a head, an octopus-faced creature, and a lump of decaying flesh encased in metal as all belonging to the same group: the Borken.
+
+As your mind wanders, an anonymous communication breaches your firewall and reaches your private terminal. The message contains only a line of ""scribbles.""
+
+Without a doubt, it’s written in the Borken language. You vaguely recognize the first few characters as meaning ""Hello,"" but the rest is...","1:FOB_firstContact_name1:""Primordial Omen...?""
+2:FOB_firstContact_name2:""Abyssal Manifestation...?""",
+FOB_firstContact_optionName1,DialogOptionSelected,$option == FOB_firstContact_name1,"$player.fobName = ""Primordial Omen""
+Highlight ""Primordial Omen""
+FOB_AddSkill ""FOB_skill_befall""","""Primordial Omen...?"" You blink in confusion as the meaning of the following characters briefly flashes in your mind, only to slip away just as quickly.
+
+You feel a wave of dizziness as a sound from the very essence of life echoes in your ears. It feels like the sensation of being in the womb, yet also like being submerged in a pitch-black ocean by some unseen force.
+
+When you come to, the message is gone, as if it had never appeared. You glance at the time and notice that it seems to have reversed by a few seconds. Then, the memory of it all rapidly recedes from your mind, but you try to hold on to it—
+
+Your adjutant reminds you that there are tasks to attend to. You nod absentmindedly, acknowledging the reminder. You were just momentarily distracted—it's only natural to feel a bit reflective on your first visit to alien territory.",FOB_firstContact_end:Return,
+FOB_firstContact_optionName2,DialogOptionSelected,$option == FOB_firstContact_name2,"$player.fobName = ""Abyssal Manifestation""
+Highlight ""Abyssal Manifestation""
+FOB_AddSkill ""FOB_skill_befall""","""Abyssal Manifestation...?"" Your eyes flicker with doubt and suspicion. The meaning of those words emerges like morning mist, shifting and elusive, like a shooting star that vanishes as quickly as it appears.
+
+A wave of dizziness washes over you, and you think you hear whispers from the very essence of life—a warmth from the womb, or perhaps the deep, penetrating murmurs of something lurking in the unfathomable depths of the ocean.
+
+When you regain your senses, the message has already dissipated like smoke, leaving no trace in this world. You glance at the clock on your personal PDA, noticing that time seems to have mysteriously flowed backward by a few moments. Then, these memories rapidly recede like the tide, and you try to grasp onto the fleeting moments before they fade—
+
+Your adjutant’s voice pulls you out of your reverie, reminding you of the tasks still at hand. You respond calmly, attributing it to a brief distraction—it’s only natural to be moved by a few emotions during your first visit to alien territory.",FOB_firstContact_end:Return,
+FOB_firstContact_end,DialogOptionSelected,$option == FOB_firstContact_end,"$faction.FOB_firstContactByPlayer = true
+ShowDefaultVisual
+FireBest MarketPostDock",,,
+#  星能摄取站 station absorb (Stellar Energy Absorption Station),,,,,,
+FOB_sf_sab_openDialog,OpenInteractionDialog,$FOB_isSAB score:1000,"ShowDefaultVisual
+PrintDescription 3
+FireAll PopulateOptions","""Your $shipOrFleet approaches $entityName.""",,
+FOB_sf_sab_optionPopulated,PopulateOptions,"$customType == FOB_station_absorb
+$FOB_isSAB
+FOB_SF_CMD hasSkill
+!$isResearched score:1000","Highlight ""Zulan Eye""
+SetStoryOption FOB_sf_sab_activate general ""Let your consciousness infiltrate it.""","""You vaguely sense an anomalous node in the void, just half a safe docking distance from the energy storage warehouse. This node gives you a familiar feeling—it's the frequency of the 'Zulan Eye.'""",FOB_sf_sab_activate:Access the node,
+FOB_sf_sab_d_optionPopulated,PopulateOptions,"$customType == FOB_station_absorb_d
+$FOB_isSAB
+FOB_SF_CMD hasSkill
+!$isResearched score:1000","Highlight ""Zulan Eye""
+SetStoryOption FOB_sf_sab_activate general ""Let your consciousness infiltrate it.""","""The dilapidated space station can still scan various chaotic signals. You close your eyes, and that unique sensation guides your gaze to the void, where a small, still-operational signal transmitter floats. Following the rhythm of the spectrum, you find the vacuum's node, and your consciousness weaves through it—this is the frequency of the 'Zulan Eye.'""",FOB_sf_sab_activate:Access the node,
+FOB_sf_sab_optionPopulatedResearched,PopulateOptions,"$FOB_isSAB score:1000
+$isResearched score:1000",,"""You have acquired the knowledge stored within this absorption station.""",,
+FOB_sf_sab_optionPopulatedLeave,PopulateOptions,$FOB_isSAB score:1000,"SetShortcut defaultLeave ""ESCAPE""",,defaultLeave:Leave,
+FOB_sf_sab_activateSelected,DialogOptionSelected,$option == FOB_sf_sab_activate,"Highlight ""Stellar Financing"" ""0.05%""
+FOB_SF_CMD activate
+$isResearched = true
+FireAll PopulateOptions","You accessed the hidden node, and your algorithm received a partial upgrade.
+
+The efficiency of Stellar Financing has increased by 0.05%.",,
+#PCH bar,,,,,,
+FOB_pch_open_addEvent,AddBarEvents,"$faction.id == fob
+!$isHostile
+FOB_PchBarCouldShow score:1000","AddBarEvent FOB_pch_open_barEvent ""Approach the salesperson and see what they are selling."" ""A Borken is talking to some people who look like officers. Judging by their attire, the Borken seems to be a salesperson."" 50,255,197,255
+",,,
+FOB_pch_open_friendlyEnough,DialogOptionSelected,"$option == FOB_pch_open_barEvent
+",FOB_PchBarShowPerson,"The Borken notices you, signaling to the surrounding officers with its octopus-like tendrils to wait for a moment before approaching you.
+
+""I can tell that you're a significant client,"" it says in a deep, clear voice. ""I believe you might be interested in something more advanced. This isn't just some overused sales pitch—only those whom the Foundation of Borken trusts enough have the opportunity to use this technology.""","1:FOB_pch_open_talk0:Indicate your interest
+2:backToBar:""Sorry, not right now"" (leave)",
+FOB_pch_open_notFriendlyEnough,DialogOptionSelected,"$option == FOB_pch_open_barEvent
+RepIsAtBest $faction.id SUSPICIOUS",,"The Borken immediately goes silent and gives you a somewhat distrustful look.
+
+""Friend, it seems that your relationship with our Foundation is not good enough.""
+
+It stares at you until you uneasily walk away.",1:backToBar:Leave,
+FOB_pch_open_talk0,DialogOptionSelected,$option == FOB_pch_open_talk0,,"""I think it’s best if we discuss this in a more private place, like the room next door. I don’t really want certain people knowing about this Borken technology.""","1:FOB_pch_open_talk1:Agree
+2:backToBar:Make an excuse to leave its scheming",
+FOB_pch_open_talk1,DialogOptionSelected,$option == FOB_pch_open_talk1,"SetTextHighlights ""Crystalline Rift"" ""Remote Item Transfer Technology""","You enter a somewhat secluded room, and the Borken begins to introduce his product: ""Have you heard of the Crystalline Rift?""
+
+""I think you will be interested in this Remote Item Transfer Technology. Owning a Private Crystalline Rift means you no longer need to consider supply points when charting your course, and it also eliminates the enormous costs of establishing forward bases,"" he pauses, ""Deep Hyperspace is forever echoing with distress signals of unknown origin—pirates, stranded explorers, even ancient wrecked ships—no one likes to bet their life on others.""","1:FOB_pch_open_talk2:Indicate your interest
+2:backToBar:Explain that supply is never a problem for you and leave",
+FOB_pch_open_talk2,DialogOptionSelected,$option == FOB_pch_open_talk2,"SetTextHighlights ""Galactic Anchor Points"" ""outside the anchor points"" ""free""","""Very well, if you’re willing, we can sign the contract right now.""
+
+He takes out two personal terminals and places them on the table.
+
+""This is the contract, and it also serves as the operating terminal for the Crystalline Rift. Through this terminal, you can purchase and mark Galactic Anchor Points, allowing us to quickly locate you and open a transport channel based on the anchors. Of course, you can also send communication requests from outside the anchor points, but it will take more time and incur an additional fee. Additionally, you don’t need to worry about security, as it is only linked to the Crystalline Rift, and no hacker can remotely breach this system.""
+
+""Our relay station is set up here, and after you sign the contract, we’ll establish an anchor point for you here free of charge. Since this is a test phase, we’ll only charge you for capacity and service upgrades, meaning you can have a smaller capacity Private Crystalline Rift without spending any star credits.""","1:FOB_pch_open_talk3:Sign the contract
+2:backToBar:Explain that you aren't ready to sign and leave",
+FOB_pch_open_complete,DialogOptionSelected,$option == FOB_pch_open_talk3,"Highlight $player.fobName
+FOB_PchBarComplete","""Thank you for your trust in the Foundation of Borken, $player.fobName, and may you be watched over by the Gods.""
+
+The Borken narrows its eyes, and with an expression on its face similar to a smile, it stands up, gives you a meaningful look, and turns to leave.",0:backToBar:Return to the bar,
+,,,,,,
+#PCH,,,,,,
+Pch_OpenDialog,OpenInteractionDialog,$isPchMarket score:1000,"ShowDefaultVisual
+FireBest MarketPostOpen","After some time, you receive a communication request from the Borken Foundation.
+
+""We're about to arrive. Please clear the marked area.""
+
+You follow the instructions, and soon after, the entire fleet's collective eardrums pop. A rift tears open in space, accompanied by a blinding light pouring out of the void. For a moment, you think you see a few tentacles writhing within the rift, but when you mention it later, no one else seems to recall seeing anything.",,
+Pch_MarketFlavor,TradePanelFlavorText,$isPchMarket score:1000,"AddText ""A faint, colorful streak of light passes through the eyes of lower-dimensional beings in deep space. In the designated area, a spatial rift, undetectable by electronic instruments, gradually begins to open.\n\nA large Borken cargo ship slowly emerges from the Rift. On the large screen, after establishing communication, you see that all the Borken staff are waiting for your instructions."" textGrayColor",,,
+Pch_AddOptions,PopulateOptions,"$hasMarket
+$menuState == main
+$isPchMarket score:100","SetShortcut saveAllWeapons ""W""
+SetTooltip saveAllWeapons ""Store all weapons in your fleet's cargo hold at once, which may exceed the Crystalline Rift's maximum free capacity.""
+SetShortcut saveAllCommons ""C""
+SetTooltip saveAllCommons ""Store all common resources in your fleet's cargo hold at once, which may exceed the Crystalline Rift's maximum free capacity.\n\nCommon resources include: ores, rare ores, metals, transplutonics, food, organics, volatiles, supplies.""
+SetShortcut saveAllFiltered ""L""
+SetTooltip saveAllFiltered ""Store all items marked in the Crystalline Rift's filtering rules from your fleet's cargo hold at once, which may exceed the Crystalline Rift's maximum free capacity.""",,"21:saveAllWeapons:Store all weapons
+22:saveAllCommons:Store general resources
+23:saveAllFiltered:Store all filtered items",
+Pch_SaveWeapons,DialogOptionSelected,$option == saveAllWeapons,PchSaveAllWeapons,,,
+Pch_SaveCommons,DialogOptionSelected,$option == saveAllCommons,PchSaveAllCommons,,,
+Pch_SaveFiltered,DialogOptionSelected,$option == saveAllFiltered,PchSaveAllFiltered,,,
+,,,,,,
+Pch_RemoteLeave,DialogOptionSelected,$option == leavePchRemote,"PchRemoteUpdate
+DismissDialog",,,
+#PCH Tunnel,,,,,,
+PchTunnel_OpenDialog,OpenInteractionDialog,$isPchTunnel score:1000,"ShowDefaultVisual
+FOB_TunnelUpdate
+AddText ""This tunnel has $remainDayStr days remaining.""
+FireAll PopulateOptions",You can send identification codes through this passage to notify the Borken Foundation.,,
+PchTunnel_Opts,PopulateOptions,$isPchTunnel,"SetEnabled FOB_opt_borkenTrans $player.isBorken
+SetTooltip FOB_opt_borkenTrans ""When you are a member of the Cthulas Borken, you can use the Crystalline Rift to teleport to the jump-point location of any star system with an anchor.""
+SetTooltipHighlights FOB_opt_borkenTrans ""Cthulas Borken""
+SetShortcut FOB_opt_informPch ""C""
+SetShortcut FOB_opt_borkenTrans ""T""",,"0:FOB_opt_informPch:Open Crystalline Rift
+1:FOB_opt_borkenTrans:Teleport Fleet
+10:defaultLeave:Leave",
+PchTunnel_LinkPch,DialogOptionSelected,$option == FOB_opt_informPch,PchOpenPchStorage,,,
+PchTunnel_BorkenTransport,DialogOptionSelected,$option == FOB_opt_borkenTrans,FOB_TunnelTransport,,,
+,,,,,,
+#Auto Supplies Agreement,,,,,,
+Pch_AsaShow,PchAsaAshow,,"SetTextHighlights Automatic Resupply Agreement 200 Automatic Supplies & Fuel Transmission Low Tax Rate 0.5 Duration Discounts 180 0.1 Supply Purchasing Privilege 180 1000 50,000
+SetShortcut leavePchRemote ESCAPE
+FOB_ShowVisual ""graphics/illustrations/FOB_asa_interaction.png""","- Automatic Resupply Agreement -
+
+The Borken ASA team is here to ensure the safety of all Private Crystalline Rift users! With just a small deposit and a daily maintenance fee of 200 credits, you can travel without worry! Please note that if the agreement is canceled, the deposit will not be refunded.
+
+Agreement Details:
+- Automatic Supplies & Fuel Transmission
+  According to the terms of the agreement, staff stationed near your Private Crystalline Rift will automatically transmit supplies and fuel to your fleet at regular intervals.
+- Low Tax Rate
+  A tax of only 25% of the original price will be applied to these transmissions.
+  Additional taxes will be charged based on your distance from the anchor point.
+- Duration Discounts
+  The longer the agreement, the lower the tax rate.
+  After just 180 days, the tax rate can drop as low as 2.5%.
+- Supply Purchasing Privilege
+  After 180 days of the agreement, you can sign up for a Supply Purchasing Privilege, allowing you to restock supplies and fuel at the original price when Crystalline Rift reserves are low.
+  To ensure the ASA team's rights, the maintenance fee will increase to 1000 credits, and activating or deactivating this privilege will cost 50,000 credits.","0:modifyAgreement:Sign/View/Modify Agreement
+10:leavePchRemote:Leave",
+Pch_AsaShowOptions,DialogOptionSelected,$option == modifyAgreement,"$asa.isChanged = FALSE
+PchAsaSetMemoryData
+FireAll PchAsaOptions",Please adjust the content of the agreement according to your needs:,,
+Pch_AsaSetDataAbove,PchAsaOptions,,"SetTooltip modifyInterval ""After signing or modifying, automatic transportation will occur based on the set interval.""
+SetTooltip modifySupply ""Automatically replenish supplies to a specified multiple of your fleet's daily consumption. This will not exceed the maximum cargo capacity.\nThe current target quantity is $asa.targetSupply.""
+SetTooltipHighlightColors modifySupply hColor 
+SetTooltipHighlights modifySupply $asa.targetSupply
+SetTooltip modifyFuel ""Automatically replenish fuel to a specified percentage of your fleet's maximum capacity. This will not exceed the maximum fuel capacity.\nThe current target quantity is $asa.targetFuel.""
+SetTooltipHighlightColors modifyFuel hColor 
+SetTooltipHighlights modifyFuel $asa.targetFuel
+SetTooltip modifyPrompt ""Enable prompts when the specified time is reached.""
+SetShortcut asa_cancel ESCAPE
+",,"0:modifyInterval:Resupply Interval ($asa.shownInterval days)
+1:modifySupply:Resupply Modifier ($asa.shownSupplyMultiplier days)
+2:modifyFuel:Fuel Modifier ($asa.shownFuelMultiplier)
+3:modifyPrompt:Enable Prompt ($asa.shownPrompt)
+10:asa_cancel:Leave",
+Pch_AsaSetDataNotSigned,PchAsaOptions,!$asa.isSigned,"SetEnabled modify $asa.canSign
+PchAsaAddConfirm modify ""Please confirm your choice."" ""Confirm"" ""Cancel""",,4:modify:Sign(requires $asa.neededCredits),
+Pch_AsaSetDataSigned,PchAsaOptions,$asa.isSigned,"SetEnabled modify $asa.isChanged
+SetEnabled advancedSet $asa.canAdvance
+SetTooltip advancedSet ""The agreement must be in effect for over 180 days to sign, and toggling it is not free. The current status is shown in parentheses.""
+PchAsaAddConfirm modify ""Please confirm your choice."" ""Confirm"" ""Cancel""
+PchAsaAddConfirm advancedSet ""Each time you activate or pause this charter, a fee of 50,000 credits will be charged. Please confirm your choice carefully."" ""Confirm"" ""Cancel""
+PchAsaAddConfirm cancelAsa ""Please confirm your choice carefully. Once canceled, the duration will be void, and the fees will not be refunded."" ""Confirm"" ""Cancel""
+",,"4:advancedSet:Resupply Procurement Charter($asa.shownAdvanced)
+5:modify:Modify
+6:cancelAsa:Cancel Agreement
+",
+Pch_AsaDataChanged0,DialogOptionSelected,$option == modifyInterval,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataChanged1,DialogOptionSelected,$option == modifySupply,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataChanged2,DialogOptionSelected,$option == modifyFuel,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataChanged3,DialogOptionSelected,$option == modifyPrompt,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataAdvance,DialogOptionSelected,$option == advancedSet,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataModify,DialogOptionSelected,$option == modify,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+Pch_AsaDataCancel,DialogOptionSelected,$option == cancelAsa,"PchAsaSetMemoryData
+FireAll PchAsaOptions",,,
+,,,,,,
+Pch_AsaOptionCancel,DialogOptionSelected,$option == asa_cancel,FireBest PchAsaAshow,,,
+,,,,,,
+#Peaceful Evolution,,,,,,
+pem_checkCompletion,MarketPostDock,"$tradeMode != NONE
+PeacefulEvolutionMission checkCompletion score:100",PeacefulEvolutionMission completeMissions,,,
+pem_completedButNoDocking,MarketPostDock,"!$pem_noCompleteShown
+$tradeMode == NONE
+PeacefulEvolutionMission checkCompletion score:100","$pem_noCompleteShown = true 0
+FireBest MarketPostDock",You can't complete the task in this situation.,,
+,,,,,,
+#Mental Healing,,,,,,
+psy_greeting,PickGreeting,"$psy_isDoctor
+!$entity.isHostile","ShowPersonVisual
+FireAll PsyOfficersOpts
+$psy_page = 0 0","After a short wait, your communication request is accepted.
+
+""Welcome to the Borken Psychotherapy Clinic, $player.fobName. I am the chief physician of this facility. Let me assure you right away that this clinic carries all required legal licenses. For a sufficient fee, we will adjust the personalities of your officers without any risk of complications.""",,
+psy_officerOption,PsyOfficersOpts,,"PsyShow Officers
+SetShortcut cutCommLink ESCAPE",,,
+psy_help,DialogOptionSelected,$option == psyhelp,,"Borken personality adjustment therapy can change the personality of an officer.
+Pricing: 25000 * Level * Personality Factor * (1.5 - (market stability * 0.075))
+Reckless: 1.2
+Aggressive: 1.2
+Steady: 1.2
+Cautious: 1.1
+Timid: 0.8",10:backToCO:Cancel,
+psy_selectOfficer,DialogOptionSelected,"$psy_isDoctor
+$isPerson
+PsySelectOption Officer","FireAll PsyPersonalitiesOpts
+SetTextHighlights $psy_officerName","""Are you sure you want $psy_officerName to undergo adjustment therapy? Please select the desired personality.""",,
+psy_personalitiesOption,PsyPersonalitiesOpts,,PsyShow Personalities,,,
+psy_personalitiesOption2,PsyPersonalitiesOpts,,,,10:backToCO:Cancel,
+psy_selectPersonality,DialogOptionSelected,"$psy_isDoctor
+$isPerson
+PsySelectOption Personality","SetEnabled psy_confirm $cost_enough
+SetTextHighlights $psy_officerName $psy_personalityName $psy_costStr","""Are you sure you want $psy_officerName to undergo adjustment therapy? This will cost $psy_costStr.""","1:psy_confirm:Confirm
+10:backToCP:Cancel",
+psy_confirmPersonality,DialogOptionSelected,$option == psy_confirm,"PsyShow Confirm
+SetTextHighlights $psy_officerName","""The personality of $psy_officerName has been successfully corrected.""",10:backToCO:Cancel,
+,,,,,,
+psy_officerLastPage,DialogOptionSelected,$option == psylastPage,"PsyShow OPage Last
+FireAll PsyOfficersOpts",,,
+psy_officerNextPage,DialogOptionSelected,$option == psynextPage,"PsyShow OPage Next
+FireAll PsyOfficersOpts",,,
+psy_backToCO,DialogOptionSelected,$option == backToCO,FireAll PsyOfficersOpts,,,
+psy_backToCP,DialogOptionSelected,$option == backToCP,FireAll PsyPersonalitiesOpts,,,
+,,,,,,
+#Messengers,,,,,,
+fob_msger_atBarBlurb,AddBarEvents,"$faction.id == fob
+!$isHostile
+!$global.FOB_recognition_completed
+!$global.FOB_recognition_cd
+FOB_MessengerActions shouldShow","AddBarEvent fob_msger_barEvent ""Approach the stage and assume a greeting posture to the Borken."" ""A Borken is sitting at the stage, emitting no sound, yet the surrounding humans are entranced. It notices you and waves you over."" 50,255,197,255
+FOB_MessengerActions pickMessenger
+",,,
+fob_msger_barStart_mrs_spider,DialogOptionSelected,"$option == fob_msger_barEvent
+$messengerID == FOB_mrs_spider","FOB_MessengerActions showMessenger
+SetStoryOption fob_smile_and_tentacle 2 FOB_recognize_lobster general ""Show yourself.""","You stare at its face, racking your brain, and finally, the identity of this prominent figure surfaces from the depths of your memory—Eternal Star, Gride, the Master of All Tendrils, and emissary of Zeyat Pras.
+
+It lets out a derisive laugh at your awkward attempt at a friendly gesture, its single terrifying eye scrutinizing you with a chilling gaze.
+
+""I’ve heard of you, the infamous $player.fobName, hehe... I have three questions for you. Give satisfactory answers, and only then will Cthulas Borken acknowledge you,"" it says in a routine manner, its voice low and oppressive, the single glowing red eye seemingly able to see through everything. ""Remember to follow your heart.""
+
+You can’t help but feel uneasy as you watch the tendrils around its mouth twitch. You realize this is a test of loyalty, perhaps best described as a ritual.
+
+","1:fob_smile_and_tentacle:You grin and blue tentacles come out of your mouth.
+2:fob_smile_and_confirm:""I'm ready.""
+3:backToBar:""I'm not ready, sorry."" You get up and leave your seat.",
+fob_msger_barStart_immortal_star_greed,DialogOptionSelected,"$option == fob_msger_barEvent
+$messengerID == FOB_immortal_star_greed","FOB_MessengerActions showMessenger
+SetStoryOption fob_smile_and_tentacle 2 FOB_recognize_lobster general ""Show yourself.""","You stare at its face in thought, finally dredging the identity of the great being from the depths of your memory - the Star of Eternal Life, Greed, the divine envoy of Zea Teplasso.
+
+It lets out a snort at your lame gesture of goodwill, that one ghastly eye surveying you with a creepy stare.
+
+""I have three questions here, give satisfactory answers in order to get Cthulas Borken to approve of you."" It says this as if it were a routine, its voice low and oppressive, its one eye glowing dangerously red as if it could see through everything, ""Remember to follow your heart.""
+
+You look at the tentacles dancing on its mouth and feel a little scared. You realize that this is a test of loyalty, or perhaps it should be called a ritual.","1:fob_smile_and_tentacle:You grin and blue tentacles come out of your mouth.
+2:fob_smile_and_confirm:""I'm ready.""
+3:backToBar:""I'm not ready, sorry."" You get up and leave your seat.",
+fob_msger_barStoryEnd_mrs_spider,DialogOptionSelected,"$option == fob_smile_and_tentacle
+$messengerID == FOB_mrs_spider","FOB_MessengerActions success
+AddText ""You have gained the approval of the Divine Emissary."" good","A nauseating stench emanates from your mouth as two plump, bright blue tendrils lie there where your tongue should be. One of them twitches slightly, as if greeting $messengerName.
+
+""This... Oh, damn Intelligence, what were they thinking..."" $messengerName's tendrils twitch rapidly, and from a Borken’s perspective, you imagine their expression must be quite something right now. They seem at a loss for words, and a hint of confusion flickers in their weary eyes.
+
+""You’ve been acknowledged. Goodbye."" They lift the hem of their gown and leave the bar without hesitation.
+
+Your adjutant stares at you in shock, their Adam’s apple bobbing as their legs tremble uncontrollably. You watch $messengerName walk away, then quickly signal to your adjutant with your eyes, urging them to pull the things out of your mouth.
+
+Afterward, the legend of ""Eating a Blue Lobster Alive"" begins to circulate among your fleet, with even more bizarre versions like ""The Captain Boiling a Blue Lobster in Their Mouth at 3 AM"" making the rounds.",backToBar:Return to the bar,
+fob_msger_barStoryEnd_immortal_star_greed,DialogOptionSelected,"$option == fob_smile_and_tentacle
+$messengerID == FOB_immortal_star_greed","FOB_MessengerActions success
+AddText ""You have gained the approval of the Divine Emissary."" good","A nauseating stench emanates from your mouth as two plump, bright blue tendrils lie there where your tongue should be. One of them twitches slightly, as if greeting $messengerName.
+
+""Impressive..."" The red light in $messengerName’s eye flickers rapidly, and you can only imagine how remarkable their expression must be from a Borken’s perspective. They seem at a loss for words, displaying a mix of irritation and unease.
+
+""As expected of $player.fobName, you have been acknowledged. Farewell."" They let out a low hum and left the bar without hesitation.
+
+Your adjutant stares at you in shock, their Adam’s apple bobbing as their legs tremble uncontrollably. You watch $messengerName walk away, then quickly signal to your adjutant with your eyes, urging them to pull the things out of your mouth.
+
+Afterward, the legend of ""Eating a Blue Lobster Alive"" begins to circulate among your fleet, with even more bizarre versions like ""The Captain Boiling a Blue Lobster in Their Mouth at 3 AM"" making the rounds.",backToBar:Return to the bar,
+fob_msger_barQuestionStart,DialogOptionSelected,$option == fob_smile_and_confirm,FOB_MessengerActions initQuestions,"""Then let's get started."" $messengerName says.",,
+fob_msger_barQuestion1,FOBQuestionPick,$fob_question == fob_question_1,"AddText ""\""When the stars are right...\"""" highlight",,"1:fob_question_1_a:""...They will plunge from world to world.""
+2:fob_question_1_b:""...everything stills.""
+3:fob_question_1_c:""...it's time to eat.""",
+fob_msger_barQuestion2,FOBQuestionPick,$fob_question == fob_question_2,"AddText ""\""What has risen may sink...\"""" highlight",,"1:fob_question_2_a:""...and lie there eternal.""
+2:fob_question_2_b:""...and he who has not risen should get up.""
+3:fob_question_2_c:""...and what has sunk may rise.""
+",
+fob_msger_barQuestion3,FOBQuestionPick,$fob_question == fob_question_3,"AddText ""\""That is not dead which can eternal lie...\"""" highlight",,"1:fob_question_3_a:""...and through strange dreams, shall stir and rise.""
+2:fob_question_3_b:""...and with strange aeons even death may die.""
+3:fob_question_3_c:""...like a drowsy Borken while fish swim by.""
+",
+fob_msger_barQuestion1a,DialogOptionSelected,$option == fob_question_1_a,"FOB_MessengerActions score 1
+FOB_MessengerActions nextQuestion","""Correct answer,"" it says with satisfaction.",,
+fob_msger_barQuestion1b,DialogOptionSelected,$option == fob_question_1_b,"FOB_MessengerActions score 0
+FOB_MessengerActions nextQuestion","""Cthulasus Borken yearns for peace,"" it replies neutrally.",,
+fob_msger_barQuestion1c,DialogOptionSelected,$option == fob_question_1_c,"FOB_MessengerActions score -1
+FOB_MessengerActions nextQuestion","""...you don’t seem like someone who goes hungry."" It shakes its head.",,
+fob_msger_barQuestion2a,DialogOptionSelected,$option == fob_question_2_a,"FOB_MessengerActions score 0
+FOB_MessengerActions nextQuestion","""There is nothing eternal in this world,"" it replies neutrally.",,
+fob_msger_barQuestion2b,DialogOptionSelected,$option == fob_question_2_b,"FOB_MessengerActions score -1
+FOB_MessengerActions nextQuestion","""You shouldn't be making jokes here."" It shakes its head.",,
+fob_msger_barQuestion2c,DialogOptionSelected,$option == fob_question_2_c,"FOB_MessengerActions score 1
+FOB_MessengerActions nextQuestion","""Time turns, and all things rise and fall. Correct answer,"" it says with satisfaction.",,
+fob_msger_barQuestion3a,DialogOptionSelected,$option == fob_question_3_a,"FOB_MessengerActions score 0
+FOB_MessengerActions nextQuestion","""Art won't earn you recognition,"" it replies neutrally.",,
+fob_msger_barQuestion3b,DialogOptionSelected,$option == fob_question_3_b,"FOB_MessengerActions score 1
+FOB_MessengerActions nextQuestion","""The Ancestral God is the same, correct answer,"" it says with satisfaction.",,
+fob_msger_barQuestion3c,DialogOptionSelected,$option == fob_question_3_c,"FOB_MessengerActions score -1
+FOB_MessengerActions nextQuestion","""You can save your racial jokes."" It shakes its head.",,
+fob_msger_barQuestionEnd1_mrs_spider,FOBQuestionEnd,"$fob_is_recognized
+$messengerID == FOB_mrs_spider","FOB_MessengerActions success
+AddText ""You have gained the approval of the Divine Emissary."" good
+","$messengerName breathes a sigh of relief.
+
+It looks at you seriously for a moment, then says, ""I am very pleased. I hope to see you at the clan's festival soon.""
+
+$messengerName stands up, bows to you, and then leaves the bar.
+",backToBar:Return to the bar,
+fob_msger_barQuestionEnd1_immortal_star_greed,FOBQuestionEnd,"$fob_is_recognized
+$messengerID == FOB_immortal_star_greed","FOB_MessengerActions success
+AddText ""You have gained the approval of the Divine Emissary."" good
+","$messengerName emits a long, low hum.
+
+It looks at you seriously for a moment, then says, ""I... am very pleased, extremely pleased. You are exceptional. I hope to see you at the clan's festival soon.""
+
+$messengerName stands up, the red light in its eyes fading. It nods at you, then leaves the bar.
+",backToBar:Return to the bar,
+fob_msger_barQuestionEnd2_mrs_spider,FOBQuestionEnd,"!$fob_is_recognized
+$messengerID == FOB_mrs_spider","FOB_MessengerActions fail
+AddText ""You didn't get the recognition of God's ambassador, come back in a month."" bad","$messengerName lets out a disappointed sigh.
+
+""I thought you were fully prepared to embrace the Ancestral God,"" it says, clearly disappointed. ""But it’s obvious that you’re not.""
+
+$messengerName stands up. ""The Ancestral God never abandons any of its kin. You still have a chance. Until next time."" It then leaves the bar without hesitation.
+",backToBar:Return to the bar,
+fob_msger_barQuestionEnd2_immortal_star_greed,FOBQuestionEnd,"!$fob_is_recognized
+$messengerID == FOB_immortal_star_greed","FOB_MessengerActions fail
+AddText ""You failed to gain the approval of the Divine Emissary. Come back in a month."" bad
+","$messengerName's eyes flicker with a rapid red light.
+
+""I thought you were fully prepared to embrace the Ancestral God,"" it says violently. ""But clearly, you are not.""
+
+$messengerName stands up. ""I’d love to shove you into a jar right now, but — the Ancestral God never abandons any of its kin. You still have a chance. Until next time."" It emits a harsh, low hum before leaving the bar without hesitation.
+",backToBar:Return to the bar,
+fob_msger_barQuestionEnd3_mrs_spider,FOBQuestionEnd,"!$fob_is_recognized
+$messengerID == FOB_mrs_spider
+$fob_question_score == -3 score:1000","AddCredits 10000
+FOB_MessengerActions fail
+AddText ""You failed to gain the approval of the Divine Emissary. Come back in a month."" bad
+","$messengerName stops asking questions, and its gaze towards you becomes unsettling.
+
+""I didn’t expect you to have this kind of... intellectual deficiency,"" $messengerName says with a tone full of sympathy. ""It must be difficult for you to live among either humans or Borken.""
+
+It stands up. ""The Ancestral God never abandons any of its kin. You still have a chance. Take these credits and get yourself something nice to eat. See you next time."" It leaves the bar deep in thought, wondering whether the culture of the Persean Sector is a bit too advanced for their alien civilization.
+",backToBar:Return to the bar,
+fob_msger_barQuestionEnd3_immortal_star_greed,FOBQuestionEnd,"!$fob_is_recognized
+$messengerID == FOB_immortal_star_greed
+$fob_question_score == -3 score:1000","AddCredits 10000
+FOB_MessengerActions fail
+AddText ""You failed to gain the approval of the Divine Emissary. Come back in a month."" bad
+","$messengerName stops asking questions, and the red light in its eyes starts to shift to purple.
+
+""Damn it, I didn’t expect you to have this kind of... intellectual deficiency,"" $messengerName says through gritted teeth. ""It’s rare to see such an idiot among either humans or Borken.""
+
+It stands up. ""Though I doubt you deserve to be one of us, the Ancestral God never abandons any of its kin. You still have a chance. Take these credits and go see our mental healer about your brain."" It angrily leaves the bar, emitting a series of piercing noises as it goes.",backToBar:Return to the bar,
+,,,,,,
+#messenger'mission,,,,,,
+fob_contactGreeting_mrs_spider,PickGreeting,"MissionHubCMD hasHub
+$messengerID == FOB_mrs_spider","ShowPersonVisual
+FireAll PopulateOptions","""It's good to see you, Captain, my kin,"" $personName says.
+OR
+""Greetings, Captain,"" $personName says. ""May the light of the Ancestral God shine upon you.""",,
+fob_contactGreeting_immortal_star_greed,PickGreeting,"MissionHubCMD hasHub
+$messengerID == FOB_immortal_star_greed","ShowPersonVisual
+FireAll PopulateOptions","""Ah, look who it is, my dear kin, my fellow traveler,"" $personName says excitedly. ""Our collaboration will showcase the great bond between our two races.""
+OR
+""Think of our sun, Captain,"" $personName says in a low, fervent voice. ""Cthulasus will bear witness to our cooperation.""",,
+,,,,,,
+#contact messenger,,,,,,
+FOB_moreEvolutionBlurb,FOB_moreEvolution_blurb,,,"""I need... more of my kin. $player.fobName, I trust you are already well-versed in the ritual.""",,
+FOB_moreEvolutionOption,FOB_moreEvolution_option,,,,FOB_moreEvolution_start: Ask about more ascension ceremonies,
+FOB_moreEvolutionOffer,DialogOptionSelected,$option == FOB_moreEvolution_start,"$missionId = FOB_moreEvolution
+SetEnabled contact_accept $FOB_moreEvolution_affordable
+SetTextHighlights $FOB_moreEvolution_commodityName $FOB_moreEvolution_quantity $FOB_moreEvolution_price","""I need $FOB_moreEvolution_quantity $FOB_moreEvolution_commodityName. Provide them to our sect in a personal capacity, and in return, you will receive $FOB_moreEvolution_price.""
+","contact_accept:Accept
+contact_decline:Decline",
+FOB_moreEvolutionPostAccept,ContactPostAccept,$missionId == FOB_moreEvolution,"Call $FOB_moreEvolution_ref2 transact
+Call $FOB_moreEvolution_ref2 repSuccess
+Call $FOB_moreEvolution_ref2 addContacts",,,
+FOB_moreEvolutionPostAcceptText,ContactPrintAcceptText,$missionId == FOB_moreEvolution,,"""Very well, fellow member, we will not forget your efforts.""",,
+,,,,,,
+#Transform,,,,,,
+fob_bt_start,BorkenTransformStart,,SetShortcut fob_bt_leave ESCAPE,"""Are you ready for this?"" A voice sounds from the void, and you hear it.
+
+Join us, join us, join us, join us, join us.","fob_bt_continue1:Continue
+fob_bt_leave:I'm not ready.",
+fob_bt_conv1,DialogOptionSelected,$option == fob_bt_continue1,,"Join us, join us, join us, join us.
+Join us, join us, join us, join us.
+Join us, join us, join us, join us.","fob_bt_continue2:Continue
+fob_bt_leave:I have to leave",
+fob_bt_conv2,DialogOptionSelected,$option == fob_bt_continue2,,"Ancestral God, Ancestral God, Ancestral God, Ancestral God.
+Ancestral God, Ancestral God, Ancestral God, Ancestral God.
+Ancestral God, Ancestral God, Ancestral God, Ancestral God.","fob_bt_continue3:Continue
+fob_bt_leave:Let me go",
+fob_bt_conv3,DialogOptionSelected,$option == fob_bt_continue3,,"My Lord, my Lord, my Lord, my Lord.
+My Lord, my Lord, my Lord, my Lord.
+My Lord, my Lord, my Lord, my Lord.","fob_bt_continue4:Pray
+fob_bt_leave:Shout",
+fob_bt_conv4,DialogOptionSelected,$option == fob_bt_continue4,"SetTooltip fob_bt_loseHumanity ""Complete Ascension, and change to a Borken portrait.""
+SetTooltip fob_bt_falseHumanity ""Complete the Ascending and keep the current portrait.""","Welcome aboard, me.","fob_bt_loseHumanity:Assimilation (change portrait)
+fob_bt_falseHumanity:Symbiosis (keep portrait)",
+fob_bt_lh,DialogOptionSelected,$option == fob_bt_loseHumanity,FOB_BTConfirm TRUE,"You are no different from yourself.
+[Communication with the Borken has changed]",fob_bt_leave:Finish,
+fob_bt_fh,DialogOptionSelected,$option == fob_bt_falseHumanity,FOB_BTConfirm FALSE,"Your heart is with you.
+[Communication with the Borken has changed]",fob_bt_leave:Finish,
+fob_bt_leave,DialogOptionSelected,$option == fob_bt_leave,DismissDialog,,,

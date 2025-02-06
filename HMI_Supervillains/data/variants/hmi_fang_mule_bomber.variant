@@ -1,0 +1,43 @@
+{
+  "variantId": "hmi_fang_mule_bomber",
+  "hullId": "hmi_fang_mule",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heatseeker",
+        "WS 002": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "perdition_wing"
+  ]
+}

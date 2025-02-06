@@ -1,0 +1,73 @@
+{
+  "variantId": "hmi_fang_onslaught_std",
+  "hullId": "hmi_fang_onslaught",
+  "displayName": "Reaper",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "fluxbreakers",
+    "autorepair",
+    "heavyarmor",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 022": "annihilatorpod",
+        "WS 023": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 016": "tpc",
+        "WS 017": "tpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 018": "hellbore",
+        "WS 020": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "heavyac",
+        "WS 003": "heavyac",
+        "WS 012": "hveldriver",
+        "WS 013": "hveldriver",
+        "WS 019": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "vulcan",
+        "WS 004": "vulcan",
+        "WS 005": "heavymg",
+        "WS 006": "heavymg",
+        "WS 007": "dualflak",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS 010": "heavymg",
+        "WS 011": "heavymg",
+        "WS 014": "flak",
+        "WS 015": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

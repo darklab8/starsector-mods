@@ -1,0 +1,48 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FOB_polyps",
+    "hullMods": [
+        "FOB_houndcorearray",
+        "missleracks",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_polyps_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_greystab_v"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "typhoon",
+                "WS0002": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "FOB_plasmoid_s",
+                "WS0007": "FOB_plasmoid_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "FOB_sinerepeater_s"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "FOB_sinerepeater_m"}
+        }
+    ]
+}

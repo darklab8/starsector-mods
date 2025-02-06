@@ -1,0 +1,3 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Crystal Rift,FOB_crystalhole,,TRUE,originem.fob.scripts.campaign.econ.FOB_CrystalHole,"The residents of $market use supplies from a transmission facility called the ""crystal rift"" all year round. It is said to be the highest-end technology of the Foundation, but judging from its rarity, it does not seem to be.",graphics/icons/markets/FOB_crystalhole.png,20
+Private Crystal Rift,FOB_pch_condition,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,This is your private storage.,graphics/icons/markets/FOB_crystalhole.png,20

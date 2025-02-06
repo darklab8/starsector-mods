@@ -1,0 +1,330 @@
+{
+	"id":"fang",
+	"color":[255,0,0,255],
+	
+	"baseUIColor":[255,0,0,255],
+	"darkUIColor":[119,43,0,175],
+	"gridUIColor":[168,72,3,75],
+
+    "secondaryUIColor":[255,108,2,255],
+    "secondarySegments":2,
+
+    "displayName":"Fang Society",
+    "displayNameWithArticle":"the Fang Society",
+
+    "displayNameLong":"Fang Society",
+    "displayNameLongWithArticle":"the Fang Society",
+    "displayNameIsOrAre":"are",
+
+
+	"logo":"graphics/factions/fang.png",
+	"crest":"graphics/factions/crest_fang.png",
+	"shipNamePrefix":"FANG", 
+	"shipNameSources":{
+		"BEASTS":1,
+	},
+	"names":{
+		"fringe":1,
+		"myth":1,
+		"old english":1,
+		"pirate":1,
+	},
+	"hullFrequency":{
+        "tags":{"fang_bp":10},
+		"hulls":{
+		"hmi_fang_retribution":0.5,	
+		},
+    },
+		# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["fang_bp"],
+		"hulls":[
+			"hound",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"venture",
+			"atlas",
+			"hermes",
+			"mudskipper",
+			"nebula",
+			"starliner",
+			"tarsus",
+			"colossus",
+		
+			"hmi_fang_kite",
+			"hmi_fang_cerberus",
+			"hmi_fang_shepherd",
+			"hmi_fang_vanguard",
+			"hmi_fang_charlie",			
+		
+			"hmi_fang_mule",
+			"hmi_fang_caballoloco",
+			"hmi_fang_burro",
+			"hmi_fang_wobbie",			
+			
+			"hmi_fang_colossus",
+			"hmi_fang_mora",
+			"hmi_fang_eradicator",
+			"hmi_fang_yowie",
+		
+			"hmi_fang_atlas",
+			"hmi_fang_retribution",
+		],
+	},
+	"knownShips":{
+		"tags":["fang_bp"],
+		"hulls":[
+			"hound",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"venture",
+			"atlas",
+			"hermes",
+			"mudskipper",
+			"nebula",
+			"starliner",
+			"tarsus",
+			"colossus",
+		
+			"hmi_fang_kite",
+			"hmi_fang_cerberus",
+			"hmi_fang_shepherd",
+			"hmi_fang_vanguard",
+			"hmi_fang_charlie",			
+		
+			"hmi_fang_mule",
+			"hmi_fang_caballoloco",
+			"hmi_fang_burro",
+			"hmi_fang_wobbie",			
+			
+			"hmi_fang_colossus",
+			"hmi_fang_mora",
+			"hmi_fang_eradicator",
+			"hmi_fang_yowie",
+		
+			"hmi_fang_atlas",
+			"hmi_fang_retribution",
+		],
+	},
+	"knownFighters":{
+		"tags":["fang_bp"],
+		"fighters":[
+			"warthog_wing",
+			"perdition_wing",
+			"talon_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"warthog_wing",
+			"perdition_wing",
+			"talon_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["hmi_bp", "base_bp", "lowtech_bp", "midline_bp", "missile_bp"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"lightmortar",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"railgun",
+			
+			"shredder",
+			"heavymortar",
+			"flak",
+			"arbalest",
+			"chaingun",
+			"heavymg",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			
+			"mark9",
+			"hellbore",
+			"devastator",
+			"gauss",
+			"mjolnir",
+			
+			"hammer",
+			"hammer_single",
+			"swarmer",
+			"annihilator",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"jackhammer",
+			"harpoonpod",
+			"sabotpod",
+			"breachpod",
+			"salamanderpod",
+			"annihilatorpod",
+			"pilum",
+			
+			"pilum_large",
+			"hurricane",
+			"locust",
+			"hammerrack",
+			"cyclone",
+						
+			"mininglaser",
+			"miningblaster",
+
+
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	
+	"fighterSellFrequency":{
+		"perdition_wing":5,
+		"warthog_wing":5,
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+		"ballistic_rangefinder":10,
+		"converted_hangar":10,
+	},	
+	
+	"hullMods":[
+		"frontshield",
+		"turretgyros",
+		"armoredweapons",
+		"auxiliarythrusters",
+		"blast_doors",
+		"magazines",
+		"missleracks",
+		"hardened_subsystems",
+		"insulatedengine",
+		"reinforcedhull",
+		"fluxbreakers",
+		"unstable_injector",
+	],
+	
+		"factionDoctrine":{
+		"warships":3,
+		"carriers":2,
+		"phaseShips":2,
+		
+		"officerQuality":3,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":2,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.75,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.75,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	
+	"music":{
+		"theme":"music_pirates_market_neutral",
+		"market_neutral":"music_pirates_market_neutral",
+		"market_hostile":"music_pirates_market_hostile",
+		"market_friendly":"music_pirates_market_friendly",
+		"encounter_neutral":"music_pirates_encounter_neutral",
+		"encounter_hostile":"music_pirates_encounter_hostile",
+		"encounter_friendly":"music_pirates_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_beastman.png",
+			"graphics/portraits/portrait_trex.png",
+			"graphics/portraits/portrait_wendigo.png",
+			"graphics/portraits/hmi_fang_wolf.png",
+			"graphics/portraits/hmi_fang_tiger.png",
+			"graphics/portraits/portrait_fang.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_beastman.png",
+			"graphics/portraits/portrait_trex.png",
+			"graphics/portraits/portrait_wendigo.png",
+			"graphics/portraits/hmi_fang_wolf.png",
+			"graphics/portraits/hmi_fang_tiger.png",
+			"graphics/portraits/hmi_fang_cow.png",
+			"graphics/portraits/portrait_fang.png",
+		],
+	},
+	
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Commander"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Clanmate"},
+			"fleetCommander":{"name":"Cheiftain"},
+			"baseCommander":{"name":"High King"},
+			"administrator":{"name":"Elder"},
+		},
+	},
+		
+	"custom":{
+	
+		"offersCommissions":false,
+		"engagesInHostilities":true,
+        "ignoreTradeWithEnemiesForReputation":true,
+		"buysAICores":true,
+        "AICoreValueMult":1.5,
+        "AICoreRepMult":1,
+		"buysSurveyData":false,
+		"offerMissionsWhenHostile":false,
+        "allowsTransponderOffTrade":true,
+        "commissionIgnoreBeingHostile":true,
+	    "engageWhenEvenStrength":true,
+        "pirateBehavior":true, # for fleet behavior
+        "fightToTheLast":true, # order a full assault instead of retreating, in most cases
+        "hostilityImpactOnGrowth":false,
+        "caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+        },
+    },
+	
+	"fleetTypeNames":{
+		"trade":"Convoy",
+		"tradeLiner":"Convoy",
+		"patrolSmall":"Raider Pack",
+		"patrolMedium":"Clan Pack",
+		"patrolLarge":"Cheiftain Armada",
+		"mercScout":"Scout",
+		"mercBountyHunter":"Raiders",
+		"mercPrivateer":"Raiders",
+		"mercPatrol":"Attack Fleet",
+		"mercArmada":"Armada",
+	},
+},
+
+
+
+

@@ -1,0 +1,19 @@
+{
+	"id":"FOB_plasmoid_shard_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":10.0,
+	"hitGlowRadius":10,
+	"width":4,
+	"fadeTime":0.1,
+	"fringeColor":[118, 255, 255,225],
+	"coreColor":[200,255,200,255],
+	"glowColor":[118, 255, 255,50],
+	"glowRadius":10,
+	"textureScrollSpeed":32.0,
+    "textureType":"LASER",	
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/FOB_plasmoid_slug.png"
+}

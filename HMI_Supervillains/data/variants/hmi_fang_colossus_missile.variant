@@ -1,0 +1,46 @@
+{
+  "variantId": "hmi_fang_colossus_missile",
+  "hullId": "hmi_fang_colossus",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoonpod",
+        "WS0003": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing"
+  ]
+}

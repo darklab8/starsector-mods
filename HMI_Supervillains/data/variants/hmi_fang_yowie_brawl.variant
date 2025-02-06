@@ -1,0 +1,45 @@
+{
+  "variantId": "hmi_fang_yowie_brawl",
+  "hullId": "hmi_fang_yowie",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "fluxbreakers",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun",
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "devastator",
+        "WS0008": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,66 @@
+{
+  "variantId": "hmi_draco_legion_cs",
+  "hullId": "hmi_draco_legion",
+  "displayName": "Aegis",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "hardenedshieldemitter",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "tachyonlance",
+        "WS0007": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0010": "gravitonbeam",
+        "WS0011": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "ionbeam",
+        "WS0003": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing",
+    "claw_wing",
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

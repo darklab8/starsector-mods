@@ -1,0 +1,30 @@
+{
+  "hullName": "ArmorModule",
+  "hullId": "FOB_boss_rast_lb",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/boss/FOB_boss_rast_left_bot.png",
+  "style": "FOB_TECH",
+  "height": 172,
+  "width": 54,
+  "center": [29, 90],
+  "collisionRadius": 96,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInWeapons": {
+  },
+  "weaponSlots": [
+  ],
+  "engineSlots": [],
+  "bounds": [
+    70.5, 27.5,
+    1.5, 25.5,
+    -93, -5.5,
+    -47.5, -16,
+    12.5, -19,
+    63, -12.5,
+    64, -1.5,
+    79.5, 16,
+    60.5, 9.5
+  ]
+}

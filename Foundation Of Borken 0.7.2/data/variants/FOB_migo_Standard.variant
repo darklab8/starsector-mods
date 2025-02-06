@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "FOB_migo",
+    "hullMods": [
+        "missleracks",
+        "fluxbreakers",
+        "FOB_starhunter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_migo_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_halocannon_m",
+                "WS0002": "FOB_halocannon_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabotpod",
+                "WS0004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FOB_sinerepeater_s",
+                "WS0006": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

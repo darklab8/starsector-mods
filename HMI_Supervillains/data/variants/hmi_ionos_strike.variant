@@ -1,0 +1,59 @@
+{
+  "variantId": "hmi_ionos_strike",
+  "hullId": "hmi_ionos",
+  "displayName": "Lancer",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "annihilatorpod",
+        "WS0003": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "phasebeam",
+        "WS0007": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "gravitonbeam",
+        "WS0009": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "lrpdlaser",
+        "WS0005": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0011": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

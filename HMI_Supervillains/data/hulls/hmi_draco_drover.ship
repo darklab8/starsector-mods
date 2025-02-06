@@ -1,0 +1,179 @@
+{
+  "hullName": "Drover (Draco)",
+  "hullId": "hmi_draco_drover",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/draco/drover_draco.png",
+  "style": "HIGH_TECH",
+  "height": 104,
+  "width": 146,
+  "center": [73, 52],
+  "collisionRadius": 99.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_sv_aegis",
+    "bdeck"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 28,
+      "locations": [18, 58.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -28,
+      "locations": [18, -58.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [43, 13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [43, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [37, 60]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [37, -60]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        11.5, 11,
+        16, 24.5,
+        16.5, 37
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        11, -9.5,
+        16.5, -25.5,
+        17, -37
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48.5, 51],
+      "length": 18.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48.5, -51],
+      "length": 18.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, 39.5],
+      "length": 35.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, -39.5],
+      "length": 35.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46.5, 15],
+      "length": 40,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-46.5, -15],
+      "length": 40,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -35.5, -6.5,
+    -47, -10.5,
+    -51.5, -54.5,
+    5, -70.5,
+    41, -68.5,
+    42.5, -54.5,
+    53, -51.5,
+    43.5, -45.5,
+    48.5, -19.5,
+    48.5, 19.5,
+    43.5, 45.5,
+    53, 51.5,
+    42.5, 54.5,
+    41, 68.5,
+    5, 70.5,
+    -51.5, 54.5,
+    -47, 10.5,
+    -35.5, 6.5
+  ]
+}

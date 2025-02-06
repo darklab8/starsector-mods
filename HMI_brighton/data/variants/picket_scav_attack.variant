@@ -1,0 +1,41 @@
+{
+  "variantId": "picket_scav_attack",
+  "hullId": "picket_scav",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightmortar",
+        "WS0002": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "lightdualmg",
+        "WS0005": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

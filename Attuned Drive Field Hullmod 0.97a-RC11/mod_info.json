@@ -1,0 +1,13 @@
+{
+    "id":"AttunedDriveField",
+    "name":"Attuned Drive Field Hullmod",
+    "author":"Rhalen",
+    "version":{
+		"major":0,
+		"minor":1,
+		"patch":3
+	},
+    "description":"Adds a smaller version of the Augmented Drive Field Hullmod, for +1 burn at half the OP cost.",
+    "gameVersion":"0.97a-RC11",
+    "totalConversion":false,
+}

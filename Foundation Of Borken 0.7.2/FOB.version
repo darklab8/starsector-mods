@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://gitgud.io/KindaStrange/foundation-of-borken-fob/-/raw/master/FOB.version",
+    "modName":"Foundation of Borken",
+    #"modThreadId":13213,
+    "modVersion":
+    {
+        "major":0,
+        "minor":7,
+        "patch":"2-KS002"
+    },
+    directDownloadURL:"https://gitgud.io/KindaStrange/foundation-of-borken-fob/-/raw/master/Foundation%20Of%20Borken%200.7.2-KS002.zip?ref_type=heads"
+}

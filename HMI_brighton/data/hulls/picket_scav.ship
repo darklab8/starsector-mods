@@ -1,0 +1,158 @@
+{
+  "bounds": [
+    -19,
+    -5.5,
+    -23,
+    -5,
+    -23,
+    -19,
+    -5.5,
+    -26.5,
+    8.5,
+    -27,
+    20,
+    -20,
+    20,
+    20,
+    8,
+    26,
+    -5.5,
+    26.5,
+    -23,
+    19,
+    -23,
+    5,
+    -19,
+    5.5
+  ],
+  "builtInWings": [],
+  "center": [
+    28,
+    24
+  ],
+  "collisionRadius": 48.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 29,
+      "location": [
+        -23,
+        14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 29,
+      "location": [
+        -23,
+        -14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 25.5,
+      "location": [
+        -22.5,
+        8.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 25.5,
+      "location": [
+        -22.5,
+        -8.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    }
+  ],
+  "height": 48,
+  "hullId": "picket_scav",
+  "hullName": "Picket (BRV)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 45.5,
+  "spriteName": "graphics/ships/picket_scav.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "builtInMods": [
+    "brighton_derelict"
+  ],
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        19.5,
+        14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        20,
+        -14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        20.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0004",
+      "locations": [
+        14,
+        21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0005",
+      "locations": [
+        14,
+        -21
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 56
+}

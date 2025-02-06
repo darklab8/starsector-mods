@@ -1,0 +1,69 @@
+{
+  "playableFaction": true,
+  "corvusCompatible": true,
+  "baseFleetCostMultiplier": 1.0,
+  "rebelFleetSuffix": "The Lost Ones",
+  "startRelationships": {"approlight": 0.8, "luddic_church": -0.4, "luddic_path": -0.8},
+  "minRelationShips": {"approlight": 0.51},
+  "maxRelationships": {"pirates": -0.1, "luddic_church": 0, "luddic_path": -0.4},
+  "diplomacyPositiveChance": {"approlight": 2, "luddic_church": 0.8, "luddic_path": 0.2},
+  "diplomacyNegativeChance": {"luddic_church": 1.2, "luddic_path": 2.0},
+  "diplomacyTraits": ["pacifist", "lowprofile", "helps_allies"],
+  "morality": "amoral",
+  "noRandomizeRelations": true,
+  "vengeanceLevelNames": ["Punisher"],
+  "vengeanceFleetNames": ["Tentacluster"],
+  "vengeanceFleetNamesSingle": ["a Tentacluster Fleet"],
+  "marketSpawnWeight": 1.5,
+  "factionsLiked": [
+    "independent",
+    "approlight"
+  ],
+  "factionsDisliked": [
+    "luddic_path",
+    "luddic_church",
+    "pirates"
+  ],
+  "alignments": {
+    "corporate": 0.5,
+    "technocratic": -0.5,
+    "militarist": 0,
+    "diplomatic": 1,
+    "ideological": 0.5,
+  },
+  "startShipsSolo": ["FOB_dhole_Standard"],
+  "startShipsCombatSmall": [
+    "FOB_chthonian_Standard",
+    "FOB_dhole_Standard",
+    "FOB_dhole_Standard"
+  ],
+  "startShipsCombatLarge": [
+    "FOB_polyps_Standard",
+    "FOB_migo_Standard",
+    "FOB_dhole_Standard"
+  ],
+  "startShipsTradeSmall": [
+    "FOB_gnophkeh_Standard",
+    "FOB_dhole_Perseus",
+    "FOB_dhole_Perseus"
+  ],
+  "startShipsTradeLarge": [
+    "FOB_shoggoth_Standard",
+    "FOB_chthonian_Perseus",
+    "FOB_dhole_Perseus"
+  ],
+  "defenceStations": [
+    {"ids": ["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+  ],
+  "industrySeeds": [
+    {"id": "orbitalworks", "mult": 0.1},
+    {"id": "lightindustry", "mult": 0.1},
+  ],
+  "bonusSeeds": [
+    {"id": "nanoforge_pristine", "count": 1},
+    {"id": "aiCore_station", "count": 2, "mult": 0.1},
+    {"id": "aiCore_military", "mult": 0.5},
+    {"id": "aiCore_heavyindustry", "count": 1},
+    {"id": "aiCore_any", "mult": 2},
+  ],
+}

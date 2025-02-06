@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "FOB_shantak",
+    "hullMods": [
+        "expanded_deck_crew",
+        "FOB_houndcorearray",
+        "FOB_afogomornkeel",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_shantak_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FOB_sinerepeater_s",
+            "WS0002": "FOB_sinerepeater_s"
+        }
+    }],
+    "wings": ["FOB_shaggai_wing"]
+}

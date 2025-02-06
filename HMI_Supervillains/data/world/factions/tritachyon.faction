@@ -1,0 +1,46 @@
+{	
+	
+	"hullFrequency":{
+			"tempest_7":0.02,
+			"tempest_8":0.02,
+			"tempest_9":0.02,
+			"wolf_assault":0.02,
+			"aurora_s":0.02,
+			"shrike_prototype":0.02,
+			"scarab_prototype":0.02,
+			"hmi_ionos":0.25,
+			"fury_s":0.05,
+			"hammerhead_tt":0.05,
+			"hmi_appeasement":0.02,
+			"hmi_pardon":0.02,
+			"hmi_forgiveness":0.02,
+			"hmi_heron_tt":0.02,
+			"hmi_falcon_tt":0.02,
+			"hmi_eagle_tt":0.02,
+			"hmi_champion_tt":0.02,	
+		},
+		
+		"knownShips":{
+		"hulls":[	
+			"tempest_7",
+			"tempest_8",
+			"tempest_9",
+			"wolf_assault",
+			"aurora_s",
+			"shrike_prototype",
+			"scarab_prototype",
+			"hmi_ionos",
+			"fury_s",
+			"hammerhead_tt",
+			"hmi_appeasement",
+			"hmi_pardon",
+			"hmi_forgiveness",
+			"hmi_heron_tt",
+			"hmi_falcon_tt",
+			"hmi_eagle_tt",
+			"hmi_champion_tt",			
+			],
+    },		
+},
+
+

@@ -1,0 +1,62 @@
+{
+  "variantId": "hmi_fang_starliner_std2",
+  "hullId": "hmi_fang_starliner",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavymortar",
+        "WS0002": "heavymortar",
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "railgun",
+        "WS0010": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "lightmortar",
+        "WS0012": "lightmortar",
+        "WS0013": "lightmortar",
+        "WS0014": "lightmortar",
+        "WS0015": "lightmortar",
+        "WS0016": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0005": "flak",
+        "WS0006": "flak",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

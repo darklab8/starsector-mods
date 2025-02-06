@@ -1,0 +1,138 @@
+{
+	"HMI_SV_fangslaught":{
+
+        "trigger_marketFaction_any": ["independent", "persean", "luddic_church", "pirates"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "fang":-0.50,
+        },
+        "trigger_min_fleet_size": 100,
+        "trigger_min_days_elapsed": 600, 
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Monster Hunt",
+        "job_description": "This mission looks like it was copied from an internal memo from the Hegemony, and then hastily thrown onto the Board. According to the report, there was a momentous battle between the Hegemony and the Fang Society over Luddic Church space, which resulted in the Society attack being scattered. During their flight, a particular ship was identified leading their retreat: the terrible legendary Onslaught-class ==$shipName==.\nOriginally the Caspian, this ship was lost in a previous engagement between the Hegemony and the Fang Society, who then recovered the ship and outfitted according to their tastes. Since then, the ==$shipName== has become a harbinger of doom and terror, always at the head of a huge fleet of Fang vessels, harvesting and devouring entire planetary populations.\nThe report gives way to hacked-in information about sightings of the ==$shipName== all across the sector - and now the most recent update has good information of their current location, along with a postive pittance of a bounty provided to whoever can take down this beast.\nBelow is a list of tallies of other mercenaries that have gone after this catch - and failed. The number is haunting large - looks like more than money is motivating folks to take this fleet down.",
+        "job_intel_success": "The money is sent on to you, accompanied by a surprisingly heartfelt message of thanks for destroying the Fang fleet and letting the memory of the Caspian to rest – along with a brief post-script to not make too much noise about the bounty and exactly where the money came from.",
+        "job_intel_expired": "There is no message, no acknowledgement of failure - but you feel the next time this bounty emerges on the Board, it’ll have one more tally added to the bottom.",
+        "job_forFaction": "independent",
+        "job_deadline": 720,
+        "job_credit_reward": 50000,
+        "job_reputation_reward":20,
+        "job_type":"destruction",
+        "job_show_type": true,
+        "job_show_captain": false,
+		"job_show_fleet": "flagshipText",
+        "job_show_distance":"vague",
+        "job_difficultyDescription": "auto",
+        
+		"target_personality": "reckless",
+        "target_level": 7,
+        "target_elite_skills":5,
+        "target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        "target_skills": {
+            "helmsmanship":2,
+            "combat_endurance":2,
+            "impact_mitigation":2,
+            "damage_control":2,
+            "polarized_armor":2,
+            "wolfpack_tactics":1,
+            "coordinated_maneuvers":1,
+        },
+		
+		"fleet_name": "The Confederate Hunter Fleet",
+		"fleet_faction": "fang",
+		"fleet_flagship_variant": "hmi_fang_onslaught_std",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "FANG Machine for Pigs",
+		"fleet_scaling_multiplier": 1.25,
+		"fleet_min_FP": 300,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+		"HMI_SV_dracolegion":{
+
+        "trigger_marketFaction_any": ["independent", "tritachyon"],
+        "trigger_marketFaction_alliedWith": true,        
+		"trigger_playerRelationship_atMost":{
+            "draco":-0.50,
+        },
+        "trigger_min_fleet_size": 100,
+        "trigger_min_days_elapsed": 600, 
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Inconvenient Sighting",
+        "job_description": "This bounty posting doesn’t even look like a bounty posting, more a long mess of corrupted data and possibly malignant code. However, an in-depth run through of a D-class cryptographer the bounty is revealed, although simplistic. \nA ship has been sighted by ‘unknown’ in the hands of ‘hostile parties’.\nIt would be preferred if this ‘ship’ was no longer in the hands of the ‘hostile parties’.\nThis generous bounty is being posted for anyone who can deal with this problem.\nWhat this ship is exactly is not clear, and the location given is only vaguely given. Everything about this is incredibly sketchy…but that IS a generous bounty.",
+        "job_intel_success": "The money just appears in your account - no record of it going in or a source, no message, no acknowledgement, it just appears.",
+        "job_intel_expired": "There is no message or acknowledgement about your failure. The due date passes without incident, something you find yourself surprisingly happy about.",
+        "job_forFaction": "tritachyon",
+        "job_deadline": 720,
+        "job_credit_reward": 400000,
+        "job_reputation_reward":5,
+        "job_type":"destruction",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance":"vague",
+        "job_difficultyDescription": "auto",
+        
+        "target_personality":"steady",
+        "target_level": 7,
+        "target_elite_skills":5,
+        "target_skill_preference": "YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        "target_skills": {
+            "field_modulation":2,
+            "target_analysis":2,
+            "systems_expertise":2,
+            "gunnery_implants":2,
+            "energy_weapon_mastery":2,
+            "electronic_warfare":1,
+            "coordinated_maneuvers":1,
+        },
+		
+		"fleet_name": "The Red Sword of the Dragon",
+		"fleet_faction": "draco",
+		"fleet_flagship_variant": "hmi_draco_legion_cs",
+		"fleet_flagship_recoverable": true,
+		"fleet_flagship_name": "DRACO Divinity and Grace",
+		"fleet_scaling_multiplier": 1.25,
+		"fleet_min_FP": 300,
+		
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden",
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+}

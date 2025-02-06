@@ -1,0 +1,24 @@
+{
+	"id":"hmi_sv_mine_strike",
+	"type":"STAT_MOD",
+	"aiType":"MINE_STRIKE",
+	
+	"statsScript":"data.shipsystems.HMI_SV_MineStrikeStats",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2400,
+		"threatAmount":50,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

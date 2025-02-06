@@ -1,0 +1,58 @@
+{
+  "variantId": "hmi_ionos_std",
+  "hullId": "hmi_ionos",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 37,
+  "fluxVents": 50,
+  "quality": 0.75,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sabotpod",
+        "WS0003": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "amblaster",
+        "WS0005": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "heavyblaster",
+        "WS0007": "heavyblaster",
+        "WS0008": "gravitonbeam",
+        "WS0009": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

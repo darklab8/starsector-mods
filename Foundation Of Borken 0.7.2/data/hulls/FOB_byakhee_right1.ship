@@ -1,0 +1,77 @@
+{
+  "hullName": "FOB_byakhee_right1",
+  "hullId": "FOB_byakhee_right1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/FOB_byakhee_right.png",
+  "style": "FOB_TECH",
+  "height": 281,
+  "width": 67,
+  "center": [33, 141],
+  "collisionRadius": 152,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 146,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FOB_borkenarmor",
+    "reduced_explosion",
+    "FOB_liveness_burst_bay"
+  ],
+  "builtInWeapons": {
+    "WS0001": "FOB_tentacle",
+    "WS0002": "FOB_tentacle",
+    "WS0003": "FOB_tentacle"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40, -6.5,
+        -40.5, -15.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-97, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -135,
+      "locations": [-26, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [63.5, -13]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    140, -16,
+    28, -32.5,
+    -104.5, -20,
+    -73.5, -8.5,
+    -119, 4.5,
+    -138, 26.5,
+    -72, 31,
+    18.5, 8.5,
+    38, 11
+  ]
+}

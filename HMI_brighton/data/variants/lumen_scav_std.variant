@@ -1,0 +1,40 @@
+{
+  "variantId": "lumen_scav_std",
+  "hullId": "lumen_scav",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

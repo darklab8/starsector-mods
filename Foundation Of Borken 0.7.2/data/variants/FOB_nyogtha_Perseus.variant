@@ -1,0 +1,55 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "FOB_nyogtha",
+    "hullMods": [
+        "safetyoverrides",
+        "FOB_houndcorearray",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_nyogtha_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FOB_fixg_n",
+                "WS0010": "FOB_fixg_n",
+                "WS0011": "FOB_fixg_n",
+                "WS0012": "FOB_fixg_n"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "gazer",
+                "WS0016": "gazer",
+                "WS0017": "gazer",
+                "WS0018": "gazer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_greystab_iii",
+                "WS0002": "FOB_greystab_iii",
+                "WS0013": "FOB_greystab_iii",
+                "WS0014": "FOB_greystab_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "FOB_polyps",
+    "hullMods": [
+        "safetyoverrides",
+        "FOB_houndcorearray"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_polyps_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_greystab_v"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightneedler",
+                "WS0007": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_greystab_iii",
+                "WS0002": "FOB_greystab_iii",
+                "WS0003": "FOB_greystab_iii"
+            }
+        }
+    ]
+}

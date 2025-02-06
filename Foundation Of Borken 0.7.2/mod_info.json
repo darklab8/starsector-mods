@@ -1,0 +1,16 @@
+{
+  "id": "fob",
+  "name": "Foundation Of Borken [KS]",
+  "version": {"major": 0, "minor": 7, "patch": "2-KindaStrange-002"},
+  "author": "Created by Originem.\nTheme by BZone.\nArt by BZone, 阿朴君, Monde, Ura, Mimeio.\nAssembly help from Scythe.\nSpecial thanks: Nia, MesoTronik, DarkRevenant, Lili",
+  "description": "Aliens from another dimension—trust me, they are very friendly.\n\n*Make sure GraphicLib's enableShaders is set to true for the full visual experience.",
+  "gameVersion": "0.97a-RC11",
+  "jars": ["jars/Borken.jar"],
+  "dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "MagicLib", "name": "MagicLib"},
+    {"id": "shaderLib", "name": "GraphicLib"}
+  ],
+  "modPlugin": "originem.fob.FOBModPlugin",
+  "credits": "game-icons.net"
+}

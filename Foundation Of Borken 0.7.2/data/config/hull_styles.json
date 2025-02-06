@@ -1,0 +1,32 @@
+{
+	"FOB_TECH":{
+		"hyperspaceJitterColor":[220,255,180,255],
+		"baseCampaignExplosionColor":[220,255,180,255],
+		"baseCombatExplosionColor":[220,255,180,255],
+		"fighterRepairFlickerColor":[220,255,180,255],
+		"fighterChipIconColor":[220,255,180,255],
+		"weaponDisabledExplosionColor":[220,255,180,255],
+		"shieldRingColor":[220,255,180,155],
+		"shieldInnerColor":[220,255,180,185],
+		"fluxVentCoreColor":[255,255,255,120],
+		"fluxVentFringeColor":[200,255,180,160],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+
+		"dHullOverlayLight":"graphics/damage/FOB_dmod_overlay_light.png",
+		"dHullOverlayMedium":"graphics/damage/FOB_dmod_overlay_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/FOB_dmod_overlay_heavy.png"
+	},
+}
+
+
+

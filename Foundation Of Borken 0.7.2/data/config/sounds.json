@@ -1,0 +1,246 @@
+{
+  "music": {
+    "music_fob_theme": [
+      {"file": "coldspace.ogg", "source": "sounds/music", "volume": 0.75, "randomStart": true}
+    ],
+    "music_fob_hostile": [
+      {"file": "latterdays.ogg", "source": "sounds/music", "volume": 0.75, "randomStart": false}
+    ],
+    "FOB_systemMusic": [
+      {"file": "FOB_system_music.ogg", "source": "sounds/music", "volume": 1, "randomStart": true},
+    ],
+    "FOB_pchMusic": [
+      {"file": "FOB_pch_music.ogg", "source": "sounds/music", "volume": 1, "randomStart": true},
+    ]
+  },
+  "FOB_greystab_v_raise": [
+    {"file": "sounds/wpn/FOB_greystab_v_raise.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/FOB_greystab_v_raise.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/FOB_greystab_v_raise.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_greystab_v_loop": [
+    {"file": "sounds/wpn/FOB_greystab_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_greystab_s_loop": [
+    {"file": "sounds/wpn/FOB_greystab_loop.ogg", "pitch": 1.3, "volume": 1},
+  ],
+  "FOB_greystab_m_loop": [
+    {"file": "sounds/wpn/FOB_greystab_loop.ogg", "pitch": 1.1, "volume": 1},
+  ],
+  "FOB_dwellereye_fire": [
+    {"file": "sounds/wpn/FOB_dwellereye_fire.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_roaringbolt_loop": [
+    {"file": "sounds/wpn/FOB_roaringbolt_loop.ogg", "pitch": 1, "volume": 0.9},
+  ],
+  "FOB_fixg_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_fixg_shot.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_fixg_shot.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_fixg_shot.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "FOB_fixg_n_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_fixg_n_shot.ogg", "pitch": 1, "volume": 0.8},
+    {"file": "sounds/wpn/projectiles/FOB_fixg_n_shot.ogg", "pitch": 0.95, "volume": 0.8},
+    {"file": "sounds/wpn/projectiles/FOB_fixg_n_shot.ogg", "pitch": 1.05, "volume": 0.8},
+  ],
+  "FOB_halocannon_big_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_halocannon_big_shot.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_halocannon_big_charge": [
+    {"file": "sounds/wpn/projectiles/FOB_halocannon_big_charge.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_halocannon_resonate": [
+    {"file": "sounds/wpn/projectiles/FOB_halocannon_resonate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_roaringbolt_charge": [
+    {"file": "sounds/wpn/projectiles/FOB_roaringbolt_charge.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_roaringbolt_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_roaringbolt_shot.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_roaringbolt_shot.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_roaringbolt_shot.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "FOB_touchofniggurath_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_shot.ogg", "pitch": 1, "volume": 1.1},
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_shot.ogg", "pitch": 0.95, "volume": 1.1},
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_shot.ogg", "pitch": 1.05, "volume": 1.1}
+  ],
+  "FOB_touchofniggurath_charge": [
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_charge.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_charge.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_touchofniggurath_charge.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_touchofniggurath_split": [
+    {"file": "sounds/spec/FOB_touchofniggurath_split.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/spec/FOB_touchofniggurath_split.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/spec/FOB_touchofniggurath_split.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_breath_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_breath_shot.ogg", "pitch": 0.8, "volume": 0.9},
+    {"file": "sounds/wpn/projectiles/FOB_breath_shot.ogg", "pitch": 0.85, "volume": 0.9},
+    {"file": "sounds/wpn/projectiles/FOB_breath_shot.ogg", "pitch": 0.75, "volume": 0.9}
+  ],
+  "FOB_fadedflak_fire": [
+    {"file": "sounds/wpn/projectiles/FOB_fadedflak_fire.ogg", "pitch": 1, "volume": 0.6},
+    {"file": "sounds/wpn/projectiles/FOB_fadedflak_fire.ogg", "pitch": 0.95, "volume": 0.6},
+    {"file": "sounds/wpn/projectiles/FOB_fadedflak_fire.ogg", "pitch": 1.05, "volume": 0.6}
+  ],
+  "FOB_plasmoid_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_plasmoid_shot.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/wpn/projectiles/FOB_plasmoid_shot.ogg", "pitch": 0.95, "volume": 0.9},
+    {"file": "sounds/wpn/projectiles/FOB_plasmoid_shot.ogg", "pitch": 1.05, "volume": 0.9}
+  ],
+  "FOB_skorka_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_skorka_shot.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_skorka_shot.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_skorka_shot.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_skorka_charge": [
+    {"file": "sounds/wpn/projectiles/FOB_skorka_charge.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_skorka_charge.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/wpn/projectiles/FOB_skorka_charge.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_raska_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_raska_shot.ogg", "pitch": 1, "volume": 0.70},
+    {"file": "sounds/wpn/projectiles/FOB_raska_shot.ogg", "pitch": 0.95, "volume": 0.70},
+    {"file": "sounds/wpn/projectiles/FOB_raska_shot.ogg", "pitch": 1.05, "volume": 0.70}
+  ],
+  "FOB_sinerepeator_small_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 0.9, "volume": 0.40},
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 0.85, "volume": 0.40},
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 0.95, "volume": 0.40}
+  ],
+  "FOB_sinerepeator_shot": [
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 1.0, "volume": 0.60},
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 1.05, "volume": 0.60},
+    {"file": "sounds/wpn/projectiles/FOB_sinerepeator_shot.ogg", "pitch": 0.95, "volume": 0.60}
+  ],
+  "FOB_breath_door_open": [
+    {"file": "sounds/spec/FOB_breath_door_open.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_breath_door_close": [
+    {"file": "sounds/spec/FOB_breath_door_close.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_phase_start": [
+    {"file": "sounds/spec/FOB_phase_start.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/spec/FOB_phase_start.ogg", "pitch": 0.95, "volume": 0.9},
+    {"file": "sounds/spec/FOB_phase_start.ogg", "pitch": 1.05, "volume": 0.9}
+  ],
+  "FOB_keel_loop": [
+    {"file": "sounds/spec/FOB_keel_loop.ogg", "pitch": 1, "volume": 0.9},
+  ],
+  "FOB_aooi_repair_activate": [
+    {"file": "sounds/spec/FOB_aooi_repair_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_voidshoot_spawn": [
+    {"file": "sounds/spec/FOB_voidshoot_spawn.ogg", "pitch": 1, "volume": 0.9},
+    {"file": "sounds/spec/FOB_voidshoot_spawn.ogg", "pitch": 0.95, "volume": 0.9},
+    {"file": "sounds/spec/FOB_voidshoot_spawn.ogg", "pitch": 1.05, "volume": 0.9}
+  ],
+  "FOB_soul_release": [
+    {"file": "sounds/spec/FOB_soul_release.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/spec/FOB_soul_release.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/spec/FOB_soul_release.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_soul_fusion": [
+    {"file": "sounds/spec/FOB_soul_fusion.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/spec/FOB_soul_fusion.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/spec/FOB_soul_fusion.ogg", "pitch": 1.05, "volume": 1}
+  ],
+  "FOB_shadowdash_loop": [
+    {"file": "sounds/systems/FOB_shadowdash_loop.ogg", "pitch": 1, "volume": 1.2},
+  ],
+  "FOB_trackingantiair_use": [
+    {"file": "sounds/systems/FOB_trackingantiair_use.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_trackingantiair_loop": [
+    {"file": "sounds/systems/FOB_trackingantiair_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_trackingantiair_fire": [
+    {"file": "sounds/systems/FOB_trackingantiair_fire.ogg", "pitch": 1, "volume": 1},
+    {"file": "sounds/systems/FOB_trackingantiair_fire.ogg", "pitch": 0.95, "volume": 1},
+    {"file": "sounds/systems/FOB_trackingantiair_fire.ogg", "pitch": 1.05, "volume": 1},
+  ],
+  "FOB_powercycledrive_activate": [
+    {"file": "sounds/systems/FOB_powercycledrive_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_powercycledrive_deactivate": [
+    {"file": "sounds/systems/FOB_powercycledrive_deactivate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_powercycledrive_loop": [
+    {"file": "sounds/systems/FOB_powercycledrive_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_voidshamblershell_loop": [
+    {"file": "sounds/systems/FOB_voidshamblershell_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_sbconfluence_loop": [
+    {"file": "sounds/systems/FOB_sbconfluence_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_cthulasusfever_loop": [
+    {"file": "sounds/systems/FOB_cthulasusfever_loop.ogg", "pitch": 1, "volume": 0.8},
+  ],
+  "FOB_chaoslatency_loop": [
+    {"file": "sounds/systems/FOB_starfavor_loop.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_chaoslatency_activate": [
+    {"file": "sounds/systems/FOB_starfavor_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_chaoslatency_reset": [
+    {"file": "sounds/systems/FOB_starfavor_reset.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_chaoslatency_player_activate": [
+    {"file": "sounds/systems/FOB_starfavor_player_activate.ogg", "pitch": 1, "volume": 1},
+  ],
+  "FOB_chaoslatency_player_reset": [
+    {"file": "sounds/systems/FOB_starfavor_player_reset.ogg", "pitch": 1, "volume": 1},
+  ],
+  "ui_evolver": {
+    "sounds": [
+      {"file": "sounds/ui/ui_evolver.ogg", "pitch": 1, "volume": 0.5},
+    ]
+  },
+  "ui_evolver_drop": {
+    "sounds": [
+      {"file": "sounds/ui/ui_evolver_drop.ogg", "pitch": 1, "volume": 0.5},
+    ]
+  },
+  "ui_evolvebowl": {
+    "sounds": [
+      {"file": "sounds/ui/ui_evolvebowl.ogg", "pitch": 1, "volume": 0.5},
+    ]
+  },
+  "ui_evolvebowl_drop": {
+    "sounds": [
+      {"file": "sounds/ui/ui_evolvebowl_drop.ogg", "pitch": 1, "volume": 0.5},
+    ]
+  },
+  "ui_evolver_birth": {
+    "sounds": [
+      {"file": "sounds/ui/ui_evolver_birth.ogg", "pitch": 1, "volume": 1},
+    ]
+  },
+  "ui_soulfusion_dizzy": {
+    "sounds": [
+      {"file": "sounds/ui/ui_soulfusion_dizzy.ogg", "pitch": 1, "volume": 0.6},
+    ]
+  },
+  "FOB_talking": {
+    "sounds": [
+      {"file": "sounds/ui/FOB_talking.ogg", "pitch": 1, "volume": 1},
+    ]
+  },
+  "FOB_transform_intel_bgm": {
+    "sounds": [
+      {"file": "sounds/ui/FOB_transform_intel_bgm.ogg", "pitch": 1, "volume": 1},
+    ]
+  },
+  "FOB_transform_intel_bgm_error": {
+    "sounds": [
+      {"file": "sounds/ui/FOB_transform_intel_bgm_error.ogg", "pitch": 1, "volume": 1},
+    ]
+  }
+}
+
+
+
+

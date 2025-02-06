@@ -1,0 +1,43 @@
+{
+  "variantId": "hmi_draco_hippocampus_attack",
+  "hullId": "hmi_draco_hippocampus",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gorgonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing"
+  ]
+}

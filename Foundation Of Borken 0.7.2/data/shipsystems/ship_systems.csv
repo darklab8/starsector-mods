@@ -1,0 +1,15 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Deepspace Navigation,FOB_deepspacenavigation,,,,,,,,2,0.05,0.5,4,0.5,4,,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/FOB_deepspacenavigation.png
+Deepspace Navigation (Fighter),FOB_deepspacenavigation_fighter,,,,,,,,,,0.5,2,0.5,15,,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/FOB_deepspacenavigation.png
+Wormhole Generator,FOB_wormholegenerator,,,,,,,,2,0.1,0.33,,0.33,5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+#渊面滑行,FOB_abyssglide,,,,,,,,,,0.3,1,0.3,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Shadow Dash,FOB_shadowdash,,,,,,,,,,0.3,1,0.3,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Confluence Device,FOB_sbconfluence,,,0.01,,,,,2,0.05,0.25,2,0.25,0,,,TRUE,TRUE,,,,,TRUE,TRUE,,,graphics/icons/hullsys/damper_field.png
+Cthulasus Fever,FOB_cthulasusfever,,,0.01,,,,,,,0.25,2.5,0.25,12,,,TRUE,TRUE,,,,,TRUE,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Cthulasus Hunt,FOB_cthulasushunt,1,,,,,,,2,0.1,0.5,0.5,0.5,,,,,,,,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+Liveness Burst,FOB_livenessburst,,,,,,,,3,,0.25,0.5,1,120,,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/targeting_feed.png
+Powercycle Drive,FOB_powercycledrive,1,,,,,,,2,0.05,2,3,1,5,TRUE,,,,,,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Tracking AFS,FOB_trackingantiair,,,,,,,,,,0.5,2,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Void Shambler Shell,FOB_voidshamblershell,,,,,,0.1,,,,0.25,3,0.25,12,,,TRUE,TRUE,,,,,TRUE,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Chaos Latency,FOB_chaoslatency,,,0.03,,,,,,,1,,1,2,TRUE,,TRUE,TRUE,,,,,TRUE,,,,graphics/icons/hullsys/flare_launcher.png
+Cthulhu's Tidal Wave,FOB_cthulasus_tidalwave,,,0.02,,,,,,,1,5,1,15,,,,TRUE,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

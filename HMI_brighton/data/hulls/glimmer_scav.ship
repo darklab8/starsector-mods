@@ -1,0 +1,207 @@
+{
+  "hullName": "Glimmer (Scav)",
+  "hullId": "glimmer_scav",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/glimmer_scav.png",
+  "style": "HIGH_TECH",
+  "height": 76,
+  "width": 76,
+  "center": [38, 38],
+  "collisionRadius": 66,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "brighton_remnant"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [29.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 32,
+      "locations": [-7, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -32,
+      "locations": [-7, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 30.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27.5, -30.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-29.5, 26.5],
+      "length": 9,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29.5, -26.5],
+      "length": 9,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-31.5, 22.5],
+      "length": 7,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31.5, -22.5],
+      "length": 8,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, 19],
+      "length": 9,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-33.5, -19],
+      "length": 10,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, 12],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, -12],
+      "length": 10,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, 9],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -9],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, 6.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, -6.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 3],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -3],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -27, -32,
+    -18.5, -37,
+    5, -36.5,
+    20.5, -21,
+    36.5, -12,
+    36.5, 12,
+    20.5, 21,
+    2, 34.5,
+    -10.5, 38,
+    -27, 32,
+    -39, -0.5
+  ]
+}

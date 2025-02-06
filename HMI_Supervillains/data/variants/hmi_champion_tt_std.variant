@@ -1,0 +1,60 @@
+{
+  "variantId": "hmi_champion_tt_std",
+  "hullId": "hmi_champion_tt",
+  "displayName": "Prototype",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "sabot",
+        "WS 001": "sabot",
+        "WS 010": "sabot",
+        "WS 011": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "ionbeam",
+        "WS 007": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "pdlaser",
+        "WS 003": "pdlaser",
+        "WS 004": "pdlaser",
+        "WS 005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

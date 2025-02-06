@@ -1,0 +1,7 @@
+{
+	"id":"hmi_proxi_flare",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"hmi_canister_flak",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

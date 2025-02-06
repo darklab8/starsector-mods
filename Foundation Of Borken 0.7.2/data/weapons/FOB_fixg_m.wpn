@@ -1,0 +1,28 @@
+{
+  "id": "FOB_fixg_m",
+  "specClass": "projectile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/FOB_fixg_m_turret.png",
+  "hardpointSprite": "graphics/weapons/FOB_fixg_m_hardpoint.png",
+  "everyFrameEffect": "originem.fob.scripts.weapons.FOB_FixGEveryFrameEffect",
+  "turretOffsets": [10, 0, 12, -2, 12, 2],
+  "hardpointOffsets": [11, 0, 13, -2, 13, 2],
+  "turretAngleOffsets": [0, -60, 60],
+  "hardpointAngleOffsets": [0, -60, 60],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": false,
+  "displayArcRadius": 450,
+  "muzzleFlashSpec": {
+    "length": 20.0,
+    "spread": 10.0,
+    "particleSizeMin": 4.0,
+    "particleSizeRange": 10.0,
+    "particleDuration": 0.5,
+    "particleCount": 15,
+    "particleColor": [150, 255, 255, 200]
+  },
+  "projectileSpecId": "FOB_fixg_shot",
+  "fireSoundTwo": "FOB_fixg_shot",
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "hmi_falcon_tt_std",
+  "hullId": "hmi_falcon_tt",
+  "displayName": "Prototype",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "phasebeam",
+        "WS0008": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabot",
+        "WS0002": "sabot",
+        "WS0009": "sabot",
+        "WS0010": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "railgun",
+        "WS0006": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

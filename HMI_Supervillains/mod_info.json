@@ -1,0 +1,22 @@
+{
+  "id":"HMI_SV",
+	"name":"HMI Supervillains",
+	"author": "King Alfonzo",
+	"version":"0.0.5b",
+	"description":"Originally apart of HMI, this mod brings two deranged pirate factions. Makes the south-west fringes of the Core a more dangerous place to be.",
+    "gameVersion": "0.97a-RC8",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.6"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "2.6"
+        },
+    ],
+	"jars":["jars/HMI_Supervillains.jar"],
+	"modPlugin":"data.scripts.HMI_SV_modPlugin",
+}

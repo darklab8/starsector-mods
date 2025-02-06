@@ -1,0 +1,47 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 5,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "FOB_chthonian",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_chthonian_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "FOB_greystab_v"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_roaringbolt_l"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "FOB_plasmoid_s",
+                "WS0008": "FOB_plasmoid_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "FOB_sinerepeater_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_sinerepeater_s",
+                "WS0002": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

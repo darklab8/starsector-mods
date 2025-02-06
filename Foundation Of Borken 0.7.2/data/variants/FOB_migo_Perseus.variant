@@ -1,0 +1,32 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 7,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FOB_migo",
+    "hullMods": [
+        "safetyoverrides",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_migo_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionpulser",
+                "WS0002": "ionpulser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "dragon",
+                "WS0004": "dragon"
+            }
+        }
+    ]
+}

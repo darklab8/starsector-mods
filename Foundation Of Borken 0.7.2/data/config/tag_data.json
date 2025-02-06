@@ -1,0 +1,14 @@
+{
+	# only applies to intel tags
+
+	"PCH":{
+		"name":"PCR",
+		"color":[100, 255, 200, 255],
+		"width":100,
+		"putFirst":true,
+		"sort":25,
+	},
+}
+
+
+

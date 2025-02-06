@@ -1,0 +1,76 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#DRACO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Remora (Draco),hmi_draco_remora,Frigate,Draco Tech,highenergyfocus,3,1200,200,1000,1000,80,30,,125,90,80,90,120,125,OMNI,,90,0.4,0.6,,,20,40,60,60,0.5,120,10,11000,8,20,180,0.25,3,3,,,,,,,,draco_bp,,0.5,2,2,,203.5
+Centurion (Draco),hmi_draco_centurion,Heavy Frigate,Draco Tech,emp,5,1850,400,2400,2188,185,55,,100,80,90,40,80,300,OMNI,,360,0.4,0.8,,,30,50,50,25,1,25,10,20000,8,10,240,0.25,4,4,,,,,,,,draco_bp,,0.4,2,2,,219
+Vigilance (Draco),hmi_draco_vigilance,Frigate,Draco Tech,highenergyfocus,5,1400,200,2000,2250,180,45,,110,120,100,45,90,100,OMNI,,150,0.4,0.8,,,10,25,40,25,1,25,10,10000,8,10,240,0.25,5,5,,,,,,,,draco_bp,,0.5,2,2,,208
+Brawler (Draco),hmi_draco_brawler,Gunship,Draco Tech,plasmajets,7,1850,400,3000,3125,250,50,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,9,12000,8,10,300,0.25,6,6,,,,,,,,draco_bp,,0.4,2,2,,207
+Appeasement (Draco),hmi_draco_appeasement,Frigate,Draco Tech,hmi_draco_bridgehead,8,1000,450,4600,5000,200,65,,125,100,90,50,100,200,FRONT,,360,0.4,1,,,5,10,25,50,1,50,10,36000,10,20,180,0.25,9,9,,,,,,,,draco_bp,0.1,0.5,2,2,,210.221
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ,,,,,
+Sunder (Draco),hmi_draco_sunder,Destroyer,Draco Tech,highenergyfocus,11,4000,250,7500,8333,500,105,,90,80,60,30,30,350,FRONT,,300,0.4,1.2,,,50,70,80,50,2,25,9,45000,5,15,300,0.25,13,13,,,,,,,,draco_bp,,0.5,2,3,,301
+Hammerhead (Draco),hmi_draco_hammerhead,Destroyer,Draco Tech,highenergyfocus,12,4750,475,4800,4167,285,95,,115,85,80,40,60,400,FRONT,,220,0.4,0.6,,,50,100,100,60,2,30,9,48000,5,14,360,0.25,12,12,,,,,,,,draco_bp,,0.5,2,3,,11018.5
+Hippocampus (Draco),hmi_draco_hippocampus,Artillery Carrier,Draco Tech,fastmissileracks,16,8500,165,3850,2833,265,80,1,50,35,15,25,20,400,OMNI,,220,0.4,0.6,,,100,220,185,100,2,50,8,42500,4,8,360,0.25,16,16,,,,,,,CARRIER,draco_bp,,0.6,2,3,,305.1111
+Drover (Draco),hmi_draco_drover,Light Carrier,Draco Tech,targetingfeed,12,4250,400,3000,2813,225,80,2,75,60,50,25,25,450,FRONT,,300,0.4,0.8,,,90,150,40,40,2,20,9,52000,5,15,360,0.25,15,15,,,,,,,"CARRIER, COMBAT",draco_bp,,0.5,2,3,,318
+Pardon (Draco),hmi_draco_pardon,Destroyer,Draco Tech,hmi_draco_bridgehead_med,14,3800,650,13000,10000,320,120,,70,65,60,30,30,400,FRONT,,360,0.4,0.8,,,35,50,60,100,2,50,9,86000,5,20,300,0.25,16,16,,,,,,,,draco_bp,0.1,0.5,2,3,,314.12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Falcon (Draco),hmi_draco_falcon,Light Cruiser,Draco Tech,forgevats,12,6000,450,8000,7000,375,125,,85,65,55,25,40,650,FRONT,,220,0.4,0.6,,,100,180,120,100,3,33,9,98000,4,12,480,0.25,14,14,,,,,,,,draco_bp,0.5,0.5,2,3,,400
+Heron (Draco),hmi_draco_heron,Fast Carrier,Draco Tech,targetingfeed,18,5000,650,7000,6000,300,100,3,75,60,40,20,25,800,OMNI,,180,0.5,0.6,,,185,250,65,60,3,20,8,190000,3,12,360,0.25,26,26,,,,,,,CARRIER,draco_bp,0.1,0.5,2,3,,407
+Eagle (Draco),hmi_draco_eagle,Cruiser,Draco Tech,highenergyfocus,14,8000,750,12000,10500,550,135,,70,60,50,20,30,1200,FRONT,,220,0.4,0.6,,,150,250,150,100,3,33,8,130000,3,12,480,0.25,22,22,,,,,,,,draco_bp,0.1,0.5,2,3,,401
+Champion (Draco),hmi_draco_champion,Heavy Cruiser,Draco Tech,highenergyfocus,18,9000,1000,14000,11000,600,165,,60,40,30,15,20,1500,FRONT,,220,0.4,0.8,,,200,300,150,150,4,38,8,135000,4,12,480,0.25,26,26,,,,,,,,draco_bp,0.1,0.5,2,4,,401.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Forgiveness (Draco),hmi_draco_forgiveness,Cruiser,Draco Tech,hmi_draco_bridgehead_lrg,32,9000,900,29000,18000,500,205,,70,50,45,30,50,1200,OMNI,,360,0.4,0.8,,,50,100,120,150,10,15,8,420000,4,20,420,0.25,36,36,,,,,,,,draco_bp,0.1,0.5,2,3,,406.21
+Ionos (Draco),hmi_draco_ionos,Battlecruiser,Draco Tech,highenergyfocus,30,10000,1000,22000,10000,1000,280,,75,65,55,30,50,1600,FRONT,,270,0.5,1.2,,,450,500,300,300,10,30,8,590000,3,15,600,0.25,45,45,,,,,,,,draco_bp,0.1,0.5,2,3,,401.1111111
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#FANG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kite (Fang),hmi_fang_kite,Shuttle,Fang Tech,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,fang_bp,,0.75,2,2,,217
+Cerberus (Fang),hmi_fang_cerberus,Combat Freighter,Fang Tech,ammofeed,5,2500,400,1250,1875,150,45,,110,100,75,60,120,300,NONE,,0,0,0,,,20,50,100,40,1,40,10,9000,8,10,240,0.25,4,4,25,100,,,,,,fang_bp,,0.3,2,2,,213
+Shepherd (Fang),hmi_fang_shepherd,Ultralight Carrier,Fang Tech,ammofeed,4,1200,200,1500,1250,100,23,1,80,100,60,60,120,200,OMNI,,90,0.5,1.2,,,60,25,50,40,1,40,9,10000,8,20,240,0.25,3,3,33,,,,,,CARRIER,fang_bp,,0.5,2,2,,216
+Vanguard (Fang),hmi_fang_vanguard,Heavy Frigate,Fang Tech,orion_device,8,3000,600,2000,1875,150,60,,135,120,100,60,90,300,PHASE,hmi_fang_damper_sml,,,,0.08,0.08,30,50,50,30,1,30,10,30000,8,10,300,0.25,6,6,8,50,,,,,,"fang_bp, special_allows_system_use, system_allows_special_use",0.75,0.4,2,2,,201.5
+Charlie (Fang),hmi_fang_charlie,Phase Frigate,Fang Tech,hmi_sv_phase_orion_device,6,3200,600,1250,,180,50,,75,55,45,60,90,300,PHASE,hmi_ringcloak,,,,0.06,0.06,20,40,20,20,1,20,10,11000,10,20,180,0.25,6,6,,,,,,,PHASE,fang_bp,,0.5,2,2,,11006.26
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mule (Fang),hmi_fang_mule,Combat Freighter,Fang Tech,maneuveringjets,9,5500,650,3000,2500,150,80,,60,40,20,20,15,500,OMNI,,120,0.4,1,,,40,100,250,80,2,40,9,35000,5,10,420,0.25,7,7,36,125,,,,,,fang_bp,,0.5,2,3,,310
+Caballo Loco (Fang),hmi_fang_caballoloco,Destroyer,Fang Tech,orion_device,10,4900,620,3750,2500,150,80,,75,60,45,20,25,500,OMNI,,90,0.4,1,,,60,80,150,60,2,30,9,45000,5,10,300,0.25,7,7,,,,,,,,fang_bp,,0.5,2,3,,11022.1
+Condor (Fang),hmi_fang_condor,Light Combat Carrier,Fang Tech,ammofeed,9,3800,200,2200,1833,240,75,2,40,30,20,20,10,400,FRONT,,120,0.8,1.4,,,90,150,120,30,2,15,9,36000,5,10,360,0.25,9,9,,,,,,,CARRIER,fang_bp,,0.8,2,3,,302
+Burro (Fang),hmi_fang_burro,Destroyer,Fang Tech,orion_device,12,5200,900,4000,3333,320,100,,75,50,30,35,35,600,PHASE,hmi_fang_damper_med,,,,0.08,0.08,60,100,90,90,3,30,9,38000,5,12,480,0.25,12,12,,,,,,,,"fang_bp, special_allows_system_use, system_allows_special_use",,0.4,2,3,,303
+Wobbie (Fang),hmi_fang_wobbie,Phase Destroyer,Fang Tech,hmi_sv_phase_orion_device,14,5400,800,4100,,240,90,,75,65,65,35,25,500,PHASE,hmi_ringcloak,,,,0.06,0.06,60,75,50,30,3,10,9,42000,5,20,200,0.25,14,14,,,,,,,PHASE,fang_bp,,0.4,2,3,,228.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Colossus (Fang),hmi_fang_colossus,Missile Cruiser,Fang Tech,fastmissileracks,14,6000,600,2800,3600,185,80,2,50,25,10,12,12,1400,FRONT,,120,0.8,1.2,,,80,160,300,60,3,20,8,50000,3,20,480,0.25,16,16,,,,,,,"CARRIER, COMBAT",fang_bp,,0.6,2,3,,411.2
+Mora (Fang),hmi_fang_mora,Carrier,Fang Tech,orion_device,20,9000,1300,6000,4000,265,110,2,45,20,10,10,10,2000,PHASE,hmi_fang_damper_hvy,,,,0.06,0.06,200,300,100,60,4,15,8,125000,4,12,420,0.25,26,26,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","fang_bp, special_allows_system_use, system_allows_special_use",,0.4,2,3,,410
+Eradicator (Fang),hmi_fang_eradicator,Fast Cruiser,Fang Tech,orion_device,14,9000,1200,9000,8000,400,140,,70,50,40,20,25,1800,OMNI,,120,0.4,1,0.06,0.06,120,170,100,120,4,30,9,100000,4,12,540,0.25,16,16,,,,,, ,,fang_bp,,0.5,2,4,,404.5
+Yowie (Fang),hmi_fang_yowie,Phase Cruiser,Fang Tech,hmi_sv_phase_orion_device,22,7600,1600,8250,,380,140,,45,35,25,20,25,1800,PHASE,hmi_ringcloak,,,,0.08,0.08,250,300,85,100,5,20,8,125000,4,12,360,0.25,28,28,,,,,,,PHASE,rare_bp,,0.4,2,3,,404
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Atlas (Fang),hmi_fang_atlas,Battlecruiser,Fang Tech,ammofeed,18,9000,750,8000,8750,350,220,,30,8,4,4,2,4000,PHASE,hmi_fang_damper_hvy,,,,0.06,0.06,250,300,200,400,10,40,7,150000,2,20,720,0.25,24,24,,,,,,,,"fang_bp, special_allows_system_use, system_allows_special_use",,0.7,2,4,,502.5
+Retribution (Fang),hmi_fang_retribution,Battlecruiser,Fang Tech,orion_device,22,10000,800,15000,17500,700,320,,75,50,40,10,10,2500,OMNI,,60,0.2,1.2,,,300,400,200,300,10,30,8,200000,3,12,600,0.25,37,37,,,,,,,,fang_bp,,0.5,2,4,,513
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##BOSS BOATS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rata Apunalada (Fang),hmi_fang_starliner,Cruiser,Fang Tech,ammofeed,16,7500,625,7500,2500,325,100,,75,65,55,35,55,1100,PHASE,hmi_fang_damper_hvy,,,,0.06,0.06,185,235,20,90,3,30,8,90000,3,20,480,0.25,16,16,,,,,,,,"special_allows_system_use, system_allows_special_use",,0.6,2,3,,409
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Onslaught (Fang),hmi_fang_onslaught,Battleship,Fang Tech,orion_device,32,16000,1000,15000,14000,500,360,,45,25,10,8,8,3400,PHASE,hmi_fang_damper_hvy,,,,0.06,0.06,750,1500,300,400,15,27,7,390000,3,12,420,0.25,45,45,,,,,,,,"special_allows_system_use, system_allows_special_use, restricted",,0.4,2,4,,500
+Legion (Draco),hmi_draco_legion,Battlecarrier,Draco Tech,hmi_sv_mine_strike,32,18000,1300,22000,31250,1250,280,4,30,15,15,6,6,3500,OMNI,,180,0.4,0.8,,,700,1500,300,300,15,20,7,425000,3,12,720,0.25,45,45,,,,,,,,restricted,0.1,0.4,2,4,,507
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##TT Rare Prototypes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wolf (Assault),wolf_assault,Experimental Frigate,High Tech,displacer,6,1700,325,2250,1875,150,55,,140,120,95,60,120,200,FRONT,,150,0.4,0.7,,,20,30,30,15,1,15,10,14000,10,20,180,0.25,6,6,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,200
+Tempest (Mk. VII),tempest_7,Experimental Frigate,High Tech,,6,1250,200,2500,2813,225,44,1,180,200,175,90,270,200,OMNI,,120,0.2,0.8,,,15,25,30,20,1,20,11,37500,10,20,180,0.25,8,8,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,206
+Terminator Drone (Mk. VII),drone_terminator_7,,,displacer,,150,50,1100,,165,,,275,250,200,240,270,5,PHASE,phasecloak,90,,,0.02,0.02,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,,,0.5,2,2,,206.1
+Tempest (Mk. VIII),tempest_8,Prototype Frigate,High Tech,flarelauncher_active,6,1250,200,2500,2813,225,50,1,180,200,175,90,270,200,OMNI,,120,0.2,0.8,,,15,25,30,20,1,20,11,40000,5,20,120,0.45,9,9,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,206
+Terminator Drone (Mk. VIII),drone_terminator_8,,,displacer,,150,50,1100,,165,,,275,250,200,240,270,5,FRONT,,360,0.2,0.8,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,, ,0.5,2,2,,206.3
+Tempest (Mk. IX),tempest_9,Prototype Frigate,High Tech,highenergyfocus,8,1250,200,2500,2813,225,50,1,180,200,175,90,270,200,OMNI,,120,0.2,0.8,,,15,25,30,20,1,20,11,50000,10,20,180,0.25,9,9,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,206.2
+Scarab (Prototype),scarab_prototype,Experimental Frigate,High Tech,displacer,8,2000,250,2000,1875,150,50,,130,120,100,60,120,200,FRONT,,150,0.4,0.8,,,35,45,40,20,1,20,10,55000,7,20,300,0.25,8,8,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,206.5
+Appeasement,hmi_appeasement,Experimental Frigate,High Tech,hmi_entropyamplifier,6,1000,350,3000,5000,400,55,,165,120,100,60,120,200,FRONT,,120,0.2,0.8,,,5,10,25,50,1,50,10,46000,10,20,180,0.25,6,6,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,2,,210.221
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hammerhead (TT),hammerhead_tt,Experimental Destroyer,High Tech,microburn,12,4750,475,4800,4167,285,95,,95,75,65,30,60,400,FRONT,,220,0.4,0.6,,,50,100,100,60,2,30,9,48000,5,14,360,0.25,12,12,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,3,,11018.5
+Shrike (Prototype),shrike_prototype,Experimental Destroyer,High Tech,temporalshell,12,2800,250,5400,5833,350,70,,110,100,85,35,80,250,OMNI,,150,0.3,0.7,,,20,40,40,60,2,30,10,66000,5,20,120,0.25,10,10,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,3,,206.6
+Pardon,hmi_pardon,Experimental Destroyer,High Tech,hmi_acausaldisruptor,18,2800,425,5500,10000,500,110,,80,60,40,30,30,400,FRONT,,220,0.4,0.6,,,25,50,60,100,2,50,9,160000,5,20,300,0.25,18,18,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,3,,314.12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Forgiveness,hmi_forgiveness,Experimental Cruiser,High Tech,hmi_mine_strike,30,9000,725,10000,18000,900,205,,75,55,40,20,25,1200,OMNI,,180,0.5,0.8,,,50,100,120,150,10,30,8,290000,4,20,420,0.25,35,35,,,,,,,HIDE_IN_CODEX,"rare_bp, hist2t, merc",,0.5,2,3,,406.21
+Fury (Assault),fury_s,Experimental Cruiser,High Tech,microburn,28,5000,600,11000,12000,525,160,,80,70,65,30,60,850,FRONT,,180,0.3,0.5,,,80,130,50,80,3,27,9,100000,4,12,420,0.25,28,28,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,3,,414.02
+Heron (Prototype),hmi_heron_tt,Experimental Carrier,High Tech,hmi_recalldevice_heronTT,18,5000,650,7000,6000,300,100,3,80,60,40,20,25,800,OMNI,,180,0.5,0.6,,,185,250,65,60,3,20,8,190000,3,12,360,0.25,26,26,,,,,,,"HIDE_IN_CODEX, CARRIER","rare_bp, hist2t, merc",,0.5,2,3,,407
+Aurora (S),aurora_s,Experimental Cruiser,High Tech,highenergyfocus,30,7550,785,12000,17000,850,175,,75,65,55,27,27,1800,OMNI,,180,0.5,0.8,,,75,200,150,90,3,30,8,230000,4,20,420,0.25,30,30,,,,,,,HIDE_IN_CODEX,"rare_bp, hist2t, merc",,0.5,2,3,,206.4
+Falcon (TT),hmi_falcon_tt,Experimental Light Cruiser,High Tech,plasmajets,10,6000,450,8000,7000,375,125,,75,65,40,20,25,650,FRONT,,220,0.4,0.6,,,100,180,120,100,3,33,9,90000,4,12,480,0.25,12,12,,,,,,,HIDE_IN_CODEX,"rare_bp, hist1t, merc",,0.5,2,3,,400
+Eagle (TT),hmi_eagle_tt,Experimental Cruiser,High Tech,hmi_temporalshell_eagleTT,16,8000,750,12000,10500,550,135,,45,28,24,15,20,1200,FRONT,,220,0.4,0.6,,,150,250,150,100,3,33,8,150000,3,12,480,0.25,24,24,,,,,,,HIDE_IN_CODEX,"rare_bp, hist2t, merc",,0.5,2,3,,401
+Champion (TT),hmi_champion_tt,Experimental Heavy Cruiser,High Tech,highenergyfocus,18,9000,1250,14000,11000,600,165,,60,40,30,15,20,1500,OMNI,,270,0.4,0.8,,,200,300,150,150,4,38,8,135000,4,12,480,0.25,26,26,,,,,,,HIDE_IN_CODEX,"rare_bp, hist2t, merc",,0.5,2,4,,401.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ionos,hmi_ionos,Battlecruiser,High Tech,hmi_displacer,24,10000,1000,18000,,1000,220,,55,35,20,22,40,1600,OMNI,,220,0.5,0.8,,,450,500,150,300,15,20,8,550000,3,15,600,0.25,40,40,,,,,,,HIDE_IN_CODEX,"rare_bp, hist2t, merc",,0.5,2,3,,401.1111111

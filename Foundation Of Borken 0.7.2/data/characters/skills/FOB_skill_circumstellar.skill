@@ -1,0 +1,25 @@
+{
+	"id":"FOB_skill_circumstellar",
+	"governingAptitude":"FOB_apocalypse",
+	"compressHullmods":false,
+	"scope":"CUSTOM", 
+	"scopeStr":"All Borken ships without assigned officers and equipped with the Soul Fusion Framework.",
+	"elite":true,
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+			    {"type":"CHARACTER_STATS", "script":"originem.fob.scripts.campaign.skills.FOB_SkillCircumstellar$Level1"},
+			]
+		},
+		{
+			"name":"精英",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"originem.fob.scripts.campaign.skills.FOB_SkillCircumstellar$Level2"},
+			]
+		},
+	],
+}

@@ -1,0 +1,21 @@
+{
+	"id":"FOB_halocannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onFireEffect": "originem.fob.scripts.weapons.projs.FOB_HaloCannonProjEffect",
+	"onHitEffect": "originem.fob.scripts.weapons.projs.FOB_HaloCannonProjEffect",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":60,
+	"fadeTime":0.2,
+	"fringeColor":[0,0,0,0],
+	"coreColor":[150,100,255,255],
+	"glowColor":[100,100,255,20],
+	"glowRadius":0,
+	"hitGlowRadius":75,	
+	#"textureScrollSpeed":3.0,
+	#"textureType":"CHUNKY",	
+	#"pixelsPerTexel":40.0,
+	"bulletSprite":"graphics/missiles/FOB_halo_shell.png"	
+}

@@ -1,0 +1,5 @@
+id,name,faction,desc,script,icon,order
+FOB_privateCrystalHole,PCR,player,"The Borken Foundation provides a miniaturized crystalline bore facility to its allies, which is still in the testing phase and primarily used for remote cargo transport. By linking with the Foundation's local private warehouses, customers can store and retrieve cargo remotely at virtually no cost, as long as the network signal is stable.
+
+The Foundation will do its utmost to ensure the safety of your cargo, unless you become an enemy of the Foundation. However, it is not recommended to let your crew stay in your private warehouse for extended periods. Although the Borken will provide food and accommodation, they are, after all, Borken.",originem.fob.scripts.campaign.submarkets.FOB_PrivateCrystalHole,graphics/factions/FOB_privateCrystalHole.png,1000
+FOB_pch_filter,PCR Filter,player,"By tagging single or several types of shipments, the Bolken Foundation will automatically process specific shipments in private cavities on a daily basis and collect brokerage fees.",originem.fob.scripts.campaign.submarkets.FOB_PchFilter,graphics/factions/FOB_pch_filter.png,1001

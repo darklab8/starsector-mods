@@ -1,0 +1,52 @@
+0.9.2
+-----------
+- Fixed crash with FleetMember.getHullSpec when using Linux/Mac
+- (D)(D) hulls now correctly share their mastery pool with non D-hulls.
+- When generating mastery effects for a ship type, built-in weapon slots are no longer considered
+
+0.9.1
+-----------
+- Added setting to always enable clearing of S-Mods regardless of if it's been unlocked by a mastery effect.
+- Added setting to enable clearing S-Mods to refund a fraction of credits and MP spent; default is still no refund.
+- Added setting that multiplies all MP gain from actions that also grant XP.
+- Added setting that multiplies the credits cost of building in hullmods.
+- If dev mode is enabled, upgrading mastery level and building in hullmods no longer checks if you have the required resources.
+- Fixed S-Mod autofit option not showing up for modules
+
+0.9.0
+-----------
+- Added "Replay Battle" feature
+- Added option to disable mod's main features
+- Removed VariantLookup stuff from save file
+- Improved consistency of post-inflation sequence, everything is now seeded based on the commander's id
+- Refactored LunaLib settings, this will reset them if you modified them
+- Reduced the effectiveness of the "less DP if only ship of that type in fleet" mastery effect for frigates, destroyers, and cruisers
+- Greatly increased the chance that a mastered ship with lots of MP will still gain MP when competing with other ship types for MP
+- Mastery effect that grants range if no other bonuses are affecting range now works with ballistic mastery and gunnery implants
+- Mastery effect that grants additional ammo if EMR and expanded magazines are both installed is now multiplicative
+- Fixed minimum CR mastery effect causing auto-retreat when deployed
+- Fixed converted hangar effects being randomly selected for phase ships
+- Fixed adding S-mods to modules not subtracting MP
+- Fixed issue where recovered ships would maintain enemy commander's mastery levels and selections until game load
+- Minor optimizations
+
+0.8.2
+-----------
+- Building in hullmods now costs more MP for ships with greater base DP; the cost is 1 plus an additional 1 for every 25 DP
+  Enhancing pre-built-in hullmods still always costs 1 MP
+- Renamed LunaSettings field IDs to include a mod prefix. This will reset settings to default if you've changed them
+- Fixed rare crash bug relating to a specific stat
+- Fixed safety overrides mastery effects showing up for ships with built-in flux shunt
+- Fixed some typos, added some clarifications
+
+0.8.1
+-----------
+- Reduced modified Cybernetic Augmentation base OP bonus from 5% to 2%, max from 15% to 12%
+- Cleaned up unused stuff
+- Fixed bad direct download and changelog links
+- Fixed typo in README
+- Fixed a hash function always being a multiple of 31
+
+0.8.0
+-----------
+Initial release

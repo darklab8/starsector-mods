@@ -1,0 +1,45 @@
+{
+  "variantId": "hmi_draco_drover_balanced",
+  "hullId": "hmi_draco_drover",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hmi_sv_trice",
+        "WS0004": "hmi_sv_trice"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gazer",
+        "WS0006": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing",
+    "claw_wing"
+  ]
+}

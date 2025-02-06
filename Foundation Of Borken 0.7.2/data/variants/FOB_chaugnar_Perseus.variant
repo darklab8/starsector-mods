@@ -1,0 +1,55 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 26,
+    "hullId": "FOB_chaugnar",
+    "hullMods": [
+        "unstable_injector",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_chaugnar_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "cyclone",
+                "WS0008": "cyclone"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "gazer",
+                "WS0010": "gazer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "FOB_greystab_iv",
+                "WS0016": "FOB_greystab_iv"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_greystab_iii",
+                "WS0002": "FOB_greystab_iii"
+            }
+        }
+    ]
+}

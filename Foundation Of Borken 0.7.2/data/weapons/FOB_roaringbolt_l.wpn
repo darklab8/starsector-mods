@@ -1,0 +1,63 @@
+{
+  "id": "FOB_roaringbolt_l",
+  "specClass": "projectile",
+  "projectileSpecId": "FOB_roaringbolt_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "originem.fob.scripts.weapons.FOB_RoaringBoltEveryFrameEffect",
+  "turretSprite": "graphics/weapons/FOB_roaringbolt_l_base.png",
+  "turretGlowSprite": "graphics/weapons/FOB_roaringbolt_glow.png",
+  "hardpointSprite": "graphics/weapons/FOB_roaringbolt_l_base.png",
+  "hardpointGlowSprite": "graphics/weapons/FOB_roaringbolt_glow.png",
+  "glowColor": [
+    25,
+    215,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    0,
+    0,
+    0,
+    -1.5,
+    0,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    -20,
+    20
+  ],
+  "hardpointOffsets": [
+    11,
+    0,
+    11,
+    -1.5,
+    11,
+    1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -20,
+    20
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 10,
+    "particleColor": [
+      155,
+      155,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne": "FOB_roaringbolt_charge",
+  "fireSoundTwo": "FOB_roaringbolt_shot"
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "FOB_cthylla",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "FOB_houndcorearray"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_cthylla_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0021": "FOB_dwellereye"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "FOB_beholdereye",
+                "WS0020": "FOB_beholdereye"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FOB_sinerepeater_s",
+                "WS0005": "FOB_sinerepeater_s"
+            }
+        }
+    ],
+    "wings": ["FOB_shaggai_wing"]
+}

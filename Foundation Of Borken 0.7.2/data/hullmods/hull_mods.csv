@@ -1,0 +1,40 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+A.O.O.I Armor,FOB_borkenarmor,0,,Foundation Of Borken,"no_drop, no_drop_salvage",,,,,,50,50,50,50,originem.fob.hullmods.FOB_BorkenArmor,"The Borken have forsaken traditional shields, opting instead for armor that appears metallic but is actually organic and fluid in nature. This powerful bio-fusion technology allows their ships to transfer damage and perform limited self-repair. However, this also means that reinforcing the armor might trap the fluid, leading to negative effects.",,The rate at which armor damage is filled and equalized is increased by %s.,graphics/hullmods/FOB_borkenarmor.png
+Star Hunter Circulation Hub,FOB_starhunter,2,0.5,Foundation Of Borken,offensive,,15000,,,,4,8,12,20,originem.fob.hullmods.FOB_StarHunter,"A fine-tuned output device developed by the Foundation of Borken during large-scale interstellar wars.
+
+- All weapons gain an additional %s armor penetration strength.
+- When flux levels are high, weapon fire rate and damage are inversely adjusted (excluding missiles):
+  - Weapon fire rate decreases by up to %s
+  - Weapon damage increases by up to %s",,Deals up to %s additional damage to ships larger than your own (based on ship collision radius).,graphics/hullmods/FOB_starhunter.png
+Afogomorn Keel,FOB_afogomornkeel,2,,Foundation Of Borken,"defensive,special,req_spaceport","Defenses,Requires Dock",20000,,,,3,6,9,15,originem.fob.hullmods.FOB_AfogomornKeel,"A specialized material developed by the Foundation of Borken, when applied to the ship's keel, acts as a temporary damage control, granting the ship a chance to reverse time for its structure.
+
+- When the ship's hull drops below %s, it restores some structure:
+- Restores %s of the ship's maximum hull + %s of the difference between the structure from %s seconds ago and now
+- Half of the restoration is immediate, with the remaining half restored over %s seconds
+- This effect can only be triggered once per battle.",,,graphics/hullmods/FOB_afogomornkeel.png
+Hound Core Array,FOB_houndcorearray,2,0.5,Foundation Of Borken,"offensive,special,req_spaceport","Engines,Weapons,Requires Dock",25000,,,,5,10,15,20,originem.fob.hullmods.FOB_HoundCoreArray,"A gift from the Foundation of Borken to the Persean Sector, allowing all warships to ""kick a dog when it's down.""
+
+When pursuing a targeted enemy ship, bonuses are provided based on the direction (maximum bonuses are achieved during straight-line pursuit):
+  - Maximum speed increased by up to %s
+  - Weapon damage increased by up to %s
+  - As a trade-off, the damage taken by the ship also increases by up to %s
+Conditions for pursuit: The ship must be moving towards the enemy in its direction of travel, and the enemy ship must be moving away in its direction of travel.",,,graphics/hullmods/FOB_houndcorearray.png
+Exo-Sea Vortex Control Engine,FOB_exoticoceanvce,,,Foundation Of Borken,,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_ExoticOceanVCE,"By sensing the spatial disturbances caused by other allied ships in motion, this ship gains additional thrust.
+
+In battle, distant allied ships can provide a speed boost to this ship. When the Basatan-class ship's direction of travel is towards an allied ship, the further away that ship is, the greater the speed bonus. It can gain up to %s of its base maximum speed.",,,graphics/hullmods/FOB_exoticoceanvce.png
+Ceremonial Workshop,FOB_bowlworkshop,,,Foundation Of Borken,special,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_BowlWorkShop,"Each Borken freighter is equipped with a production workshop, directly controlled by the ship's main system. Attempts to bypass security protocols and remove it forcibly have led to explosions.
+
+- This workshop automatically produces %s:
+   - Produces %s units daily, based on ship class.
+   - %s doesn't affect the economy and doesn’t occupy cargo space.",,,graphics/hullmods/FOB_bowlworkshop.png
+Deepspace Survey Equipment,FOB_integratedsurveyingequipment,,,Foundation Of Borken,,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_IntegratedSurveyingEquipment,"Increases resources and rare items obtained from wreckage, abandoned space stations, etc., by %s (not stackable). The ship gains additional functionality when conditions are met.",,,graphics/hullmods/FOB_integratedsurveyingequipment.png
+Soul of Cthulasus,FOB_cthulasussouls,,,Foundation Of Borken,,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_CthulasusSouls,Each Borken warship is a living fragment of the Borken collective—where the fallen find eternal life.,,,graphics/hullmods/FOB_cthulasussouls.png
+Soul Fusion Framework,FOB_soulfusionframework,,,Foundation Of Borken,"special,req_spaceport","Defenses,Requires Dock",,,,,2,4,8,15,originem.fob.hullmods.FOB_SoulFusionFramework,"A symbiotic soul-link device. Through a ritual, Ascendents are fused into the ship, repairing d-mods and nurturing a ship's consciousness. The Ancestral God’s synaptic tendrils gradually merge with the commander's mind, slightly enhancing reaction and cognitive abilities.
+
+- The ship is always salvageable at the end of a battle","An essential interface and set of protocols for Borken ships to perform the ""ritual.""",,graphics/hullmods/FOB_soulfusionframework.png
+Soul Fusion Framework - Integrated,FOB_soulfusionframework_builtin,,,Foundation Of Borken,,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_SoulFusionFrameworkBuiltIn,"A symbiotic soul-link device integrated into the hull. Through a ritual, Ascendents are fused into the ship, repairing d-mods and nurturing a ship's consciousness. The Ancestral God’s synaptic tendrils gradually merge with the commander's mind, slightly enhancing reaction and cognitive abilities.
+
+- The ship is always salvageable at the end of a battle",,,graphics/hullmods/FOB_soulfusionframework_builtin.png
+Pause Ritual,FOB_ritualpause,,,Foundation Of Borken,,,,TRUE,,,0,0,0,0,originem.fob.hullmods.FOB_RitualPause,Pause all rituals provided by the Soul Fusion Framework.,,,graphics/hullmods/FOB_ritualpause.png
+Burst Bay,FOB_liveness_burst_bay,,,Foundation Of Borken,,,,,TRUE,,0,0,0,0,originem.fob.hullmods.FOB_LivenessBurstBay,Borken ships are not adept at frequently subsuming intricate machinery and have implanted modified factories that increase in performance during battle.,,,graphics/hullmods/FOB_liveness_burst_bay.png
+,,,,,,,,,,,,,,,,,,,

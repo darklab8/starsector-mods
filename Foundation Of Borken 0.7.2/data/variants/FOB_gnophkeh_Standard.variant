@@ -1,0 +1,30 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "FOB_gnophkeh",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_gnophkeh_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FOB_greystab_iii"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler"
+            }
+        }
+    ],
+    "wings": ["FOB_shaggai_wing"]
+}

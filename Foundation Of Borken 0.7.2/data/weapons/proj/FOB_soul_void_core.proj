@@ -1,0 +1,49 @@
+{
+  "id": "FOB_soul_void_core",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "sprite": "graphics/missiles/FOB_soul_void_core.png",
+  "size": [20, 20],
+  "center": [10, 10],
+  "collisionRadius": 12,
+  "collisionClass": "MISSILE_NO_FF",
+  "noCollisionWhileFading": true,
+  "useHitGlowWhenDestroyed": true,
+  "noDebrisWhenDestroyed": true,
+  "alwaysAccelerate": true,
+  "explosionColor": [150, 255, 255, 150],
+  "explosionRadius": 30,
+  "armingTime": 0,
+  "flameoutTime": 0.5,
+  "engineSpec": {
+    "turnAcc": 720,
+    "turnRate": 180,
+    "acc": 1200,
+    "dec": 0
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [0, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP",
+        "engineColor": [255, 255, 255, 255],
+        "contrailDuration": 0,
+        "contrailWidthMult": 1.2,
+        "contrailWidthAddedFractionAtEnd": -1,
+        "contrailMinSeg": 3,
+        "contrailMaxSpeedMult": 0.1,
+        "contrailAngularVelocityMult": 0.1,
+        "contrailSpawnDistMult": -0.1,
+        "contrailColor": [0, 0, 0, 0],
+        "glowSizeMult": 0,
+        "glowAlternateColor": [150, 0, 255, 255],
+        "type": "GLOW"
+      },
+      "width": 5.0,
+      "length": 10.0,
+      "angle": 180.0
+    },
+  ],
+}

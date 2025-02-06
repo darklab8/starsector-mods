@@ -1,0 +1,232 @@
+{
+  "id": "fob",
+  "color": [225, 255, 150, 255],
+  "displayName": "Foundation of Borken",
+  "displayNameWithArticle": "the Foundation of Borken",
+  "displayNameLong": "Foundation of Borken",
+  "displayNameLongWithArticle": "the Foundation of Borken",
+  "logo": "graphics/factions/fob.png",
+  "crest": "graphics/factions/crest_fob.png",
+  "shipNamePrefix": "FOB",
+  "shipNameSources": {
+    "EGYPTIAN": 2,
+    "NORDIC": 1,
+    "MERCANTILE": 2,
+    "SPACE": 2,
+    "GENERAL": 2,
+  },
+  "names": {
+    "modern": 1,
+    "world": 1,
+    "future": 1,
+    "myth": 1,
+  },
+  "hullFrequency": {
+    "tags": {
+    },
+    "hulls": {
+      "FOB_chthonian": 0.5,
+    },
+  },
+  "shipsWhenImporting": {
+    "tags": [],
+    "hulls": [
+      "dram",
+      "mudskipper",
+      "valkyrie",
+      "phaeton",
+      "nebula",
+      "starliner",
+      "prometheus",
+    ],
+  },
+  "knownShips": {
+    "tags": ["fob_bp"],
+    "hulls": [
+      "FOB_chthonian",
+      "FOB_oldgodscholar",
+      "FOB_chaugnar",
+      "FOB_byakhee",
+    ],
+  },
+  "priorityShips": {
+    "tags": ["fob_bp"],
+    "hulls": [
+      "FOB_chthonian",
+      "FOB_oldgodscholar",
+      "FOB_chaugnar",
+      "FOB_byakhee",
+    ],
+  },
+  "knownFighters": {
+    "tags": ["fob_bp"],
+    "fighters": [
+      "xyphos_wing",
+      "dagger_wing",
+      "longbow_wing",
+    ],
+  },
+  "priorityFighters": {
+    "tags": ["fob_bp"],
+    "fighters": [
+    ],
+  },
+  "knownHullMods": {
+    "tags": ["base_bp", "fob_bp"],
+    "hullMods": [
+      "advancedoptics",
+      "turretgyros",
+      "augmentedengines",
+      "auxiliarythrusters",
+      "dedicated_targeting_core",
+      "eccm",
+      "missleracks",
+      "fluxcoil",
+      "fluxdistributor",
+      "hardened_subsystems",
+      "insulatedengine",
+      "pointdefenseai",
+      "targetingunit",
+      "adaptiveshields",
+      "fluxbreakers",
+      "expanded_deck_crew",
+      "recovery_shuttles",
+      "operations_center",
+      "nav_relay",
+      "ecm",
+      "FOB_starhunter",
+      "FOB_afogomornkeel",
+      "FOB_houndcorearray",
+      "FOB_soulfusionframework"
+    ]
+  },
+  "knownWeapons": {
+    "tags": ["base_bp", "missile_bp", "hightech_bp", "fob_bp",],
+    "weapons": [
+    ],
+  },
+  "priorityWeapons": {
+    "tags": ["fob_bp"],
+    "weapons": [
+    ],
+  },
+  "illegalCommodities": [
+    "ai_cores",
+  ],
+  "music": {
+    "theme": "music_fob_theme",
+    "market_neutral": "music_fob_theme",
+    "market_hostile": "music_fob_hostile",
+    "market_friendly": "music_fob_theme",
+    "encounter_neutral": "music_fob_theme",
+    "encounter_hostile": "music_fob_hostile",
+    "encounter_friendly": "music_fob_theme",
+  },
+  "internalComms": "fob_internal",
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/FOB_male01.png",
+      "graphics/portraits/FOB_male02.png",
+      "graphics/portraits/FOB_male03.png",
+      "graphics/portraits/FOB_male04.png"
+    ],
+    "standard_female": [
+      "graphics/portraits/FOB_female01.png",
+      "graphics/portraits/FOB_female02.png",
+      "graphics/portraits/FOB_female03.png"
+    ],
+  },
+  "ranks": {
+    "ranks": {
+      "spaceMarshal": {"name": "Ancient"},
+    "messenger": {"name": "Messenger"}
+    },
+    "posts": {
+      "patrolCommander": {"name": "Ancient Patrol Commander"},
+      "fleetCommander": {"name": "Ancient Fleet Commander"},
+      "mentalhealer": {"name": "Mental Healer"},
+      "baseCommander": {"name": "Base Shepherd"},
+      "stationCommander": {"name": "Station Shepherd"},
+      "outpostCommander": {"name": "Outpost Shepherd"},
+      "portmaster": {"name": "Portmaster"},
+      "familymaster": {"name": "Family Chief"},
+      "zealot": {"name": "Zealot"}
+    },
+  },
+  "fleetTypeNames": {
+    "patrolSmall": "Ancient Fast Fleet",
+    "patrolMedium": "Ancient Patrol",
+    "patrolLarge": "Ancient Task Force",
+    "scavengerSmall":"Ancient Scavenger",
+    "scavengerMedium":"Ancient Recycler",
+    "scavengerLarge":"Ancient Salvage Fleet",
+    "trade": "Ancient Merchant Fleet",
+    "tradeLiner": "Ancient Passenger Fleet",
+    "tradeSmuggler": "Pseudo Smuggling Fleet",
+    "smallTrader": "Ancient Small Merchant Fleet"
+  },
+  "custom": {
+    "offersCommissions": true,
+    "engagesInHostilities": true,
+    "buysAICores": true,
+    "AICoreValueMult": 2,
+    "AICoreRepMult": 1,
+    "buysSurveyData": true,
+    "ignoreTradeWithEnemiesForReputation": true,
+    "punitiveExpeditionData": {
+      "vsCompetitors": false,
+      "vsFreePort": false,
+      "canBombard": false,
+      "territorial": true,
+    },
+  },
+  "traits": {
+    "captain": {
+      "cautious": 1,
+      "steady": 5,
+      "aggressive": 10,
+      "reckless": 10,
+    },
+  },
+  "voices": {
+    "LOW": {
+      "soldier": 5,
+      "spacer": 5,
+      "business": 10
+    },
+    "MEDIUM": {
+      "business": 10,
+    },
+    "HIGH": {
+      "business": 10,
+      "aristo": 10,
+      "scientist": 3,
+    },
+  },
+  "factionDoctrine": {
+    "warships": 6,
+    "carriers": 1,
+    "phaseShips": 1,
+    "officerQuality": 3,
+    "shipQuality": 3,
+    "numShips": 1,
+    "shipSize": 3,
+    "aggression": 4,
+    "combatFreighterProbability": 0.1,
+    "combatFreighterCombatUseFraction": 0.1,
+    "combatFreighterCombatUseFractionWhenPriority": 0.33,
+    "autofitRandomizeProbability": 0.1,
+    "officerSkillsShuffleProbability": 1,
+    "officerSkills": [
+      "energy_weapon_mastery",
+      "polarized_armor",
+    ],
+    "commanderSkillsShuffleProbability": 1,
+    "commanderSkills": [
+      "electronic_warfare",
+      "flux_regulation",
+      "cybernetic_augmentation",
+      "coordinated_maneuvers"
+    ],
+  }
+}

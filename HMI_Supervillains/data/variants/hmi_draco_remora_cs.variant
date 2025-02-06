@@ -1,0 +1,29 @@
+{
+  "displayName": "Close Support",
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "hmi_draco_remora",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hmi_draco_remora_cs",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser"
+      }
+    }
+  ],
+  "wings": []
+}

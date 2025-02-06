@@ -1,0 +1,16 @@
+{
+	"id":"FOB_skill_soulsassembly",
+	"governingAptitude":"FOB_apocalypse",
+	"compressHullmods":false,
+	"scope":"CUSTOM",
+	"scopeStr":"All Borken ships",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+			    {"type":"ALL_SHIPS_IN_FLEET", "script":"originem.fob.scripts.campaign.skills.FOB_SkillSoulsAssembly$Level1"},
+			]
+		},
+	],
+}

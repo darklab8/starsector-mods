@@ -1,0 +1,172 @@
+{
+	"uniqueModClassName":"data.scripts.HMI_SV_modPlugin",
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"difficultyString":"hard",
+	
+    "crewExpereinceLevelIncreaseChance":0.0,
+    "baseFleetCostMultiplier":1.0,
+
+
+    "rebelFleetSuffix":"Splinter Group",
+	
+    "invasionSupportFleetName":"Purifier Support Group",
+    "responseFleetName":"Dragon Honourguard Fleet",
+    "defenceFleetName":"Sanguine Defense Force",	
+	
+    	"startRelationships":{
+
+		"independent":-0.8,					
+		"pirates":-0.8,						
+		"persean":-0.8,						
+		"tritachyon":0,
+		"hegemony":-0.4,
+		"lions_guard":-0.4,
+		"sindrian_diktat":-0.4,
+		"luddic_church":-0.4,
+		"luddic_path":-0.8,
+		"remnant":-0.8,
+
+		# Mod factions
+		"blackrock_driveyards":-0.3,
+		"br_consortium":-0.3,
+		"6eme_bureau":-0.3,
+		"dassault_mikoyan":-0.3,
+		"united_security":-0.3,	
+		"blade_breakers":-0.8,
+		"diableavionics":-0.45,
+		"exigency":-0.3,
+		"exipirated":-0.6,
+		"thi":-0.45,
+		"gmda":-0.8,
+		"gmda_patrol":-0.8,
+		"fang":-1,
+		"HMI":-0.45,
+		"mess":-0.8,
+		"interstellarimperium":-0.3,
+		"ii_imperial_guard":-0.3,
+		"junk_pirates":-0.8,
+		"junk_pirates_hounds":-0.8,
+		"junk_pirates_junkboys":-0.8,
+		"junk_pirates_technicians":-0.8,
+		"pack":-0.4,
+		"syndicate_asp":-0.4,
+		"syndicate_asp_familia":-0.4,
+		"al_ars":-0.3,
+		"mayorate":-0.3,
+		"metelson":-0.3,
+		"ORA":-0.3,
+		"SCY":-0.3,	
+		"shadow_industry":-0.3,
+		"the_cartel":-0.3,
+		"nullorder":-0.3,
+		"sylphon":-0.3,
+		"templars":-0.8,
+		"Coalition":-0.3,
+		"cabal":-0.8,
+		"new_galactic_order":-0.45,			
+		"TF7070_D3C4":-0.6,					
+		"kadur_remnant":-0.6,				
+		"OCI":-0.3,						
+		"prv":-0.3,
+		"rb":-0.3,
+		"magellan_protectorate":-0.3,
+		"GKSec":-0.3,	
+		"no_such_org":0,
+		"TTSC":0,
+		"roider":-0.4,						
+		"bsg_cylons":-0.3,
+		"COPS":-0.6,
+		"kingdom_of_terra":-0.3,
+		"almighty_dollar":-0.5,
+		"ashen_keepers":-0.5,
+		"communist_clouds":-0.5,
+		"science_fuckers":-0.5,
+		"warhawk_republic":-0.5,
+	},
+
+
+    "diplomacyTraits":["foreverwar", "irredentist", "envious", "monstrous"],
+    "morality":"evil",
+    
+    "alignments":{
+		"hierarchial":0.75,		
+        "corporate":0.0,
+        "technocratic":1,
+        "ideological":-1,
+        "diplomatic":-1,
+    },
+    
+	"maxRelationships":{ 
+		"default":-0.4, 
+		"tritachyon": 1.0,
+		"no_such_org": 1.0,
+		"TTSC": 1.0,
+		"cabal": 1.0,
+		"player":-0.3,
+		"fang":-0.4,
+	},
+	
+	"diplomacyPositiveChance":{
+		"default": 0.3,
+		"tritachyon": 0.5,
+		"fang":0.1,
+	},
+	
+	"diplomacyNegativeChance":{
+		"default": 0.3,
+		"fang":0.8,
+	},
+	
+	
+    "freeMarket":true,
+
+	
+    "startShipsSolo":[["hmi_draco_brawler_attack"]],
+    "startShipsCombatSmall":[
+	["hmi_draco_hammerhead_attack", "hmi_draco_centurion_std", "hmi_draco_vigilance_Standard"],
+	["hmi_draco_hippocampus_cs", "hmi_draco_brawler_Standard", "hmi_draco_brawler_attack"],
+	["hmi_draco_pardon_attack", "hmi_draco_appeasement_attack", "wayfarer_Standard"]
+	],
+    "startShipsTradeSmall":
+	[
+	["hmi_draco_sunder_beam", "hmi_draco_remora_attack", "buffalo_tritachyon_Standard"],
+	["hmi_draco_hippocampus_attack", "dram_Light", "wayfarer_Standard"],
+	],
+    "startShipsCombatLarge":
+	[
+	["hmi_draco_heron_std", "hmi_draco_hammerhead_attack", "hmi_draco_centurion_cs", "hmi_draco_vigilance_Standard"],
+	["hmi_draco_eagle_std", "hmi_draco_falcon_strike", "hmi_draco_falcon_assault"],
+	["hmi_draco_champion_attack", "hmi_draco_pardon_attack", "hmi_draco_brawler_emp", "hmi_draco_appeasement_attack"],
+	],
+    "startShipsSuper":[["hmi_draco_ionos_attack"], ["hmi_draco_forgiveness_attack"]],
+		
+    "startSpecialItems":[
+        [["hmi_draco_package", ""]],
+    ],	
+	
+    "colonyExpeditionChance":0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+	
+	   
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+    
+    "vengeanceLevelNames":["Blood Purifiers", "Shame Elimination"],
+    "vengeanceFleetNames":["Blood Purifier", "Shame Elimination Fleet"],
+    "vengeanceFleetNamesSingle":["a Blood Purifier", "a Shame Elimination Fleet"],
+}

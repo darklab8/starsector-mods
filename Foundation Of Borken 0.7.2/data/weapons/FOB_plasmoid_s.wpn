@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "FOB_plasmoid_shot",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/FOB_plasmoid_s_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    16,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/FOB_plasmoid_s_hardpoint_base.png",
+  "id": "FOB_plasmoid_s",
+  "muzzleFlashSpec": {
+    "length": 28,
+    "particleColor": [
+      129,
+      217,
+      255,
+      225
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.12,
+    "particleSizeMin": 9,
+    "particleSizeRange": 12,
+    "spread": 2
+  },
+  "projectileSpecId": "FOB_plasmoid_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/FOB_plasmoid_s_turret_recoil.png",
+  "turretOffsets": [
+    16,
+    0
+  ],
+  "turretSprite": "graphics/weapons/FOB_plasmoid_s_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 4.5
+}

@@ -1,0 +1,2 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Attuned Drive Field,adf_AttunedEngines,0,,,"req_spaceport, merc","Logistics, Requires Dock",4000,TRUE,,,4,8,12,20,data.hullmods.adf_AttunedEngines,Increases maximum burn level by %s.,Increases maximum burn level.,graphics/hullmods/adf_attuned_drive_field.png

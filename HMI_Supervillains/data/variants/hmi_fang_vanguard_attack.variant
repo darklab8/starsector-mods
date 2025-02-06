@@ -1,0 +1,45 @@
+{
+  "variantId": "hmi_fang_vanguard_attack",
+  "hullId": "hmi_fang_vanguard",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "insulatedengine",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "hammer",
+        "WS 001": "hammer",
+        "WS 002": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "lightag",
+        "WS 006": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualmg",
+        "WS 004": "lightdualmg",
+        "WS 007": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

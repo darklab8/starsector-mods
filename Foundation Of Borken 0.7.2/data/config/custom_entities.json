@@ -1,0 +1,104 @@
+{
+  "FOB_station_absorb": {
+    "defaultName":"Star Energy Absorption Station", # used if name=null in addCustomEntity()
+    "defaultRadius": 90, # used if radius<0 in addCustomEntity()
+    "customDescriptionId": "FOB_station_absorb",
+    "interactionImage": "graphics/illustrations/orbital.jpg",
+    "icon": "graphics/icons/station0.png",
+    "iconWidth": 22,
+    "iconHeight": 22,
+    "sprite": "graphics/stations/FOB_station_absorb_base.png",
+    "spriteWidth": 128,
+    "spriteHeight": 128,
+    "renderShadow": true,
+    "useLightColor": true,
+    "showInCampaign": true,
+    "showIconOnMap": true,
+    "showNameOnMap": true,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+    "tags": ["station"],
+    "layers": [STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+    "pluginClass": "originem.fob.scripts.campaign.entity.FOB_StationAbsorbEntityPlugin"
+  },
+  "FOB_station_absorb_d": {
+    "defaultName": "Abandoned Stellar Energy Extraction Station", # used if name=null in addCustomEntity()
+    "defaultRadius": 90, # used if radius<0 in addCustomEntity()
+    "customDescriptionId": "FOB_station_absorb_d",
+    "interactionImage": "graphics/illustrations/orbital.jpg",
+    "icon": "graphics/icons/station0.png",
+    "iconWidth": 22,
+    "iconHeight": 22,
+    "sprite": "graphics/stations/FOB_station_absorb_damaged.png",
+    "spriteWidth": 128,
+    "spriteHeight": 128,
+    "renderShadow": true,
+    "useLightColor": true,
+    "showInCampaign": true,
+    "showIconOnMap": true,
+    "showNameOnMap": true,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+    "tags": ["station"],
+    "layers": [STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+  },
+  "FOB_starsEye": {
+    "defaultName":"Eye of Cthulhu", # used if name=null in addCustomEntity()
+    "defaultRadius": 0, # used if radius<0 in addCustomEntity()
+    "interactionImage": "graphics/illustrations/orbital.jpg",
+    "icon": "graphics/icons/station0.png",
+    "iconWidth": 22,
+    "iconHeight": 22,
+    "renderShadow": false,
+    "useLightColor": false,
+    "showInCampaign": true,
+    "showIconOnMap": false,
+    "showNameOnMap": false,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+    "renderCircleIndicator": false,
+    "renderCircleIndicatorSelectionFlash": false,
+    "tags": ["station"],
+    "layers": [ABOVE], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+    "pluginClass": "originem.fob.scripts.campaign.entity.FOB_StarEye"
+  },
+  "FOB_pch_entity": {
+    "defaultName": "Pch Entity", # used if name=null in addCustomEntity()
+    "defaultRadius": 0, # used if radius<0 in addCustomEntity()
+    "interactionImage": "graphics/illustrations/orbital.jpg",
+    "iconWidth": 0,
+    "iconHeight": 0,
+    "spriteWidth": 0,
+    "spriteHeight": 0,
+    "renderShadow": false,
+    "useLightColor": false,
+    "showInCampaign": false,
+    "showIconOnMap": false,
+    "showNameOnMap": false,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+    "renderCircleIndicator": false,
+    "renderCircleIndicatorSelectionFlash": false,
+    "tags": ["station"],
+    "layers": [ABOVE], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+  },
+  "FOB_entity_pchtunnel": {
+    "defaultName": "Pch platform", # used if name=null in addCustomEntity()
+    "defaultRadius": 60, # used if radius<0 in addCustomEntity()
+    "customDescriptionId": "FOB_entity_pchtunnel",
+    "interactionImage": "graphics/illustrations/orbital.jpg",
+    "icon": "graphics/icons/station0.png",
+    "iconWidth": 22,
+    "iconHeight": 22,
+    "showInCampaign": true,
+    "showIconOnMap": true,
+    "showNameOnMap": true,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+    "tags": ["has_interaction_dialog", "neutrino_low"],
+    "layers": [ABOVE], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+    "pluginClass": "originem.fob.scripts.campaign.entity.FOB_PCHTunnel"
+  }
+}
+
+

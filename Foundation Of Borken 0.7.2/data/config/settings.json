@@ -1,0 +1,85 @@
+{
+  "designTypeColors": {
+    "Foundation Of Borken": [225, 255, 150, 255],
+    "Foundation Of Borken [Unique]": [255, 204, 0, 255]
+  },
+  "plugins": {
+    "FOB_TentaclePlugin": "originem.fob.scripts.plugins.FOB_TentaclePlugin",
+    "FOB_LocalData": "originem.fob.scripts.plugins.FOB_LocalData",
+    "FOB_CombatPlugin": "originem.fob.scripts.plugins.FOB_CombatPlugin",
+    "FOB_AimingTrailPlugin": "originem.fob.scripts.plugins.FOB_AimingTrailPlugin",
+    "FOB_ChainedLightningPlugin": "originem.fob.scripts.plugins.FOB_ChainedLightningPlugin",
+  },
+  "bonusXP": {
+    "FOB_recognize_lobster": 1
+  },
+  "ruleCommandPackages": [
+    "originem.fob.rulecmd"
+  ],
+  "graphics": {
+    "blueprint_packages": {
+      "fob_package": "graphics/icons/cargo/package_fob.png",
+    },
+    "trail_fob": {
+      "armor_trail": "graphics/fx/FOB_armor_trail.png",
+    },
+    "entity": {
+      "FOB_station_absorb_glow": "graphics/stations/FOB_station_absorb_glow.png",
+      "FOB_station_absorb_glow2": "graphics/stations/FOB_station_absorb_glow2.png",
+      "FOB_drainEffect01": "graphics/fx/FOB_drainEffect01.png",
+      "FOB_drainEffect02": "graphics/fx/FOB_drainEffect02.png",
+      "FOB_pchtunnel_ring": "graphics/fx/FOB_pchtunnel_ring.png",
+      "FOB_pchtunnel_ring2": "graphics/fx/FOB_pchtunnel_ring2.png",
+      "FOB_pchtunnel_bg": "graphics/fx/FOB_pchtunnel_bg.png"
+    },
+    "planet": {
+      "FOB_eye_core": "graphics/planet/FOB_eye_core.png",
+      "FOB_eye_glow": "graphics/planet/FOB_eye_glow.png"
+    },
+    "FOB_hullMod": {
+      "FOB_ritual_revive": "graphics/hullmods/FOB_ritual_revive.png",
+      "FOB_ritual_fusion": "graphics/hullmods/FOB_ritual_fusion.png",
+      "FOB_soul_icon": "graphics/hullmods/FOB_soul_icon.png"
+    },
+    "intel": {
+      "anchorPoint": "graphics/icons/intel/FOB_anchorpoint.png",
+      "pchWarning": "graphics/icons/intel/FOB_pch_warning.png",
+      "FOB_bt": "graphics/icons/intel/FOB_bt.png"
+    },
+    "interactions": {
+      "FOB_asa_interaction": "graphics/illustrations/FOB_asa_interaction.png",
+      "FOB_pch_image": "graphics/illustrations/FOB_pch_image.jpg",
+      "FOB_pch_tunnel": "graphics/illustrations/FOB_pch_tunnel.jpg",
+      "FOB_flag_mottasheamus": "graphics/illustrations/FOB_flag_mottasheamus.png",
+      "FOB_flag_zyartplatho": "graphics/illustrations/FOB_flag_zyartplatho.png"
+    },
+    "hullsys": {
+      "hca_idle": "graphics/icons/hullsys/FOB_houndcorearray_idle.png",
+      "hca_active": "graphics/icons/hullsys/FOB_houndcorearray_active.png",
+      "dsn": "graphics/icons/hullsys/FOB_deepspacenavigation.png",
+      "FOB_aooi": "graphics/icons/hullsys/FOB_aooi.png",
+    },
+    "missions": {
+      "borkenPem": "graphics/icons/missions/FOB_peacefulevolution_icon.png",
+    },
+    "fx": {
+      "FOB_halo_charge": "graphics/fx/FOB_halo_charge.png",
+      "FOB_trails_halo": "graphics/fx/FOB_trails_halo.png",
+      "FOB_trails_roaringbolt": "graphics/fx/FOB_trails_roaringbolt.png",
+      "FOB_trails_roaringbolt_twin": "graphics/fx/FOB_trails_roaringbolt_twin.png",
+      "FOB_trails_soul_void_nebula": "graphics/fx/FOB_trails_soul_void_nebula.png",
+      "FOB_borken_lang_ts": "graphics/fx/FOB_borken_lang_ts.png",
+      "FOB_ts_seamless_bg": "graphics/fx/FOB_ts_seamless_bg.png",
+      "FOB_greystab_hit": "graphics/fx/FOB_greystab_hit.png",
+      "FOB_greystab_hit2": "graphics/fx/FOB_greystab_hit2.png",
+      "FOB_hexagon_pattern": "graphics/fx/FOB_hexagon_pattern.png",
+      "FOB_houndarray_circle": "graphics/fx/FOB_houndarray_circle.png",
+      "FOB_eovce_stream": "graphics/fx/FOB_eovce_stream.png",
+      "FOB_tentacle_sheet":"graphics/tentacles/FOB_tentacle_sheet.png"
+    },
+    "portraits": {
+      "FOB_mrs_spider": "graphics/portraits/special/FOB_mrs_spider.png",
+      "FOB_immortal_star_greed": "graphics/portraits/special/FOB_immortal_star_greed.png"
+    }
+  },
+}

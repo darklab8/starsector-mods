@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "FOB_shoggoth",
+    "hullMods": [
+        "FOB_houndcorearray",
+        "targetingunit",
+        "FOB_afogomornkeel",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_shoggoth_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "FOB_greystab_iv"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_sinerepeater_s",
+                "WS0002": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+  "variantId": "hmi_fang_yowie_std",
+  "hullId": "hmi_fang_yowie",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 21,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hammer",
+        "WS0004": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hellbore",
+        "WS0008": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

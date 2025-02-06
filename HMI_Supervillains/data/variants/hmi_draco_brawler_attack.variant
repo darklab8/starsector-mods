@@ -1,0 +1,33 @@
+{
+  "variantId": "hmi_draco_brawler_attack",
+  "hullId": "hmi_draco_brawler",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hmi_sv_blazermed",
+        "WS 002": "hmi_sv_blazermed"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "gorgon",
+        "WS 004": "gorgon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

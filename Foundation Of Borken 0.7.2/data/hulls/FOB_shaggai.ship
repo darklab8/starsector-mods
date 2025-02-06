@@ -1,0 +1,135 @@
+{
+  "hullName": "FOB_shaggai",
+  "hullId": "FOB_shaggai",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/FOB_shaggai.png",
+  "style": "FOB_TECH",
+  "height": 53,
+  "width": 44,
+  "center": [22, 26.5],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FOB_borkenarmor",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "FOB_tentacle",
+    "WS0002": "FOB_tentacle",
+    "WS0003": "FOB_tentacle",
+    "WS0004": "FOB_tentacle",
+    "WS0005": "FOB_tentacle",
+    "WS0006": "FOB_tentacle"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 116.5,
+      "locations": [8, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": -116.5,
+      "locations": [8, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": -146.5,
+      "locations": [-1.5, -16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 146.5,
+      "locations": [-1.5, 16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": -149,
+      "locations": [-11, -14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 149,
+      "locations": [-11, 14.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [-7.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 8.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-19, -8.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-16.5, 2],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-16.5, -2],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "FOB_ENGINE"
+    }
+  ],
+  "bounds": [
+    -17.5, -12.5,
+    4, -18,
+    22, -6.5,
+    11, -5,
+    11, 5,
+    22, 6.5,
+    4, 18,
+    -17.5, 12.5
+  ]
+}

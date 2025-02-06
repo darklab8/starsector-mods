@@ -1,0 +1,213 @@
+{
+  "hullName": "Heron (Prototype)",
+  "hullId": "hmi_heron_tt",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/heron_tt.png",
+  "style": "HIGH_TECH",
+  "height": 250,
+  "width": 140,
+  "center": [70, 89],
+  "collisionRadius": 205,
+  "shieldCenter": [35, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 90,
+      "locations": [-12, 48]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-12, -48]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 91.5,
+      "locations": [57, 47]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [125, -3]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -30,
+      "locations": [88, -14]
+    },
+    {
+      "id": "WS 007",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [
+        92, 39,
+        75, 33,
+        68, 20,
+        91, 21
+      ]
+    },
+    {
+      "id": "WS 008",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [
+        79, -37,
+        62, -41,
+        44, -41,
+        25, -36
+      ]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 155,
+      "locations": [-63, 29]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 205,
+      "locations": [-63, -29]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-89, 44],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88, 36],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-87, 24],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, 14],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, -13],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-87, -24],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88, -35],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, -44],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    161, 0,
+    140, 16,
+    107.5, 22,
+    104.5, 35.5,
+    115, 45,
+    97.5, 56,
+    46, 54,
+    -2, 69.5,
+    -32, 66,
+    -46, 50,
+    -81, 52,
+    -81, 15,
+    -46, 10,
+    -46, -7,
+    -78, -14,
+    -81, -50,
+    -48, -47,
+    -31, -68,
+    -2, -69.5,
+    41, -51,
+    54.5, -40.5,
+    69, -40.5,
+    73.5, -44.5,
+    88, -43.5,
+    91, -31,
+    115, -25
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "FOB_byakhee",
+    "hullMods": [
+        "targetingunit",
+        "FOB_afogomornkeel",
+        "frontshield"
+    ],
+    "modules": [
+        {"WS0007": "FOB_byakhee_left1_0"},
+        {"WS0008": "FOB_byakhee_right1_1"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_byakhee_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FOB_raska",
+            "WS0002": "FOB_raska"
+        }
+    }],
+    "wings": [
+        "FOB_shaggai_wing",
+        "FOB_shaggai_wing"
+    ]
+}

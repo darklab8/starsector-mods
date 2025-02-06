@@ -1,0 +1,52 @@
+{
+  "variantId": "hmi_draco_pardon_strike",
+  "hullId": "hmi_draco_pardon",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "fluxdistributor",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam",
+        "WS0008": "phasebeam",
+        "WS0009": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gorgon",
+        "WS 003": "gorgon",
+        "WS0006": "gorgon",
+        "WS0007": "gorgon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

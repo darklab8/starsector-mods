@@ -1,0 +1,60 @@
+{
+  "id": "hmi_sv_tricepod",
+  "specClass": "projectile",
+  "projectileSpecId": "hmi_sv_trice_proj",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/missile_rack_open_m_4x_turret_base.png",
+  "hardpointSprite": "graphics/weapons/missile_rack_open_m_4x_hardpoint_base.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    5,
+    -8,
+    5,
+    8,
+    5,
+    -3,
+    5,
+    3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    -8,
+    8,
+    8,
+    8,
+    -3,
+    8,
+    3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [50,255,150,200]
+  },
+  "fireSoundTwo": "gorgon_fire"
+}

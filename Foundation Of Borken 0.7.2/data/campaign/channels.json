@@ -1,0 +1,25 @@
+{
+        "defaultChannels":[
+                "fob_public",
+        ],
+        "fob_public":{
+		"name":"Borken public news",
+		"logo":"graphics/icons/intel/comms.png",
+		"icon":"graphics/icons/intel/comms.png",
+		"image":"graphics/factions/fob.png",
+		"sound":"ui_channel_news",
+		"faction":"fob",
+		"type":"News report",
+		"shortType":"News",
+	},
+	"fob_internal":{
+		"name":"Borken Senior Command Intelligence",
+		"logo":"graphics/icons/intel/secure_comms.png",
+		"icon":"graphics/icons/intel/secure_comms.png",
+		"image":"graphics/factions/fob.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"fob",
+		"type":"Intelligence report",
+		"shortType":"Intel",
+	},
+}

@@ -1,0 +1,41 @@
+{
+	"id":"FOB_soul_core",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/FOB_soul_core.png",
+	"size":[20,20],	
+	"center":[10,10],
+	"collisionRadius":12,
+	"collisionClass":"FIGHTER",
+	"explosionColor":[150,255,255,150],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":30, # purely visual
+	"flameoutTime":0.5,
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":2000,
+				  "acc":3000,
+				  "dec":3000},
+	"useHitGlowWhenDestroyed":true,
+	"noDebrisWhenDestroyed": true,
+	"engineSlots":[{"id":"ES1",
+					"loc":[14, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLsS or QUAD_STRIP, determines which params are used
+						"engineColor":[0,0,0,0],
+						"contrailDuration":0.1,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.1,
+						"contrailAngularVelocityMult":0.1,
+						"contrailSpawnDistMult":-0.1,
+						"contrailColor":[0,0,0,0],
+						"glowSizeMult":0,
+                        "glowAlternateColor":[150,0,255,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":60.0,
+				    "angle":180.0},
+				    ]
+}

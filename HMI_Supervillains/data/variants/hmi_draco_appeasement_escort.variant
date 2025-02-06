@@ -1,0 +1,43 @@
+{
+  "variantId": "hmi_draco_appeasement_escort",
+  "hullId": "hmi_draco_appeasement",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "hardenedshieldemitter",
+    "missleracks",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gazer",
+        "WS 003": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyburst",
+        "WS0002": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

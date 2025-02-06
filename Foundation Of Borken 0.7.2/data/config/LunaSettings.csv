@@ -1,0 +1,5 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+,,,,,,,,
+FOB_uiHeader,UI Header,Header,UI,,,,,
+FOB_showEyeInCombat,Show Cthulhu's Eye (in combat),Boolean,TRUE,,Set to False to disable the Cthulhu's Eye in the center of the battlefield during battles involving the Borken.,,,
+#FOB_showAOOIHudInCombat,Display AOOI Status (in combat),Boolean,TRUE,,"Set to True to display the AOOI status of the player's ship in the top-left corner of the HUD next to the ship, otherwise it will be displayed in the status bar at the bottom left of the UI.",,,

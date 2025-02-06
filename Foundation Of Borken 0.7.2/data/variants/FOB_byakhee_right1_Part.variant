@@ -1,0 +1,16 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "FOB_byakhee_right1",
+    "hullMods": [
+        "extendedshieldemitter",
+        "advancedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "FOB_byakhee_right1_Part",
+    "weaponGroups": [],
+    "wings": ["FOB_shaggai_wing"]
+}

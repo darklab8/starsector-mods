@@ -1,0 +1,13 @@
+{
+  "starts": [
+    {
+      "id": "borkenStart",
+      "name": "Ancient God Seeker",
+      "difficulty": "Average",
+      "desc": "You inherited the will of a dead Borken, to find his most important things. Unfortunately, he hasn't told you yet what \"the most important thing\"is. Whatever it is, it's to the west.",
+      "className": "originem.fob.scripts.campaign.NexBorkenStart",
+      "factionId": "pirates",
+      "requiredModId": "fob",
+    },
+  ],
+}

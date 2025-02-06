@@ -1,0 +1,164 @@
+{
+	"uniqueModClassName":"data.scripts.HMI_SV_modPlugin",
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"difficultyString":"hard",
+	
+    "crewExpereinceLevelIncreaseChance":0.0,
+    "baseFleetCostMultiplier":1.0,
+
+	
+    "rebelFleetSuffix":"Splinter Group",
+	
+    "invasionSupportFleetName":"Butcher Support Group",
+    "responseFleetName":"Hearth Fleet",
+    "defenceFleetName":"Familial Federation Fleet",	
+	
+		"startRelationships":{
+
+		"independent":-0.8,
+		"pirates":-0.8,						
+		"persean":-0.4,						
+		"tritachyon":-0.8,
+		"hegemony":-0.4,
+		"lions_guard":-0.4,
+		"sindrian_diktat":-0.4,
+		"luddic_church":-0.8,
+		"luddic_path":-0.8,
+		"remnant":-0.8,
+
+		# Mod factions
+		"blackrock_driveyards":-0.6,
+		"br_consortium":-0.6,
+		"6eme_bureau":-0.3,
+		"dassault_mikoyan":-0.3,
+		"united_security":-0.3,	
+		"blade_breakers":-0.8,
+		"diableavionics":-0.3,
+		"exigency":-0.3,
+		"exipirated":-0.6,
+		"thi":-0.3,
+		"gmda":-0.6,
+		"gmda_patrol":-0.6,
+		"draco":-1,
+		"HMI":-0.35,
+		"mess":-0.8,
+		"interstellarimperium":-0.3,
+		"ii_imperial_guard":-0.3,
+		"junk_pirates":-0.8,
+		"junk_pirates_hounds":-0.8,
+		"junk_pirates_junkboys":-0.8,
+		"junk_pirates_technicians":-0.8,
+		"pack":-0.4,
+		"syndicate_asp":-0.4,
+		"syndicate_asp_familia":-0.4,
+		"al_ars":-0.3,
+		"mayorate":-0.4,
+		"metelson":-0.3,
+		"ORA":-0.4,
+		"SCY":-0.3,	
+		"shadow_industry":-0.3,
+		"the_cartel":-0.3,
+		"nullorder":-0.3,
+		"sylphon":-0.3,
+		"templars":-0.8,
+		"Coalition":-0.3,
+		"cabal":-0.8,
+		"new_galactic_order":-0.3,			
+		"TF7070_D3C4":-0.6,					
+		"kadur_remnant":-0.6,				
+		"OCI":-0.3,						
+		"prv":-0.3,
+		"rb":-0.3,
+		"magellan_protectorate":-0.3,
+		"GKSec":-0.3,						
+		"roider":-0.4,						
+		"bsg_cylons":-0.3,
+		"COPS":-0.6,
+		"kingdom_of_terra":-0.3,
+		"almighty_dollar":-0.5,
+		"ashen_keepers":-0.5,
+		"communist_clouds":-0.5,
+		"science_fuckers":-0.5,
+		"warhawk_republic":-0.5,
+	},
+
+	
+    "diplomacyTraits":["foreverwar", "temperamental", "paranoid", "irredentist", "monstrous"],
+    "morality":"evil",
+    
+    "alignments":{
+		"hierarchial":-1,
+        "corporate":-1,
+        "technocratic":-1,
+        "ideological":-0.25,
+        "diplomatic":-1,
+    },
+    
+	"maxRelationships":{ 
+		"default":-0.4, 
+		"player":-0.3,
+		"draco":-0.4,
+	},
+	
+	"diplomacyPositiveChance":{
+		"default": 0.3,
+		"draco":0.1,
+	},
+	
+	"diplomacyNegativeChance":{
+		"default": 0.6,
+		"draco": 1.0,
+	},
+	
+    "freeMarket":true,
+	
+    "startShipsSolo":[["hmi_fang_vanguard_attack"], ["hmi_fang_charlie_std"]],
+    "startShipsCombatSmall":[
+	["hmi_fang_caballoloco_attack", "hmi_fang_cerberus_shotgun", "hmi_fang_cerberus_cs", "hmi_fang_kite_Raider", "hmi_fang_kite_Strike"],
+	["hmi_fang_burro_attack", "hmi_fang_vanguard_attack", "hmi_fang_cerberus_cs", "hmi_fang_shepherd_cs"]
+	],
+    "startShipsTradeSmall":
+	[
+	["hmi_fang_colossus_attack","hmi_fang_condor_bomber", "hmi_fang_shepherd_cs"],
+	],
+    "startShipsCombatLarge":
+	[
+	["hmi_fang_eradicator_std", "hmi_fang_mule_std", "hmi_fang_mule_bomber", "hmi_fang_cerberus_brawler", "hmi_fang_cerberus_cs"],
+	["hmi_fang_mora_bomb", "hmi_fang_condor_bomber", "hmi_fang_vanguard_std", "hmi_fang_kite_Strike", "hmi_fang_kite_bomb", "hmi_fang_kite_Raider"],
+	["hmi_fang_yowie_std", "hmi_fang_wobbie_brawler", "hmi_fang_wobbie_brawler", "hmi_fang_charlie_std", "hmi_fang_charlie_std"],
+	],
+    "startShipsSuper":[
+	["hmi_fang_atlas_cs"],
+	["hmi_fang_retribution_elite"]
+	],
+		
+    "startSpecialItems":[
+        [["hmi_fang_package", ""]],
+    ],	
+		
+    "colonyExpeditionChance":0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+	
+	   
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+	
+    "vengeanceLevelNames":["Grudge", "Butcher"],
+    "vengeanceFleetNames":["Butcher Fleet", "Kill-Fleet"],
+    "vengeanceFleetNamesSingle":["a Butcher Fleet", "a Kill-Fleet"],
+}

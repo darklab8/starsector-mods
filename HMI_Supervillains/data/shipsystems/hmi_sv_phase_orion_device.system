@@ -1,0 +1,28 @@
+{
+	"id":"hmi_sv_phase_orion_device",
+	"type":"STAT_MOD",
+	#"aiType":"NONE",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.HMI_SV_OrionDeviceStats",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	#"fadeActivationSoundOnChargedown":true,
+	
+	"canUseWhileRightClickSystemOn":true,
+	
+	"useSound":"system_orion_device_fire",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":400,
+		"averageSpeedIncrease":100,
+	}
+	
+}
+
+
+
+

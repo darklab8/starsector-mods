@@ -1,0 +1,17 @@
+{
+    "id": "shipmasterysystem",
+    "name": "Ship Mastery System",
+    "author": "qcwxezda",
+    "version": {"major":0, "minor":9, "patch":2},
+    "dependencies":[
+        {"id":"particleengine", "name":"Particle Engine"}
+    ],
+    "description": "Gain mastery in ship hulls to unlock S-mod slots and additional bonuses.",
+    "gameVersion": "0.97a-RC11",
+    "jars": ["jars/ShipMasterySystem.jar"],
+    "modPlugin": "shipmastery.plugin.ModPlugin",
+    "replace": [
+        "data/characters/skills/best_of_the_best.skill",
+        "data/characters/skills/cybernetic_augmentation.skill"
+    ]
+}

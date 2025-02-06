@@ -1,0 +1,43 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "FOB_oldgodscholar",
+    "hullMods": [
+        "safetyoverrides",
+        "FOB_houndcorearray",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_oldgodscholar_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "FOB_cthughabreath"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_greystab_iv"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "FOB_greystab_iii",
+                "WS0008": "FOB_greystab_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

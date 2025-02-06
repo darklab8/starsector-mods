@@ -1,0 +1,47 @@
+{
+  "variantId": "hmi_draco_heron_attack",
+  "hullId": "hmi_draco_heron",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gorgon",
+        "WS 002": "gorgon",
+        "WS 004": "gorgon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "pdlaser",
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wasp_wing",
+    "wasp_wing",
+    "wasp_wing"
+  ]
+}

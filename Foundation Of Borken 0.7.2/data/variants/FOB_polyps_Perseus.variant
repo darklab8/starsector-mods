@@ -1,0 +1,35 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FOB_polyps",
+    "hullMods": [
+        "safetyoverrides",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_polyps_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_greystab_v"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "phasecl",
+                "WS0002": "phasecl",
+                "WS0003": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "FOB_sinerepeater_s"}
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "variantId": "hmi_fang_mora_bomber",
+  "hullId": "hmi_fang_mora",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "railgun",
+        "WS 013": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "salamanderpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "flak",
+        "WS 004": "flak",
+        "WS 005": "flak",
+        "WS 007": "flak",
+        "WS 008": "vulcan",
+        "WS 011": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "perdition_wing",
+    "perdition_wing"
+  ]
+}

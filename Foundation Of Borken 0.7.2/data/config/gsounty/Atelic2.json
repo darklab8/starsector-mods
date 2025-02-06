@@ -1,0 +1,16 @@
+{
+    "faction":"fob",
+    "firstname":"Avatar",
+    "lastname":"Atrek",
+    "gender":"M",    # M/F/N  (Male, female, any)
+    "officerlevel":20, # Per default if -1, put the officerLevel max of your settings.
+    "mainShip":"FOB_oldgodscholar_Standard", # Flag Ship variant
+    "officerPersonality":"steady",
+    "randomFleet":true, # If random fleet(from the faction) will be added.
+    "dsrandom":2,
+    "combatPoints":100, 
+    "reward":400000, # Bounty reward.
+    "needBounty":"Atelic1",
+    "description":"The Son of God is back. He will be invincible in the battle!",
+    "dialog":"You rejected the call of the Great God, so I am back. This time I want to completely destroy you!",
+}

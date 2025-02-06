@@ -1,0 +1,13 @@
+{
+	"id":"FOB_livenessburst",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"originem.fob.shipsystems.scripts.FOB_LivenessBurstStats",
+    "aiScript":"originem.fob.shipsystems.scripts.ai.FOB_AutoUseSystemAI",
+	"runScriptWhilePaused":false, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+}

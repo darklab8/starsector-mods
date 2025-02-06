@@ -1,0 +1,63 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "LINKED",
+  "autocharge":true,
+  "fireSoundOne": "FOB_skorka_charge",
+  "fireSoundTwo": "FOB_skorka_shot",
+  "glowColor": [
+    80,
+    220,
+    80,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0.5,
+    -0.5,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/FOB_skorka_hardpoint_glow.png",
+  "hardpointOffsets": [
+    -0.5,
+    3.5,
+    -0.5,
+    -3.5,
+    -2.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/FOB_skorka_hardpoint_base.png",
+  "id": "FOB_skorka",
+  "muzzleFlashSpec": {
+    "length": 70,
+    "particleColor": [
+      80,
+      220,
+      80,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "spread": 40
+  },
+  "projectileSpecId": "FOB_skorka_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0.5,
+    -0.5,
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/FOB_skorka_turret_glow.png",
+  "turretOffsets": [
+    -5.5,
+    3.5,
+    -5.5,
+    -3.5,
+    -7.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/FOB_skorka_turret_base.png",
+  "type": "ENERGY"
+}

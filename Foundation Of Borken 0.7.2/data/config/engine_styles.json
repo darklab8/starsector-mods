@@ -1,0 +1,14 @@
+{
+  "FOB_ENGINE": {
+    "engineColor": [220, 255, 180, 220],
+    "contrailParticleSizeMult": 4,
+    "contrailParticleDuration": 2,
+    "contrailParticleFinalSizeMult": 2.5,
+    "contrailMaxSpeedMult": 0.25,
+    "contrailAngularVelocityMult": 0,
+    "contrailColor": [132, 153, 108, 25],
+    "glowSprite": "graphics/fx/FOB_engineglow.png",
+    "glowOutline": "graphics/fx/FOB_engineglow_outline.png",
+    "type": "GLOW"
+  }
+}

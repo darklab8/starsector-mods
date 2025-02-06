@@ -1,0 +1,20 @@
+{
+	"id":"FOB_touchofniggurath_main_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"originem.fob.scripts.weapons.projs.FOB_TouchOfNiggurathProjEffect",
+	"length":100.0,
+	#"length":0,
+	"hitGlowRadius":80,
+	"width":15,
+	"fadeTime":0.2,
+	"fringeColor":[142,251,255,255],
+	"coreColor":[200,255,255,150],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_blue.png",
+	#"bulletSprite":"",
+				
+}

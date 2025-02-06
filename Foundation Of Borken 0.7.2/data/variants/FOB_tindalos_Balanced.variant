@@ -1,0 +1,43 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 11,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FOB_tindalos",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_tindalos_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "FOB_greystab_iv"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FOB_plasmoid_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

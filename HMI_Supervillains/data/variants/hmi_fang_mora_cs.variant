@@ -1,0 +1,51 @@
+{
+  "variantId": "hmi_fang_mora_cs",
+  "hullId": "hmi_fang_mora",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "hveldriver",
+        "WS 004": "hveldriver",
+        "WS 005": "hveldriver",
+        "WS 007": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "heatseeker",
+        "WS 013": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 008": "lightmg",
+        "WS 011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "warthog_wing",
+    "warthog_wing"
+  ]
+}

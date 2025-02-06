@@ -1,0 +1,53 @@
+{
+  "variantId": "hmi_draco_heron_std",
+  "hullId": "hmi_draco_heron",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gazer",
+        "WS 002": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "pdburst",
+        "WS 010": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "pdburst",
+        "WS 004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing",
+    "claw_wing",
+    "claw_wing"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "hmi_draco_vigilance_cs",
+  "hullId": "hmi_draco_vigilance",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gazerpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ionbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

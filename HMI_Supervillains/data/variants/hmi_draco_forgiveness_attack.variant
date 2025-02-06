@@ -1,0 +1,63 @@
+{
+  "variantId": "hmi_draco_forgiveness_attack",
+  "hullId": "hmi_draco_forgiveness",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma",
+        "WS0002": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "hmi_sv_trice",
+        "WS 004": "hmi_sv_trice",
+        "WS 005": "hmi_sv_trice",
+        "WS 006": "hmi_sv_trice"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hmi_sv_tricepod",
+        "WS 002": "hmi_sv_tricepod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavyburst",
+        "WS 008": "heavyburst",
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser",
+        "WS 011": "pdlaser",
+        "WS 012": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

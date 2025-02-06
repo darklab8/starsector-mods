@@ -1,0 +1,49 @@
+{
+  "id": "FOB_beholdereye",
+  "specClass": "projectile",
+  "projectileSpecId": "FOB_beholdereye_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/FOB_beholdereye_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/FOB_beholdereye_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FOB_beholdereye_turret_base.png",
+  "hardpointGlowSprite": "graphics/weapons/FOB_beholdereye_turret_glow.png",
+  "glowColor": [
+    140,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "interruptibleBurst":true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      100,
+      255,
+      200,
+      80
+    ],
+    "particleCount": 5,
+    "particleDuration": 0.5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "spread": 20
+  },
+  "fireSoundTwo": "FOB_sinerepeator_shot"
+}

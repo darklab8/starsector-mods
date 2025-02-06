@@ -1,0 +1,76 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 22,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "FOB_basatan",
+    "hullMods": [
+        "FOB_afogomornkeel",
+        "targetingunit",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_basatan_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "FOB_plasmoid_l"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "FOB_fixg_z",
+                "WS0019": "FOB_fixg_z"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "FOB_fixg_s",
+                "WS0010": "FOB_fixg_s",
+                "WS0013": "FOB_fixg_s",
+                "WS0014": "FOB_fixg_s",
+                "WS0016": "FOB_fixg_s",
+                "WS0017": "FOB_fixg_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_greystab_iv",
+                "WS0002": "FOB_greystab_iv"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionbeam",
+                "WS0004": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FOB_sinerepeater_s",
+                "WS0006": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

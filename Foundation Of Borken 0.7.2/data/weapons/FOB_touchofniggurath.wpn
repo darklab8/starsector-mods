@@ -1,0 +1,55 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "LINKED",
+  "fireSoundOne": "FOB_touchofniggurath_charge",
+  "fireSoundTwo": "FOB_touchofniggurath_shot",
+  "everyFrameEffect":"originem.fob.scripts.weapons.FOB_TouchOfNiggurathEveryFrameEffect",
+  "glowColor": [
+    140,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "renderHints":[RENDER_BARREL_BELOW],
+   "visualRecoil":9,  # the gun sprites are only used if this is non-0
+  "hardpointGlowSprite": "graphics/weapons/FOB_touchofniggurath_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/FOB_touchofniggurath_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    55,
+    -2
+  ],
+  "hardpointSprite": "graphics/weapons/FOB_touchofniggurath_hardpoint_base.png",
+  "id": "FOB_touchofniggurath",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "particleColor": [
+      150,
+      255,
+      255,
+      255
+    ],
+    "particleCount": 25,
+    "particleDuration": 0.5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 30,
+    "spread": 15
+  },
+  "projectileSpecId": "FOB_touchofniggurath_main_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/FOB_touchofniggurath_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/FOB_touchofniggurath_turret_recoil.png",
+  "turretOffsets": [
+    55,
+    -2
+  ],
+  "turretSprite": "graphics/weapons/FOB_touchofniggurath_turret_base.png",
+  "type": "ENERGY"
+}

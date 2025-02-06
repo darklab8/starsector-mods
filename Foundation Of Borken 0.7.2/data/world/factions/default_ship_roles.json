@@ -1,0 +1,148 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+            "FOB_dhole_Standard":8,
+            "FOB_dhole_Perseus":2,
+	},
+	"combatSmall":{
+			"FOB_dhole_Standard":8,
+            "FOB_dhole_Perseus":2,
+	},
+	"combatMedium":{
+			"FOB_chthonian_Standard":4,
+			"FOB_chthonian_Perseus":3,
+			"FOB_chthonian_Balanced":3,
+			"FOB_tindalos_Standard":3,
+			"FOB_tindalos_Perseus":3,
+			"FOB_tindalos_Balanced":4,
+            "FOB_migo_Standard":3,
+            "FOB_migo_Perseus":3,
+            "FOB_migo_Balanced":4,
+	},
+	"combatLarge":{
+			"FOB_polyps_Standard":3,
+			"FOB_polyps_Perseus":3,
+			"FOB_polyps_Strike":4,
+			"FOB_nyogtha_Standard":3,
+			"FOB_nyogtha_Perseus":3,
+			"FOB_nyogtha_Balanced":4,
+			"FOB_cthylla_Standard":4,
+			"FOB_cthylla_Perseus":4,
+			"FOB_cthylla_Balanced":2,
+			"FOB_oldgodscholar_Standard":3,
+			"FOB_oldgodscholar_Perseus":4,
+			"FOB_oldgodscholar_Balanced":3,
+	},
+	"combatCapital":{
+			"FOB_shuddemell_Standard":4,
+			"FOB_shuddemell_Perseus":3,
+			"FOB_shuddemell_Strike":3,
+            "FOB_basatan_Standard":3,
+            "FOB_basatan_Perseus":3,
+            "FOB_basatan_Balanced":4,
+	},
+
+
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+			"FOB_dhole_Standard":5,
+            "FOB_dhole_Perseus":5,
+            "FOB_gnophkeh_Standard":3,
+            "FOB_gnophkeh_Perseus":3,
+	},
+	"combatFreighterMedium":{
+			"FOB_chthonian_Standard":5,
+			"FOB_chthonian_Perseus":5,
+			"FOB_tindalos_Standard":5,
+			"FOB_tindalos_Perseus":5,
+            "FOB_shoggoth_Standard":2,
+            "FOB_shoggoth_Perseus":2,
+	},
+	"combatFreighterLarge":{
+            "FOB_chaugnar_Standard":5,
+			"FOB_chaugnar_Perseus":5,
+	},
+
+	"civilianRandom":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+			"FOB_shantak_Standard":10,
+	},
+	"carrierMedium":{
+			"FOB_byakhee_Standard":10,
+	},
+	"carrierLarge":{
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"FOB_gnophkeh_Perseus":5,
+		"FOB_gnophkeh_Standard":5,
+	},
+	"freighterMedium":{
+ 			"FOB_shoggoth_Standard":5,
+            "FOB_shoggoth_Perseus":5,
+	},
+	"freighterLarge":{
+			"FOB_chaugnar_Standard":5,
+			"FOB_chaugnar_Perseus":5,
+	},
+
+	"tankerSmall":{
+			"FOB_gnophkeh_Perseus":5,
+			"FOB_gnophkeh_Standard":5
+	},
+	"tankerMedium":{
+            "FOB_shoggoth_Standard":5,
+            "FOB_shoggoth_Perseus":5,
+	},
+	"tankerLarge":{
+            "FOB_chaugnar_Standard":5,
+			"FOB_chaugnar_Perseus":5,
+	},
+
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+
+	# utility ships
+	"tug":{
+          "FOB_ammutseba_Standard":10,
+	},
+	"crig":{
+          "FOB_ammutseba_Standard":10,
+	},
+	"utility":{
+          "FOB_ammutseba_Standard":10,
+	},
+
+	"orbitalStationLowTech":{
+	},
+
+	"battlestationLowTech":{
+	},
+}

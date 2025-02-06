@@ -1,0 +1,28 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FOB_chthonian",
+    "hullMods": [
+        "safetyoverrides",
+        "converted_hangar",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_chthonian_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "FOB_greystab_v"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "FOB_greystab_iv"}
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

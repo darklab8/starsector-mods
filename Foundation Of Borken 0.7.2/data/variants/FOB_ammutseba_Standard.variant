@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "FOB_ammutseba",
+    "hullMods": [
+        "unstable_injector",
+        "FOB_afogomornkeel",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_ammutseba_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_greystab_iii",
+                "WS0002": "FOB_greystab_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FOB_sinerepeater_s",
+                "WS0006": "FOB_sinerepeater_s",
+                "WS0007": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

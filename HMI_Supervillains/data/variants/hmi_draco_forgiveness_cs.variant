@@ -1,0 +1,63 @@
+{
+  "variantId": "hmi_draco_forgiveness_cs",
+  "hullId": "hmi_draco_forgiveness",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "dragon",
+        "WS 002": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "gazer",
+        "WS 004": "gazer",
+        "WS 005": "gazer",
+        "WS 006": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "gravitonbeam",
+        "WS 008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 009": "pdburst",
+        "WS 010": "pdburst",
+        "WS 011": "pdburst",
+        "WS 012": "pdburst",
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

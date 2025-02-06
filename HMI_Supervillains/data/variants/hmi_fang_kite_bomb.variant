@@ -1,0 +1,33 @@
+{
+  "variantId": "hmi_fang_kite_bomb",
+  "hullId": "hmi_fang_kite",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "breach",
+        "WS 002": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

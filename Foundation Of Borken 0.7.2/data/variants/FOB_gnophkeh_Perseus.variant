@@ -1,0 +1,23 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "FOB_gnophkeh",
+    "hullMods": [
+        "militarized_subsystems",
+        "safetyoverrides",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_gnophkeh_Perseus",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "FOB_greystab_iii",
+            "WS0007": "FOB_greystab_iii"
+        }
+    }]
+}

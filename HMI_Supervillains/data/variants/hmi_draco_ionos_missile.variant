@@ -1,0 +1,64 @@
+{
+  "variantId": "hmi_draco_ionos_missile",
+  "hullId": "hmi_draco_ionos",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dragonpod",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dragon",
+        "WS0003": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "gorgon",
+        "WS0014": "gorgon",
+        "WS0015": "gorgon",
+        "WS0016": "gorgon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "gravitonbeam",
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0008": "hil",
+        "WS0009": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lrpdlaser",
+        "WS0011": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

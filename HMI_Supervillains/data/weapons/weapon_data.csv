@@ -1,0 +1,18 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Flagellant Flare Launcher (Left),flagellent_flare_lft,0,,400,700,,115,,5,30,3,9,0.05,6,KINETIC,0,,0,8,3,,0,0,0,0,,400,400,2.75,50,,10,"SYSTEM, PD, ANTI_FTR",rocket3,,Fang Society,,Anti Shield,,,,,,,,,,12.3909
+Flagellant Flare Launcher (Right),flagellent_flare_rit,0,,400,700,,115,,5,30,3,9,0.05,6,KINETIC,0,,0,8,3,,0,0,0,0,,400,400,2.75,50,,10,"SYSTEM, PD, ANTI_FTR",rocket3,,Fang Society,,Anti Shield,,,,,,,,,,12.3909
+Flagellant Flare Launcher,flagellent_flare_single,0,,400,750,,115,,5,30,3,3,0.05,1,KINETIC,0,,0,8,1,,0,0,0,0,,400,400,2.75,50,,10,"SYSTEM, PD, ANTI_FTR",rocket1,,Fang Society,,Anti Shield,,,,,,,,,,12.3909
+Canister Flak,hmi_canister_flak,0,,,600,,200,,,,,,0,,HIGH_EXPLOSIVE,0,0,0,0.1,4,0.5,20,40,0,0,,50,600,1.2,600,,,SYSTEM,,,Low Tech,,Attack,,,,,,,,,,35.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Micro-Orion Device Bomb Launcher,hmi_sv_od_bomblauncher,0,,200000,1000,,500,,25,30,12,30,,,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,50,50,1,10000,,,SYSTEM,,,,,,,,,,,,,,,38.8
+"Pusher Plate (Low Tech, Very Small)",hmi_pusherplate_lt_tiny,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.75
+Pridwen Minelayer,hmi_sv_minelayer,0,,200000,1000,,200,,25,30,12,30,,,ENERGY,0,,0,3,1,,0,0,0,0,,50,50,20,1500,,,SYSTEM,,,,,,,,,,,,,,,38.7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blink DEM SRM,hmi_sv_trice,1,,250,800,,100,,15,30,4,9,,,KINETIC,0,,0,1,3,0.1,0,0,0,0,,150,50,8,300,,,DO_NOT_AIM,"missile8, strike4, draco_wep_bp, damage_special, damage_soft_flux",,,,Anti Shield,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s kinetic damage in a short burst, which is %s when hitting shields. This damage is affected by missile damage modifiers and not energy weapon ones.",100 | quadrupled,,,TRUE,11.9
+    Blink - Payload,hmi_sv_trice_payload,1,,0,500,100,,,,30,0,,,,KINETIC,0,,0.05,0.25,0.9,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,11.91
+Blink SRM Pod,hmi_sv_tricepod,1,,1300,800,,100,,15,10,10,48,,,KINETIC,0,,0,8.75,4,0.1,0,0,0,0,,150,50,8,300,,,DO_NOT_AIM,"missile12, strike9, draco_wep_bp, damage_special, damage_soft_flux",,,,Anti Shield,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s kinetic damage in a short burst, which is %s when hitting shields. This damage is affected by missile damage modifiers and not energy weapon ones.",100 | quadrupled,,,TRUE,12.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kinetic Ablator,hmi_sv_blazer,3,0.2,900,600,,40,,1,20,8,,,,KINETIC,66,,0,4.5,10,0.05,0,10,0.66,5,,1200,,,10,,,,"kinetic9, LR, draco_wep_bp",,,,Anti Shield,,,,,Projectiles deal %s.,soft flux,,,,3.65
+Heavy Kinetic Ablator,hmi_sv_blazermed,3,0.2,2800,700,,50,,1,15,16,,,,KINETIC,75,,0,4.95,20,0.05,1,10,0.5,5,,1200,,,10,,,,"kinetic15, draco_wep_bp",,,,Anti Shield,,,,,Projectiles deal %s.,soft flux,,,,5.75

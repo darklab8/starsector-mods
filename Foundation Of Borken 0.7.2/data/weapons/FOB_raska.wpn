@@ -1,0 +1,56 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "barrelMode": "LINKED",
+  "autoCharge":true,
+  "fireSoundTwo": "FOB_raska_shot",
+  "glowColor": [
+    80,
+    255,
+    0,
+    100
+  ],
+  "hardpointAngleOffsets": [
+    0.5,
+    -0.5
+  ],
+  "hardpointGlowSprite": "graphics/weapons/FOB_raska_hardpoint_glow.png",
+  "hardpointOffsets": [
+    -4,
+    2,
+    -4,
+    -2
+  ],
+  "hardpointSprite": "graphics/weapons/FOB_raska_hardpoint_base.png",
+  "id": "FOB_raska",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      80,
+      220,
+      80,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "spread": 20
+  },
+  "projectileSpecId": "FOB_raska_shot",
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0.5,
+    -0.5
+  ],
+  "turretGlowSprite": "graphics/weapons/FOB_raska_turret_glow.png",
+  "turretOffsets": [
+    -3.5,
+    2,
+    -3.5,
+    -2
+  ],
+  "turretSprite": "graphics/weapons/FOB_raska_turret_base.png",
+  "type": "ENERGY"
+}

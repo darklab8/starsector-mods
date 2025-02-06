@@ -1,0 +1,7 @@
+{
+    "starSystems":[
+        "HMISV_gallus.json",
+		"HMISV_phylum.json",
+		"HMISV_presterjohn.json",
+    ],
+}

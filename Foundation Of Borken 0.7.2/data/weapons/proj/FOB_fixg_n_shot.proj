@@ -1,0 +1,42 @@
+{
+	"id":"FOB_fixg_n_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/FOB_fixg_n_missile.png",
+	"size":[6,26],	
+	"center":[3,13],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"noDebrisWhenDestroyed": true,
+	"explosionColor":[150,255,255,150],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":25, # purely visual
+	"flameoutTime":0.5,
+	"engineSpec":{"turnAcc":1500,
+				  "turnRate":240,
+				  "acc":3000,
+				  "dec":3000},
+	"engineSlots":[{"id":"ES1",
+					"loc":[14, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLsS or QUAD_STRIP, determines which params are used
+						"engineColor":[150,255,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0,
+						"contrailSpawnDistMult":-.1,
+						"contrailColor":[30,160,255,200],
+						"glowSizeMult":3,
+                        "glowAlternateColor":[150,255,255,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":10.0,
+				    "angle":180.0},
+				    ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "FOB_roaringbolt_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC",
+  "collisionClass": "PROJECTILE_FF",
+  "collisionClassByFighter": "PROJECTILE_FIGHTER",
+  "onFireEffect": "originem.fob.scripts.weapons.projs.FOB_RoaringBoltEffect",
+  "onHitEffect": "originem.fob.scripts.weapons.projs.FOB_RoaringBoltEffect",
+  "length": 15.0,
+  "hitGlowRadius": 20,
+  "width": 6,
+  "fadeTime": 0.3,
+  "fringeColor": [150, 200, 255, 255],
+  "coreColor": [200, 255, 255, 150],
+  "bulletSprite": "graphics/missiles/shell_large_blue.png",
+}

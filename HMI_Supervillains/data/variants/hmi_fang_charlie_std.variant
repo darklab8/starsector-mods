@@ -1,0 +1,43 @@
+{
+  "variantId": "hmi_fang_charlie_std",
+  "hullId": "hmi_fang_charlie",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "armoredweapons",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0004": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "harpoon",
+        "WS0003": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightag",
+        "WS0006": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

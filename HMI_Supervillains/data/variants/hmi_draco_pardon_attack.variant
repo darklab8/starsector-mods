@@ -1,0 +1,53 @@
+{
+  "variantId": "hmi_draco_pardon_attack",
+  "hullId": "hmi_draco_pardon",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "hardenedshieldemitter",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ionpulser",
+        "WS0009": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hmi_sv_trice",
+        "WS 003": "hmi_sv_trice",
+        "WS0006": "hmi_sv_trice",
+        "WS0007": "hmi_sv_trice"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyburst",
+        "WS0002": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

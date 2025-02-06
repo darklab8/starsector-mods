@@ -1,0 +1,107 @@
+{
+  "hullName": "Defender (Mk II)",
+  "hullId": "defender_scav_mk2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/defender_scav_mk2.png",
+  "style": "LOW_TECH",
+  "height": 72,
+  "width": 89,
+  "center": [44.5, 36],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "brighton_derelict"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 7.5],
+      "length": 25.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-31, -7.5],
+      "length": 25.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, 16.5],
+      "length": 23.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-35, -16.5],
+      "length": 23.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [14.5, 41.5],
+      "length": 18.852713,
+      "width": 12.778926,
+      "angle": 134,
+      "contrailSize": 12.778926,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [14.5, -41.5],
+      "length": 18.852713,
+      "width": 12.778926,
+      "angle": -134,
+      "contrailSize": 12.778926,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -23.5, -2.5,
+    -30.5, -2.5,
+    -30.5, -8.5,
+    -35.5, -9.5,
+    -35.5, -20.5,
+    -29, -39,
+    -19.5, -38.5,
+    -10.5, -26.5,
+    3, -23.5,
+    18.5, -43.5,
+    35, -40.5,
+    34.5, -25,
+    19.5, -20,
+    16.5, 16.5,
+    33, 25,
+    31, 43,
+    15, 42,
+    8.5, 24.5,
+    -7, 23.5,
+    -9, 28,
+    -19.5, 38.5,
+    -29, 39,
+    -35.5, 20.5,
+    -35.5, 9.5,
+    -30.5, 8.5,
+    -30.5, 2.5,
+    -23.5, 2.5
+  ]
+}

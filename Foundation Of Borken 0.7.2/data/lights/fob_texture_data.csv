@@ -1,0 +1,15 @@
+id,type,frame,magnitude,map,path
+FOB_ammutseba,ship,,1,normal,graphics/shaders/ships/normal/FOB_ammutseba_normal.png
+FOB_basatan,ship,,1,normal,graphics/shaders/ships/normal/FOB_basatan_normal.png
+FOB_chaugnar,ship,,1,normal,graphics/shaders/ships/normal/FOB_chaugnar_normal.png
+FOB_chthonian,ship,,1,normal,graphics/shaders/ships/normal/FOB_chthonian_normal.png
+FOB_cthylla,ship,,1,normal,graphics/shaders/ships/normal/FOB_cthylla_normal.png
+FOB_dhole,ship,,1,normal,graphics/shaders/ships/normal/FOB_dhole_normal.png
+FOB_gnophkeh,ship,,1,normal,graphics/shaders/ships/normal/FOB_gnophkeh_normal.png
+FOB_migo,ship,,1,normal,graphics/shaders/ships/normal/FOB_migo_normal.png
+FOB_nyogtha,ship,,1,normal,graphics/shaders/ships/normal/FOB_nyogtha_normal.png
+FOB_polyps,ship,,1,normal,graphics/shaders/ships/normal/FOB_polyps_normal.png
+FOB_shantak,ship,,1,normal,graphics/shaders/ships/normal/FOB_shantak_normal.png
+FOB_shoggoth,ship,,1,normal,graphics/shaders/ships/normal/FOB_shoggoth_normal.png
+FOB_shuddemell,ship,,1,normal,graphics/shaders/ships/normal/FOB_shuddemell_normal.png
+FOB_tindalos,ship,,1,normal,graphics/shaders/ships/normal/FOB_tindalos_normal.png

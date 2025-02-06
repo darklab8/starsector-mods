@@ -1,0 +1,48 @@
+{
+  "variantId": "hmi_draco_sunder_strike",
+  "hullId": "hmi_draco_sunder",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hmi_sv_trice",
+        "WS 005": "hmi_sv_trice"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gravitonbeam",
+        "WS 004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "pdburst",
+        "WS 007": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

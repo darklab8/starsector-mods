@@ -1,0 +1,19 @@
+{
+	"id":"FOB_sinerepeater_shot_s",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect": "originem.fob.scripts.weapons.projs.FOB_SineRepeaterProjEffect",
+	"length":40.0,
+	"width":4,
+	"fadeTime":0.1,
+	"fringeColor":[30,150,200,160],
+	"coreColor":[100,255,150,255],
+	"glowColor":[100,255,200,40],
+	"glowRadius":16,
+	"hitGlowRadius":20,	
+	"textureType":"MEDIUM",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":-64,
+	"pixelsPerTexel":1.0,
+}

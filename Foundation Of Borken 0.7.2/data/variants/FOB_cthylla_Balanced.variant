@@ -1,0 +1,47 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 7,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "FOB_cthylla",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_cthylla_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0021": "FOB_dwellereye"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "FOB_beholdereye",
+                "WS0020": "FOB_beholdereye"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_plasmoid_m",
+                "WS0002": "FOB_plasmoid_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "FOB_sinerepeater_m"}
+        }
+    ]
+}

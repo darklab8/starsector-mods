@@ -1,0 +1,15 @@
+{
+  "variantId": "FOB_boss_rast_lb_Standard",
+  "hullId": "FOB_boss_rast_lb",
+  "displayName": "",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+  ],
+  "modules": [],
+  "wings": []
+}

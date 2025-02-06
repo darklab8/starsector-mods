@@ -1,0 +1,5 @@
+{
+	#"peaceful_evolution_mission":{
+	#	"script":"originem.fob.scripts.campaign.missions.PeacefulEvoluationMissionEvent",
+	#},
+}

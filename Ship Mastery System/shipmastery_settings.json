@@ -1,0 +1,24 @@
+# If LunaLib is enabled, LunaLib settings will override the settings here
+{
+  "clearSModsAlwaysEnabled": false,
+  "clearSModsRefundFraction": 0,
+  "mpGainMultiplier":1,
+  "buildInCreditsCostMultiplier":1,
+
+  "doubleClickInterval": 0.75,
+  "showMpAndLevelInRefit": true,
+  "npcMasteryDensity": 0.65,
+  "npcMasteryQuality": 0.5,
+  "npcMasteryMaxLevelModifier": -2,
+  "npcMasteryFlagshipBonus": 4,
+  "npcSmodQualityMod": -0.6,
+
+  # Will not undo skill changes due to modding API limitations. This must be done manually; see LunaLib settings
+  # for instructions.
+  "disableMainFeatures":false,
+  "enableRandomMode": false,
+  "enablePlayerShipGraveyards": true,
+  "enableRecentBattles": true,
+  "recentBattlesPreciseMode": false,
+  "addSModAutofitOption": true
+}

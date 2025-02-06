@@ -1,0 +1,44 @@
+{
+	"id":"hmi_draco_bridgehead_med",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER",
+
+	"statsScript":"data.shipsystems.HMI_SV_Clarent_MedTeleporterStats",
+	
+	"jitterColor":[6,255,2,255],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":2,
+	#"jitterRange":25,
+	"jitterRange":50,
+	"jitterRangeRadiusFraction":0,
+	
+	"empDamage":400,
+	"damage":200,
+	"damageType":ENERGY,
+
+	"range":2000,
+	"randomRange":0,
+	
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+	
+	"vulnerableChargeup":true,
+	"vulnerableChargedown":true,
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":true,
+	
+	#"useSound":"system_teleport",
+	"useSound":"system_phase_teleporter",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"mine_explosion",
+	#"deactivateSound":"system_phase_cloak_collision",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	
+	"aiHints":{
+		"activeSpeedIncrease":50,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":750,
+	}
+}

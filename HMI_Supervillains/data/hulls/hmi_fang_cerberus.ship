@@ -1,0 +1,107 @@
+{
+  "hullName": "Cerberus (Fang)",
+  "hullId": "hmi_fang_cerberus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/fang/cerberus_fang.png",
+  "style": "LOW_TECH",
+  "height": 100,
+  "width": 80,
+  "center": [40, 46.5],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 64.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": 90,
+      "locations": [-17.5, 20]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": -90,
+      "locations": [-17.5, -20]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 18.5,
+      "locations": [34.5, 10.5]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 294,
+      "angle": -30.5,
+      "locations": [29.5, -16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48.5, 30.5],
+      "length": 34,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, -30.5],
+      "length": 34,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 25.5],
+      "length": 23.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -25.5],
+      "length": 23.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    50.5, -10,
+    50.5, 10,
+    40, 20,
+    38.5, 37,
+    15, 35,
+    -0.5, 25,
+    -6, 39,
+    -46, 38,
+    -46, 13.5,
+    -38, 9,
+    -38, -7.5,
+    -43, -9.5,
+    -44, -39,
+    -4, -39.5,
+    0.5, -23,
+    38, -35
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "hullName": "Burro (Fang)",
+  "hullId": "hmi_fang_burro",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/fang/burro_fang.png",
+  "style": "LOW_TECH",
+  "height": 152,
+  "width": 160,
+  "center": [80, 76],
+  "collisionRadius": 96,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 89.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "distributed_fire_control",
+    "ballistic_rangefinder"
+  ],
+  "builtInWeapons": {
+    "WS0012": "hmi_pusherplate_lt_tiny"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 23.5,
+      "locations": [41, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -23.5,
+      "locations": [41, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 116,
+      "angle": 37.5,
+      "locations": [25, 40]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 116,
+      "angle": -37.5,
+      "locations": [25, -40]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": 34.5,
+      "locations": [-2, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -34.5,
+      "locations": [-2, -42]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 68,
+      "locations": [13.5, 65]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -68,
+      "locations": [13.5, -65]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-84.5, 0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-70, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67, 37],
+      "length": 12.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, -37],
+      "length": 12.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, 28.5],
+      "length": 31.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -28.5],
+      "length": 31.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -84.5, -26,
+    -66.5, -41,
+    -42.5, -45,
+    5, -77,
+    23, -79,
+    30, -61.5,
+    26, -55.5,
+    38, -47.5,
+    40, -38,
+    53, -28,
+    73.5, -19.5,
+    73.5, 19.5,
+    53, 28,
+    40, 38,
+    38, 47.5,
+    26, 55.5,
+    30, 61.5,
+    23, 79,
+    5, 77,
+    -42.5, 45,
+    -66.5, 41,
+    -84.5, 26
+  ]
+}

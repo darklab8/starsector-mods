@@ -1,0 +1,58 @@
+{
+	"id":"hmi_sv_trice_proj",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onFireEffect":"com.fs.starfarer.api.impl.combat.dem.DEMEffect",
+	"behaviorSpec":{"behavior":"CUSTOM",
+		"minDelayBeforeTriggering":0,
+		"triggerDistance":[400,450],
+		"preferredMinFireDistance":[350,400],
+		"turnRateBoost":100,
+		"targetingTime":0.99,
+		"firingTime":1.25,
+		"targetingLaserId":"targetinglaser2",
+		"targetingLaserFireOffset":[8, 0],
+		"payloadWeaponId":"hmi_sv_trice_payload",
+		"targetingLaserRange":450,
+		"targetingLaserArc":10,
+		"bombPumped":false,
+		"snapFacingToTargetIfCloseEnough":true,
+		"fadeOutEngineWhenFiring":false;
+		"destroyMissleWhenDoneFiring":true,
+		"destroyedExplosionColor":[50,255,150,255],
+	},
+	"sprite":"graphics/weapons/proj/hmi_sv_missile_trice.png",
+	"size":[10,22],	
+	"center":[5,12],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	#"destroyedExplosionColor":[150,255,150,255],  # when the missile is destroyed by damage
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":120, # purely visual	
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":150,
+				  "acc":100,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-13, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,145,75,255],
+						"engineColor":[175,255,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[50,255,150,150],
+				    	"glowSizeMult":1.2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":10.0,
+				    "angle":180.0}],
+}

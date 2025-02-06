@@ -1,0 +1,24 @@
+{
+	"id":"FOB_cthulasus_tidalwave",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"originem.fob.shipsystems.scripts.FOB_CthulasusTidalWaveStats",
+	
+	"weaponGlowColor":[255,175,255,255],
+	"weaponTypes":[ENERGY,BALLISTIC,MISSILE],
+	
+	#"useSound":"beam_heavy_intro",
+	#"outOfUsesSound":"gun_out_of_ammo",
+
+	"activatingShieldsCancels":false,
+	
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	# Stian deactivated these two because of audio playback timing issues. See fortressshield.system for more.
+	# Re-enable for testing.
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

@@ -1,0 +1,11 @@
+{
+	# The following hull style ids are reserved and can not be used:
+	# "sounds", "DEFAULT", "FIGHTER", "FRIGATE", "DESTROYER", "CRUISER", "CAPITAL_SHIP"
+	
+	
+	"DRACOHULL":{
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[177,255,255,59],
+	},
+	
+}

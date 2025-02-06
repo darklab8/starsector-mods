@@ -1,0 +1,178 @@
+{
+  "hullName": "FOB_byakhee",
+  "hullId": "FOB_byakhee",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/FOB_byakhee_base.png",
+  "style": "FOB_TECH",
+  "height": 198,
+  "width": 170,
+  "center": [85, 99],
+  "collisionRadius": 134.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 135,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FOB_borkenarmor",
+    "FOB_liveness_burst_bay"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0.5, 6.5,
+        0, -6
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53.5, 6,
+        53, -4
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 129,
+      "angle": 20.5,
+      "locations": [38.5, 50.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 129,
+      "angle": -20.5,
+      "locations": [38.5, -50.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 101,
+      "angle": 67,
+      "locations": [14, 45]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 101,
+      "angle": -67,
+      "locations": [14, -45]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 101,
+      "angle": 163.5,
+      "locations": [-66, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 101,
+      "angle": -163.5,
+      "locations": [-66, -20.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24, 67]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24, -67]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, 52],
+      "length": 26.183027,
+      "width": 9.04413,
+      "angle": 170,
+      "contrailSize": 9.04413,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-49, -52],
+      "length": 26.183027,
+      "width": 9.04413,
+      "angle": -170,
+      "contrailSize": 9.04413,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-67, 36.5],
+      "length": 30,
+      "width": 10,
+      "angle": 176,
+      "contrailSize": 30,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-67, -36.5],
+      "length": 30,
+      "width": 10,
+      "angle": -176,
+      "contrailSize": 30,
+      "style": "FOB_ENGINE"
+    },
+    {
+      "location": [-93.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "FOB_ENGINE"
+    }
+  ],
+  "bounds": [
+    -94, -10,
+    -59, -48.5,
+    -48.5, -54,
+    -65, -72.5,
+    -52.5, -82,
+    -5.5, -84,
+    73, -53,
+    60.5, -34.5,
+    91, -12,
+    91, 12,
+    60.5, 34.5,
+    73, 53,
+    -5.5, 84,
+    -52.5, 82,
+    -65, 72.5,
+    -48.5, 54,
+    -59, 48.5,
+    -94, 10
+  ]
+}

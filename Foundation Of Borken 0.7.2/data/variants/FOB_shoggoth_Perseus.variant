@@ -1,0 +1,39 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "FOB_shoggoth",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_shoggoth_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "FOB_greystab_iv"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0012": "heatseeker",
+                "WS0013": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionbeam",
+                "WS0002": "gravitonbeam"
+            }
+        }
+    ]
+}

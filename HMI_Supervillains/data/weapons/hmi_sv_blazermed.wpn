@@ -1,0 +1,54 @@
+{
+  "id": "hmi_sv_blazermed",
+  "specClass": "projectile",
+  "projectileSpecId": "hmi_sv_ablator_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/hmi_sv_blazermed_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/hmi_sv_blazermed_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/hmi_sv_blazermed_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/hmi_sv_blazermed_hardpoint_glow.png",
+  "glowColor": [
+    210,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    17,
+    3,
+    17,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    35.5,
+    3,
+    35.5,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 15,
+    "particleColor": [
+      0,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "needler_fire"
+}

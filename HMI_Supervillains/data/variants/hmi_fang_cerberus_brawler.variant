@@ -1,0 +1,40 @@
+{
+  "variantId": "hmi_fang_cerberus_brawler",
+  "hullId": "hmi_fang_cerberus",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 7,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

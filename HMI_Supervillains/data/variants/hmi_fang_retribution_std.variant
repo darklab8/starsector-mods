@@ -1,0 +1,69 @@
+{
+  "variantId": "hmi_fang_retribution_std",
+  "hullId": "hmi_fang_retribution",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "armoredweapons",
+    "missleracks",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "harpoon",
+        "WS 008": "harpoon",
+        "WS 009": "harpoon",
+        "WS 010": "harpoon",
+        "WS 020": "harpoon",
+        "WS 021": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "mark9",
+        "WS 001": "mark9",
+        "WS 002": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "heavymauler",
+        "WS 004": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 013": "heavymg",
+        "WS 014": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "devastator",
+        "WS 011": "vulcan",
+        "WS 012": "vulcan",
+        "WS 015": "vulcan",
+        "WS 016": "vulcan",
+        "WS 017": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

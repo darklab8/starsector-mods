@@ -1,0 +1,15 @@
+{
+    "faction":"fob",
+    "firstname":"Avatar",
+    "lastname":"Atrek",
+    "gender":"M",    # M/F/N  (Male, female, any)
+    "officerlevel":15, # Per default if -1, put the officerLevel max of your settings.
+    "mainShip":"FOB_oldgodscholar_Standard", # Flag Ship variant
+    "officerPersonality":"steady",
+    "randomFleet":true, # If random fleet(from the faction) will be added.
+    "dsrandom":2,
+    "combatPoints":60, 
+    "reward":200000, # Bounty reward.
+    "description":"He calls himself the embodiment of God Atrek. I hear he's just trying to preach his teachings here.",
+    "dialog":"Did you hear that? The call of Sleepless God. If I win you, please let me show you to him.",
+}

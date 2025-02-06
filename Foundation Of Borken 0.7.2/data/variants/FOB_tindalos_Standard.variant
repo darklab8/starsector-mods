@@ -1,0 +1,42 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FOB_tindalos",
+    "hullMods": [
+        "safetyoverrides",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_tindalos_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "FOB_greystab_iv"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "FOB_fixg_s",
+                "WS0006": "FOB_fixg_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FOB_greystab_iii"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

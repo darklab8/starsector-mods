@@ -1,0 +1,63 @@
+{
+  "variantId": "hmi_fang_retribution_elite",
+  "hullId": "hmi_fang_retribution",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor",
+    "missile_autoloader",
+    "armoredweapons",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "sabot",
+        "WS 008": "sabot",
+        "WS 009": "sabot",
+        "WS 010": "sabot",
+        "WS 020": "sabot",
+        "WS 021": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "mjolnir",
+        "WS 001": "mjolnir",
+        "WS 002": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "flak",
+        "WS 004": "flak",
+        "WS 012": "lightmg",
+        "WS 013": "flak",
+        "WS 014": "flak",
+        "WS 015": "lightmg",
+        "WS 016": "lightmg",
+        "WS 017": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "devastator",
+        "WS 011": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

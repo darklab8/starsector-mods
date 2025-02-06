@@ -1,0 +1,27 @@
+{
+	"id":"FOB_fadedflak_s",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/FOB_fadedflak_s_turret_base.png",
+    "turretGunSprite":"graphics/weapons/FOB_fadedflak_s_turret_gun.png",
+	"hardpointSprite":"graphics/weapons/FOB_fadedflak_s_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/FOB_fadedflak_s_hardpoint_gun.png",
+    "visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[8, -1.5,8,1.5],
+	"turretAngleOffsets":[0,0],
+	"hardpointOffsets":[8, -1.5,8,1.5],
+	"hardpointAngleOffsets":[0,0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.25,
+					   "particleCount":15,
+					   "particleColor":[155,255,200,255]},	
+	"projectileSpecId":"FOB_fadedflak_shot",  # projectile that will be fired	
+	"fireSoundTwo":"FOB_fadedflak_fire",
+}

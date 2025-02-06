@@ -1,0 +1,34 @@
+{
+  "variantId": "hmi_draco_brawler_Standard",
+  "hullId": "hmi_draco_brawler",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "phasebeam",
+        "WS 002": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "gazer",
+        "WS 004": "gazer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

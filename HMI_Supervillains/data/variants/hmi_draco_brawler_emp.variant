@@ -1,0 +1,33 @@
+{
+  "variantId": "hmi_draco_brawler_emp",
+  "hullId": "hmi_draco_brawler",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 10,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "gazer",
+        "WS 004": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "ionbeam",
+        "WS 002": "ionbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

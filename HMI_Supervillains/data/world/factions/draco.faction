@@ -1,0 +1,300 @@
+{
+	"id":"draco",
+	"color":[128,153,181,255],
+	
+	"baseUIColor":[128,153,181,255],
+	"darkUIColor":[62,87,115,175],
+	"gridUIColor":[255,255,255,75],
+
+    "secondaryUIColor":[255,255,255,255],
+    "secondarySegments":2,
+
+    "displayName":"Draco Group",
+    "displayNameWithArticle":"the Draco Group",
+
+    "displayNameLong":"Draco Group",
+    "displayNameLongWithArticle":"the Draco Group",
+    "displayNameIsOrAre":"are",
+	
+	
+	"logo":"graphics/factions/draco.png",
+	"crest":"graphics/factions/crest_draco.png",
+	"shipNamePrefix":"DRACO", 
+	"shipNameSources":{
+		"NORSE":1,
+	},
+	"names":{
+		"myth":1,
+		"old english":1,
+	},
+	"hullFrequency":{
+        "tags":{},
+		"hulls":{
+		},
+	},
+		# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["draco_bp"],
+		"hulls":[
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"gemini",
+			"atlas",
+			"mercury",
+			"hermes",
+			"kite_original",
+			"mudskipper",
+			"wayfarer",
+			"nebula",
+			"valkyrie",
+			"starliner",
+			"buffalo",
+			
+			"hmi_draco_remora",
+			"hmi_draco_centurion",
+			"hmi_draco_vigilance",
+			"hmi_draco_brawler",
+			"hmi_draco_appeasement",			
+			
+			"hmi_draco_sunder",
+			"hmi_draco_hammerhead",
+			"hmi_draco_drover",
+			"hmi_draco_hippocampus",
+			"hmi_draco_pardon",
+			
+			"hmi_draco_falcon",
+			"hmi_draco_heron",
+			"hmi_draco_eagle",
+			"hmi_draco_champion",
+			
+			"hmi_draco_forgiveness",			
+			"hmi_draco_ionos",	
+		],
+	},
+	"knownShips":{
+		"tags":["draco_bp"],
+		"hulls":[
+		
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"gemini",
+			"atlas",
+			"mercury",
+			"hermes",
+			"kite_original",
+			"mudskipper",
+			"wayfarer",
+			"nebula",
+			"valkyrie",
+			"starliner",
+			"buffalo",
+			
+			"hmi_draco_remora",
+			"hmi_draco_centurion",
+			"hmi_draco_vigilance",
+			"hmi_draco_brawler",
+			"hmi_draco_appeasement",			
+			
+			"hmi_draco_sunder",
+			"hmi_draco_hammerhead",
+			"hmi_draco_drover",
+			"hmi_draco_hippocampus",
+			"hmi_draco_pardon",
+			
+			"hmi_draco_falcon",
+			"hmi_draco_heron",
+			"hmi_draco_eagle",
+			"hmi_draco_champion",
+			
+			"hmi_draco_forgiveness",			
+			"hmi_draco_ionos",	
+
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["tritachyon"],
+		"fighters":[
+			"broadsword_wing",
+			"wasp_wing",
+			"xyphos_wing",
+			"claw_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["tritachyon", "draco_wep_bp"],
+		"weapons":[
+		
+			"gorgon",
+			"gorgonpod",
+			"gazer",
+			"gazerpod",
+			"dragon",
+			"dragonpod",
+			"hydra",
+			"hmi_sv_trice",
+			"hmi_sv_tricepod",
+		
+			"pdlaser",
+			"taclaser",
+			"ioncannon",
+			"irpulse",
+			"lrpdlaser",
+			"pdburst",
+			"amblaster",
+			"hmi_sv_blazer",
+			
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"hmi_sv_blazermed",
+			
+			"plasma",
+			"hil",
+			"autopulse",
+			"guardian",
+			"tachyonlance",	
+		
+			"railgun",
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	
+	"knownHullMods":{
+		"tags":["standard", "tritachyon"],
+		"hullMods":[
+		],
+	},
+	
+		"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":1,
+		"numShips":2,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":0.75,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.75,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"music_pirates_market_neutral",
+		"market_neutral":"music_pirates_market_neutral",
+		"market_hostile":"music_pirates_market_hostile",
+		"market_friendly":"music_pirates_market_friendly",
+		"encounter_neutral":"music_pirates_encounter_neutral",
+		"encounter_hostile":"music_pirates_encounter_hostile",
+		"encounter_friendly":"music_pirates_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_hegemony05.png",
+			"graphics/portraits/portrait_league06.png",	
+			"graphics/portraits/hmi_draco_male01.png",	
+			"graphics/portraits/hmi_draco_male02.png",	
+			"graphics/portraits/portrait_draco.png",			
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_cougar.png",
+			"graphics/portraits/hmi_draco_female01.png",	
+			"graphics/portraits/hmi_draco_female02.png",	
+			"graphics/portraits/portrait_draco.png",			
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Commander"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Blood Hunter"},
+			"fleetCommander":{"name":"High Blood"},
+			"baseCommander":{"name":"True Blooded Count"},
+			"administrator":{"name":"Holy Blooded Duke"},
+		},
+	},
+	"custom":{
+		"offersCommissions":false,
+		"engagesInHostilities":true,
+        "ignoreTradeWithEnemiesForReputation":true,
+		"buysAICores":true,
+        "AICoreValueMult":1.5,
+        "AICoreRepMult":1,
+		"buysSurveyData":false,
+		"offerMissionsWhenHostile":false,
+        "allowsTransponderOffTrade":true,
+        "commissionIgnoreBeingHostile":true,
+	    "engageWhenEvenStrength":true,
+        "pirateBehavior":true, # for fleet behavior
+        "fightToTheLast":true, # order a full assault instead of retreating, in most cases
+        "hostilityImpactOnGrowth":false,
+        "caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+        },
+    },
+	
+	"fleetTypeNames":{
+		"trade":"Convoy",
+		"tradeLiner":"Convoy",
+		"patrolSmall":"Cleanse Patrol",
+		"patrolMedium":"Purge Patrol",
+		"patrolLarge":"Mandate of Will",
+		"mercScout":"Scout",
+		"mercBountyHunter":"Raiders",
+		"mercPrivateer":"Raiders",
+		"mercPatrol":"Attack Fleet",
+		"mercArmada":"Armada",
+	},
+},

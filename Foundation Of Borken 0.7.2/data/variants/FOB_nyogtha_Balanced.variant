@@ -1,0 +1,72 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 2,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "FOB_nyogtha",
+    "hullMods": [
+        "FOB_afogomornkeel",
+        "FOB_houndcorearray",
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_nyogtha_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "FOB_fixg_n",
+                "WS0010": "FOB_fixg_n",
+                "WS0011": "FOB_fixg_n",
+                "WS0012": "FOB_fixg_n"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "breach",
+                "WS0016": "breach",
+                "WS0017": "breach",
+                "WS0018": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FOB_raska",
+                "WS0002": "FOB_raska"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "FOB_plasmoid_m",
+                "WS0014": "FOB_plasmoid_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FOB_sinerepeater_s",
+                "WS0004": "FOB_sinerepeater_s"
+            }
+        }
+    ]
+}

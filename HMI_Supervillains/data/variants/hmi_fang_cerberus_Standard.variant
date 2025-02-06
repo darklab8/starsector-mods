@@ -1,0 +1,39 @@
+{
+  "variantId": "hmi_fang_cerberus_Standard",
+  "hullId": "hmi_fang_cerberus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

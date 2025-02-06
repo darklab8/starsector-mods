@@ -1,0 +1,15 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 6,
+    "fluxVents": 5,
+    "hullId": "FOB_byakhee_left1",
+    "hullMods": [
+        "expanded_deck_crew",
+        "FOB_afogomornkeel"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_byakhee_left1_0",
+    "weaponGroups": [],
+    "wings": ["FOB_shaggai_wing"]
+}

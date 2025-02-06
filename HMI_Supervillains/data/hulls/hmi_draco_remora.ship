@@ -1,0 +1,116 @@
+{
+  "hullName": "Remora (Draco)",
+  "hullId": "hmi_draco_remora",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/draco/remora_draco.png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 58,
+  "center": [29, 42],
+  "collisionRadius": 53,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hmi_sv_aegis"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 41,
+      "locations": [25, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -41,
+      "locations": [25, -20]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [29.5, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [32, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 18.5],
+      "length": 11.347041,
+      "width": 9.745699,
+      "angle": 145,
+      "contrailSize": 9.745699,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, -18.5],
+      "length": 11.347041,
+      "width": 9.745699,
+      "angle": -145,
+      "contrailSize": 9.745699,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40.5, 10.5],
+      "length": 18.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40.5, -10.5],
+      "length": 18.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40.5, 0.5],
+      "length": 22.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -41, -20,
+    1.5, -28,
+    29.5, -27,
+    40.5, -8,
+    40.5, 8,
+    29.5, 27,
+    1.5, 28,
+    -41, 20
+  ]
+}

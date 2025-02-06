@@ -1,0 +1,26 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "hermes_scav",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "hermes_scav_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "swarmer",
+            "WS 002": "swarmer"
+        }
+    },
+	{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 003": "lightmg"
+        }
+    }]
+}

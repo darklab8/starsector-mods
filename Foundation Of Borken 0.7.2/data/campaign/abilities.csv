@@ -1,0 +1,3 @@
+name,id,type,tags,activationDays,activationCooldown,durationDays,deactivationDays,deactivationCooldown,unlockedAtStart,defaultForAIFleet,musicSuppression,uiOn,uiOff,uiLoop,worldOn,worldOff,worldLoop,icon,plugin,ai,desc,sortOrder
+Establish Crystal Rift Link,FOB_pch_open,DURATION,,0,,0,0,0.25,,,,ui_transponder_on,,,,,,graphics/icons/abilities/FOB_pch_on.png,originem.fob.scripts.campaign.ability.FOB_PchOpenAbility,,Link to private crystal rift.,1000
+Shielded Stabilization Column Signal,FOB_tog_toggle,TOGGLE,,0,,0,0,0.1,TRUE,,,ui_go_dark_on,ui_go_dark_off,,,,,graphics/icons/abilities/FOB_tog_toggle.png,originem.fob.scripts.campaign.ability.FOB_TOGToggleAbility,,Block the effects of Stabilization Columns.,1000

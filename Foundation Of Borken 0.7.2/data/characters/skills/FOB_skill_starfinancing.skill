@@ -1,0 +1,21 @@
+{
+	"id":"FOB_skill_starfinancing",
+	"governingAptitude":"FOB_apocalypse",
+	"compressHullmods":false,
+	"scope":"FLEET",
+	"effectGroups":[
+		{
+			"requiredSkillLevel": 0,
+			"effects": [
+				{"type": "DESCRIPTION", "script": "originem.fob.scripts.campaign.skills.FOB_SkillStarFinancing$Level0"},
+			]
+		},
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+			    {"type":"CHARACTER_STATS", "script":"originem.fob.scripts.campaign.skills.FOB_SkillStarFinancing$Level1"},
+			]
+		},
+	],
+}

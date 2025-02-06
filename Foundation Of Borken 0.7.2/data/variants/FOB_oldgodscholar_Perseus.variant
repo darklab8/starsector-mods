@@ -1,0 +1,44 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "FOB_oldgodscholar",
+    "hullMods": [
+        "safetyoverrides",
+        "FOB_houndcorearray",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_oldgodscholar_Perseus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "FOB_cthughabreath"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "cyclone"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gazer",
+                "WS0002": "gazer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "FOB_greystab_iii",
+                "WS0008": "FOB_greystab_iii"
+            }
+        }
+    ],
+    "wings": ["sarissa_wing"]
+}

@@ -1,0 +1,20 @@
+{
+	"id":"FOB_raska_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"originem.fob.scripts.weapons.FOB_MeltAACMediumOnHit",
+	"length":130.0,
+	"width":8,
+	"fadeTime":0.1,
+	"fringeColor":[150,255,120,255],
+	"glowColor":[100,255,40,20],
+	"glowRadius":50,
+	"coreColor":[150,255,50,255],
+	"hitGlowRadius":30,	
+	"textureType":"MEDIUM",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":-64,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/missiles/FOB_skorka_slug.png"
+}

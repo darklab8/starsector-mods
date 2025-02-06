@@ -1,0 +1,21 @@
+{
+	"id":"FOB_chaoslatency",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"statsScript":"originem.fob.shipsystems.scripts.FOB_ChaosLatencyStats",
+	"aiScript":"originem.fob.shipsystems.scripts.ai.FOB_ChaosLatencyAI",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	
+	"useSound":"",
+	"loopSound":"FOB_chaoslatency_loop",
+	"deactivateSound":"",
+}

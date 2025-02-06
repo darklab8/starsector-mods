@@ -1,0 +1,36 @@
+{
+  "id": "FOB_dwellereye",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/FOB_dwellereye_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/FOB_dwellereye_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/FOB_dwellereye_turret_base.png",
+  "hardpointGlowSprite": "graphics/weapons/FOB_dwellereye_turret_glow.png",
+  "everyFrameEffect": "originem.fob.scripts.weapons.FOB_DwellerEyeEveryFrameEffect",
+  "beamEffect": "originem.fob.scripts.weapons.FOB_DwellerEyeBeamEffect",
+  "turretOffsets": [
+    23,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    39,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [120, 255, 200, 255],
+  "coreColor": [255, 255, 255, 255],
+  "glowColor": [140, 255, 255, 235],
+  "darkCore": false,
+  "width": 10.0,
+  "textureType": "SMOOTH",
+  "textureScrollSpeed": 256.0,
+  "pixelsPerTexel": 5.0,
+  "pierceSet": [PROJECTILE_FF, PROJECTILE_NO_FF, PROJECTILE_FIGHTER, MISSILE_FF, MISSILE_NO_FF],
+  "fireSoundTwo": "FOB_dwellereye_fire"
+}

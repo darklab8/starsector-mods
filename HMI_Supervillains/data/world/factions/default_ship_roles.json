@@ -1,0 +1,202 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+
+			"hmi_draco_brawler_Standard":10,
+			
+			"hmi_fang_kite_bomb":5,
+			
+			"hmi_fang_cerberus_Standard":5,
+							
+	},
+	"combatSmall":{
+
+			"hmi_draco_brawler_Standard":15,
+			"hmi_draco_brawler_attack":5,
+			"hmi_draco_brawler_emp":5,
+
+			"hmi_draco_centurion_cs":2,
+			"hmi_draco_centurion_std":8,
+			
+			"hmi_draco_remora_cs":5,
+			"hmi_draco_remora_attack":5,
+
+			"hmi_draco_appeasement_attack":4,
+			"hmi_draco_appeasement_strike":5,
+			"hmi_draco_appeasement_escort":1,
+			
+			"hmi_draco_vigilance_Standard":6,
+			"hmi_draco_vigilance_cs":2,
+			"hmi_draco_vigilance_cs2":1,
+			"hmi_draco_vigilance_cs3":1,
+
+			"hmi_fang_kite_Strike":5,
+			"hmi_fang_kite_seth":7,
+			"hmi_fang_kite_bomb":5,
+			"hmi_fang_kite_Raider":5,
+			"hmi_fang_kite_mbeke":5,		
+
+			"hmi_fang_cerberus_Standard":6,
+			"hmi_fang_cerberus_cs":3,
+			"hmi_fang_cerberus_brawler":2,
+			"hmi_fang_cerberus_frag":1,
+			"hmi_fang_cerberus_shotgun":2,
+			
+			"hmi_fang_vanguard_attack":3,
+			"hmi_fang_vanguard_std":7,
+			
+			
+
+			"tempest_7_prototype":2,
+			"tempest_8_prototype":1,
+			"tempest_9_std":1,
+			"scarab_prototype_variant":2,
+			"hmi_appeasement_std":2,
+			
+			
+	
+	},
+	
+	"combatMedium":{
+			
+			"hmi_draco_sunder_Assault":10,
+			"hmi_draco_sunder_strike":5,
+			"hmi_draco_sunder_beam":10,
+
+			"hmi_draco_pardon_attack":10,
+			"hmi_draco_pardon_strike":10,
+			
+			"hmi_draco_hammerhead_attack":7,
+			"hmi_draco_hammerhead_cs":3,
+			
+			"hmi_fang_mule_std":5,
+			"hmi_fang_mule_bomber":3,
+			"hmi_fang_mule_attack":2,
+			
+			"hmi_fang_caballoloco_attack2":2,
+			"hmi_fang_caballoloco_attack":2,
+			"hmi_fang_caballoloco_std":4,			
+			"hmi_fang_caballoloco_cs":2,	
+			
+			"hmi_fang_burro_attack":5,			
+			"hmi_fang_burro_std":5,	
+			
+			
+			"hammerhead_tt_attack":0.5,
+			"hammerhead_tt_attack2":0.5,
+			"hammerhead_tt_cs":0.5,
+			"hammerhead_tt_ion":0.5,
+			"hammerhead_tt_strike":0.5,
+			
+			"shrike_prototype_variant":2,
+			"hmi_pardon_std":2,
+
+			
+	},
+	"combatLarge":{
+		
+
+			"hmi_draco_falcon_assault":7,
+			"hmi_draco_falcon_strike":3,
+			
+			"hmi_draco_eagle_std":7,
+			"hmi_draco_eagle_support":2,
+			"hmi_draco_eagle_missile":1,
+				
+			"hmi_draco_champion_std":7,
+			"hmi_draco_champion_attack":3,
+			"hmi_draco_champion_cs":2,
+			
+			"hmi_fang_eradicator_attack":5,
+			"hmi_fang_eradicator_cs":2,
+			"hmi_fang_eradicator_std":3,			
+			
+			
+			
+			"aurora_s_prototype":2,
+			"hmi_pardon_std":2,
+			"hmi_falcon_tt_std":2,
+			"hmi_eagle_tt_std":2,
+			"hmi_champion_tt_std":2,
+			
+	},
+	"combatCapital":{
+			"hmi_fang_atlas_cs":4,
+			"hmi_fang_atlas_std":6,
+			
+			"hmi_fang_retribution_std":6,
+			"hmi_fang_retribution_cs":2,
+			"hmi_fang_retribution_elite":2,
+			
+			"hmi_draco_ionos_missile":3,
+			"hmi_draco_ionos_attack":6,	
+
+			"hmi_draco_forgiveness_attack":8,
+			"hmi_draco_forgiveness_cs":2,
+
+
+			"hmi_ionos_std":4,
+			"hmi_ionos_attack":4,
+			"hmi_ionos_strike":1,
+			"hmi_ionos_cs":1,			
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+
+
+	# carriers
+	"carrierSmall":{
+			
+			"hmi_fang_shepherd_std":7,
+			"hmi_fang_shepherd_cs":3,
+			
+		
+	},
+	
+	"carrierMedium":{
+		
+			"hmi_fang_condor_bomber":3,
+			"hmi_fang_condor_attack":4,
+			"hmi_fang_condor_cs":3,
+			
+			"hmi_fang_mora_Assault":8,
+			"hmi_fang_mora_bomb":2,
+
+			"hmi_fang_colossus_bomber":10,
+			"hmi_fang_colossus_cs":10,
+			"hmi_fang_colossus_missile":10,
+			
+
+			"hmi_draco_hippocampus_attack":6,
+			"hmi_draco_hippocampus_strike":2,
+			"hmi_draco_hippocampus_cs":2,
+			"hmi_draco_hippocampus_cs2":1,
+			
+			"hmi_draco_drover_attack":4,
+			"hmi_draco_drover_cs":2,
+			"hmi_draco_drover_balanced":4,
+			"hmi_draco_drover_wasp":1,
+			
+			
+			"hmi_draco_heron_std":8,
+			"hmi_draco_heron_attack":2,
+
+			"hmi_heron_tt_std":2,
+	},
+	
+	"phaseSmall":{
+		"hmi_fang_charlie_std":10,
+	},
+	"phaseMedium":{
+		"hmi_fang_wobbie_attack":3,
+		"hmi_fang_wobbie_brawler":2,
+		"hmi_fang_wobbie_std":5,
+	},
+	"phaseLarge":{
+		"hmi_fang_yowie_cs":2,
+		"hmi_fang_yowie_brawl":2,
+		"hmi_fang_yowie_std":6,		
+	},	
+}

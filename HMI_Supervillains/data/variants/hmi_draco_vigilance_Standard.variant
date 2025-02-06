@@ -1,0 +1,31 @@
+{
+  "variantId": "hmi_draco_vigilance_Standard",
+  "hullId": "hmi_draco_vigilance",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "hmi_sv_tricepod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,20 @@
+{
+	"id":"FOB_plasmoid_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onFireEffect": "originem.fob.scripts.weapons.projs.FOB_PlasmoidProjEffect",
+	"length":50.0,
+	"hitGlowRadius":14,
+	"width":5,
+	"fadeTime":0.2,
+	"fringeColor":[129,217,255,225],
+	"coreColor":[200,255,200,255],
+	"glowColor":[178,255,163,50],
+	"glowRadius":20,
+	"textureScrollSpeed":32.0,
+    "textureType":"LASER",	
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/FOB_plasmoid_slug.png"
+}

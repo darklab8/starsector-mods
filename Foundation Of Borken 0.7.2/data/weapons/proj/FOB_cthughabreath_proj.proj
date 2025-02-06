@@ -1,0 +1,22 @@
+{
+	"id":"FOB_cthughabreath_proj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"originem.fob.scripts.weapons.projs.FOB_CthughaBreathProjEffect",
+	"onFireEffect": "originem.fob.scripts.weapons.projs.FOB_CthughaBreathProjEffect",
+	"length":160.0,
+	"width":30,
+	"fadeTime":0.25,
+	"fringeColor":[255,100,0,255],
+	"coreColor":[250,155,150,255],
+	"glowColor":[250,155,100,55],
+	"glowRadius":40,
+	"hitGlowRadius":30,	
+	"passThroughMissiles":true,
+	"textureType":"WEAVE",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	#"textureType":["graphics/fx/beam_laser_fringe.png","graphics/fx/FOB_roaringbolt_beam_core.png"],
+	"textureScrollSpeed":3,
+	"pixelsPerTexel":2.0,
+}

@@ -1,0 +1,183 @@
+{
+  "hullName": "Appeasement (Draco)",
+  "hullId": "hmi_draco_pardon",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/draco/pardon_draco.png",
+  "style": "HIGH_TECH",
+  "height": 154,
+  "width": 118,
+  "center": [59, 77],
+  "collisionRadius": 120,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 113.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [70.5, 25]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [70.5, -25]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 57.5,
+      "locations": [25.5, 34.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": -57.5,
+      "locations": [25.5, -34.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 90,
+      "locations": [-38, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -90,
+      "locations": [-38, -35]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-22, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [65, 36.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [65, -36.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 18.5,
+      "locations": [49, 18]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": -18.5,
+      "locations": [49, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, 36.5],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, -36.5],
+      "length": 44,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 44,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, 28],
+      "length": 39.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, -28],
+      "length": 39.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76.5, 20.5],
+      "length": 39.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76.5, -20.5],
+      "length": 39.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    72, 37,
+    71, -37.5,
+    26, -58,
+    -17, -34,
+    -40, -44,
+    -74, -41,
+    -76, -17,
+    -64, 0,
+    -76, 18,
+    -74, 41,
+    -39, 45,
+    -17, 34,
+    25, 58
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "hmi_eagle_tt_std",
+  "hullId": "hmi_eagle_tt",
+  "displayName": "Prototype",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "sabotpod",
+        "WS0013": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0010": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

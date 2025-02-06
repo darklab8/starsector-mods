@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://www.sc2mafia.com/Starsector/version/leadingPip.version",
+    "modName":"Leading Pip",
+    "modThreadId":7921,
+    "directDownloadURL": "https://bitbucket.org/DarkRevenant/leading-pip/downloads/Leading_Pip_1.9.4.7z",
+    "modVersion":
+    {
+        "major":1,
+        "minor":9,
+        "patch":4
+    },
+}

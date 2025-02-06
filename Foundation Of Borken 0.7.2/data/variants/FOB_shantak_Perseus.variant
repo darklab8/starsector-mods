@@ -1,0 +1,20 @@
+{
+    "displayName": "Perseus",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "FOB_shantak",
+    "hullMods": [
+        "expanded_deck_crew",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FOB_shantak_Perseus",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0003": "FOB_sinerepeater_s"}
+    }],
+    "wings": ["trident_wing"]
+}

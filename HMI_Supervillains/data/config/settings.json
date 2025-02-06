@@ -1,0 +1,21 @@
+{
+
+    "graphics":{
+			"blueprint_packages":{
+			"hmi_draco_package":"graphics/icons/cargo/draco_pack.png",
+			"hmi_fang_package":"graphics/icons/cargo/fang_pack.png",
+			},
+
+		"intel":{
+			"draco_raid":"graphics/factions/crest_draco_raid.png",
+			"draco_base":"graphics/icons/markets/draco_base.png",
+			"fang_raid":"graphics/factions/crest_fang_raid.png",
+			"fang_base":"graphics/icons/markets/fang_base.png",
+		}
+		
+	},
+    	"designTypeColors":{
+		"Draco Tech":[149,167,193,255],
+		"Fang Tech":[211,123,0,255],
+	},
+}
